@@ -1,0 +1,48 @@
+{
+  "id": "2799",
+  "barcode": "32044157068644",
+  "box_barcode": "32044114864234",
+  "recto_filename": "32044157068644_1.tif",
+  "verso_filename": "32044157068644_2.tif",
+  "work_id": "",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "inscriptions": [
+          "SCTA ANNASTASIA",
+          "SCTA AGATA",
+          "SCTA LUCIA",
+          "SCTA APOLLONIA"
+        ]
+      },
+      "back": {
+        "title": "affresco rappresentante le sante Lucia, Apollonia, Agata ed Anast(asia?)",
+        "artist": {
+          "name": "Tommaso de Vigilia"
+        },
+        "repository": {
+          "name": "Museo Nazionale",
+          "city": "PALERMO",
+          "country": "IT",
+          "stamp": "AMERICAN ACADEMY in ROME"
+        }
+      }
+    },
+    "photograph": {
+      "back": {
+        "photographer": {
+          "stamp": "2Do PALERMO GABINETTO FOTOGRAFICO del r. Museo Nazionale"
+        }
+      }
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1130,
+    "total_tokens": 2902
+  },
+  "cost": 0.013515,
+  "status": "OK",
+  "request_time": 12.01
+}

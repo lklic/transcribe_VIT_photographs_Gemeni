@@ -1,0 +1,56 @@
+{
+  "id": "2759",
+  "barcode": "32044157068065",
+  "box_barcode": "32044114864226",
+  "recto_filename": "32044157068065_1.tif",
+  "verso_filename": "32044157068065_2.tif",
+  "work_id": "",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "Il Sacramento della Cresima",
+        "artist": "R. Odorisio",
+        "repository": {
+          "name": "Chiesa dell' Incoronata",
+          "city": "Napoli",
+          "country": "IT"
+        },
+        "materials_technique": "pittura",
+        "full_text": "5818 Il Sacramento della Cresima, pittura di R. Odorisio - Chiesa dell' Incoronata Napoli"
+      },
+      "back": {
+        "artist": {
+          "name": "R. Oderisi",
+          "listed": true
+        },
+        "repository": {
+          "name": "Incoronata",
+          "city": "NAPOLI",
+          "country": "IT"
+        }
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "identifier": "5818"
+        }
+      }
+    },
+    "additional_annotations": {
+      "front": "5818 Il Sacramento della Cresima, pittura di R. Odorisio - Chiesa dell' Incoronata Napoli",
+      "back": [
+        "Stamp: BERNARD BERENSON FLORENCE I TATTI, Settignano Incoronata NAPOLI"
+      ]
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1494,
+    "total_tokens": 3266
+  },
+  "cost": 0.017155000000000004,
+  "status": "OK",
+  "request_time": 14.55
+}

@@ -1,0 +1,65 @@
+{
+  "id": "2797",
+  "barcode": "32044157068339",
+  "box_barcode": "32044114864234",
+  "recto_filename": "32044157068339_1.tif",
+  "verso_filename": "32044157068339_2.tif",
+  "work_id": "",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "inscriptions": [
+          "SCTA AGA[THA]",
+          "SCTA LUCIA",
+          "SCTA A[NAST]ASIA",
+          "SCTA A[PPOLLONI]A"
+        ]
+      },
+      "back": {
+        "title": "detached fresco: SS. Anastasia, Agatha, Lucy, and Appollonia",
+        "additional_titles": [
+          "affresco staccato rappresentante quattro sante (Anastasia / Agata / Lucia / Apollonia) sec XV"
+        ],
+        "artist": {
+          "name": "Tomm as de Vigilia ?",
+          "listed": false,
+          "additional_annotations": []
+        },
+        "date": "1472",
+        "repository": {
+          "name": "Museo Nazionale",
+          "city": "Palermo",
+          "country": "IT",
+          "identifier": "99",
+          "stamp": "Ministero della Pubblica Istruzione GABINETTO FOTOGRAFICO NAZIONALE ROMA - Via in Miranda - 5 - Tel. 655379"
+        },
+        "materials": "Detached fresco"
+      },
+      "history": {}
+    },
+    "photograph": {
+      "back": {
+        "photographer": {
+          "name": "GABINETTO FOTOGRAFICO NAZIONALE",
+          "identifier": "M 403?",
+          "stamp": "Ministero della Pubblica Istruzione GABINETTO FOTOGRAFICO NAZIONALE ROMA - Via in Miranda - 5 - Tel. 655379"
+        },
+        "yellow_dot": false
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        "FOTOTECA MARIAN AND GEORGE KAFTAL PALERMO"
+      ]
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1389,
+    "total_tokens": 3161
+  },
+  "cost": 0.016105,
+  "status": "OK",
+  "request_time": 13.53
+}

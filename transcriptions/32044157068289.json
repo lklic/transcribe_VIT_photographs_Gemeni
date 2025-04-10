@@ -1,0 +1,56 @@
+{
+  "id": "2766",
+  "barcode": "32044157068289",
+  "box_barcode": "32044114864226",
+  "recto_filename": "32044157068289_1.tif",
+  "verso_filename": "32044157068289_2.tif",
+  "work_id": "",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "Il Sacramento della Confessione e Penitenza",
+        "artist": "R. Odorisio",
+        "repository": {
+          "name": "Chiesa dell' Incoronata",
+          "city": "Napoli",
+          "country": "IT"
+        },
+        "full_text": "5194 - Il Sacramento della Confessione e Penitenza pittura di R. Odorisio Chiesa dell' Incoronata Napoli 303"
+      },
+      "back": {
+        "title": "Confession",
+        "artist": {
+          "name": "R. Oderisi",
+          "listed": true
+        },
+        "repository": {
+          "name": "Incoronata",
+          "city": "NAPOLI",
+          "country": "IT"
+        }
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "identifier": "5194"
+        }
+      }
+    },
+    "additional_annotations": {
+      "front": "5194 - Il Sacramento della Confessione e Penitenza pittura di R. Odorisio Chiesa dell' Incoronata Napoli 303",
+      "back": [
+        "A.P. 20"
+      ]
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1291,
+    "total_tokens": 3063
+  },
+  "cost": 0.015125000000000001,
+  "status": "OK",
+  "request_time": 12.42
+}

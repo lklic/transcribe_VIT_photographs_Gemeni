@@ -1,0 +1,61 @@
+{
+  "id": "2719",
+  "barcode": "32044157067786",
+  "box_barcode": "32044114864226",
+  "recto_filename": "32044157067786_1.tif",
+  "verso_filename": "32044157067786_2.tif",
+  "work_id": "W00013128",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "back": {
+        "title": "Epiphany",
+        "additional_titles": [
+          "parte sinistra - scena inferiore"
+        ],
+        "artist": {
+          "name": "Roberto Oderisi (?) (LE.)",
+          "listed": true,
+          "additional_annotations": [
+            {
+              "alternative_attribution": "Maestro di Giovanni Barrile"
+            }
+          ]
+        },
+        "repository": {
+          "name": "S. Lorenzo Maggiore",
+          "city": "Napoli",
+          "country": "IT",
+          "stamp": "R. SOPRAINTENDENZA ALL'ARTE MEDIOEVALE MODERNA DELLA CAMPANIA / GABINETTO FOTOGRAFICO"
+        },
+        "materials": "Fresco"
+      }
+    },
+    "photograph": {
+      "back": {
+        "photographer": {
+          "stamp": "R. SOPRAINTENDENZA ALL'ARTE MEDIOEVALE MODERNA DELLA CAMPANIA / GABINETTO FOTOGRAFICO"
+        },
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        {
+          "handwritten_top_left": "S. Lorenzo Maggiore - Napoli"
+        },
+        {
+          "handwritten_bottom_right": "S.Lorenzo\nNAPOLI"
+        }
+      ]
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1527,
+    "total_tokens": 3299
+  },
+  "cost": 0.017485,
+  "status": "OK",
+  "request_time": 15.84
+}

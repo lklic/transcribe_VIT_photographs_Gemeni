@@ -1,0 +1,52 @@
+{
+  "id": "2741",
+  "barcode": "32044157067828",
+  "box_barcode": "32044114864226",
+  "recto_filename": "32044157067828_1.tif",
+  "verso_filename": "32044157067828_2.tif",
+  "work_id": "",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "DETTAGLIO, pittura di R. Oderisio",
+        "artist": "R. Oderisio",
+        "repository": {
+          "name": "Chiesa dell' Incoronata",
+          "city": "Napoli",
+          "country": "IT"
+        },
+        "full_text": "8533 DETTAGLIO, pittura di R. Oderisio - Chiesa dell' Incoronata Napoli 241"
+      },
+      "back": {
+        "artist": {
+          "name": "R. Oderisi",
+          "listed": true
+        }
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "identifier": "8533"
+        }
+      }
+    },
+    "additional_annotations": {
+      "front": "8533 DETTAGLIO, pittura di R. Oderisio - Chiesa dell' Incoronata Napoli 241",
+      "back": [
+        {
+          "annotation": "M(?)/F(?)"
+        }
+      ]
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1556,
+    "total_tokens": 3328
+  },
+  "cost": 0.017775,
+  "status": "OK",
+  "request_time": 13.71
+}

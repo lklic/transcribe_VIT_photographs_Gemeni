@@ -1,0 +1,65 @@
+{
+  "id": "2701",
+  "barcode": "32044157067455",
+  "box_barcode": "32044114864226",
+  "recto_filename": "32044157067455_1.tif",
+  "verso_filename": "32044157067455_2.tif",
+  "work_id": "W00013124",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "back": {
+        "title": "Pieta with symbols of Passion",
+        "artist": {
+          "name": "Oderisi",
+          "listed": true
+        },
+        "dimensions": [
+          {
+            "original": "60 x 55 cm.",
+            "cm": "60cm x 55cm"
+          }
+        ],
+        "repository": {
+          "name": "Fogg Art Mus.",
+          "city": "CAMBRIDGE",
+          "country": "US",
+          "identifier": "1937.49",
+          "gift": true
+        }
+      }
+    },
+    "photograph": {
+      "back": {
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        {
+          "Breuville C. Naut.": "value"
+        },
+        {
+          "Dr Clemanh": "value"
+        },
+        {
+          "June 1922": "value"
+        },
+        {
+          "John f. head r. above dying man": "value"
+        },
+        {
+          "in Zucconata \"Byzantine\" Unction": "value"
+        }
+      ]
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1210,
+    "total_tokens": 2982
+  },
+  "cost": 0.014315,
+  "status": "OK",
+  "request_time": 12.34
+}

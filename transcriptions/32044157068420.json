@@ -1,0 +1,58 @@
+{
+  "id": "2785",
+  "barcode": "32044157068420",
+  "box_barcode": "32044114864234",
+  "recto_filename": "32044157068420_1.tif",
+  "verso_filename": "32044157068420_2.tif",
+  "work_id": "W00030331",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "La Pentecoste (Bustolone).",
+        "repository": {
+          "name": "Museo Nazionale",
+          "city": "PALERMO",
+          "country": "IT"
+        },
+        "full_text": "(Ed. Alinari) N. 33949. PALERMO - Museo Nazionale. La Pentecoste (Bustolone). 692 287"
+      },
+      "back": {
+        "artist": {
+          "name": "Salvo d'Antonio"
+        },
+        "repository": {
+          "city": "PALERMO"
+        }
+      },
+      "history": {
+        "attribution": [
+          "Influence of Capaccio",
+          "Salvodoro d'Antonio?"
+        ]
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "name": "Alinari",
+          "alinari_id": "33949"
+        }
+      },
+      "back": {
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "front": "(Ed. Alinari) N. 33949. PALERMO - Museo Nazionale. La Pentecoste (Bustolone). 692 287"
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1277,
+    "total_tokens": 3049
+  },
+  "cost": 0.014985,
+  "status": "OK",
+  "request_time": 14.25
+}

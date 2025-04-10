@@ -1,0 +1,60 @@
+{
+  "id": "2774",
+  "barcode": "32044157068198",
+  "box_barcode": "32044114864226",
+  "recto_filename": "32044157068198_1.tif",
+  "verso_filename": "32044157068198_2.tif",
+  "work_id": "",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "back": {
+        "title": "painted Cross",
+        "additional_titles": [
+          "detail"
+        ],
+        "artist": {
+          "name": "Maestro di Giovanni Barrile"
+        },
+        "date": "1330-1331",
+        "repository": {
+          "name": "Cathedral",
+          "city": "TEANO",
+          "state": "Campania",
+          "country": "IT"
+        },
+        "history": {
+          "attribution": [
+            "att. Maestro di Giovanni Barrile"
+          ]
+        }
+      }
+    },
+    "photograph": {
+      "back": {
+        "photographer": {
+          "name": "ROBERTO SIGISMONDI",
+          "identifier": "624 . 10",
+          "stamp": "FOTO ARTE ITALIANA ROBERTO SIGISMONDI - ROMA"
+        },
+        "yellow_dot": false
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        "photograph_date: 1990",
+        "location_within_repository: above high altar",
+        "repository_province: provincia of Caserta",
+        "gift_to_fototeca: GIFT OF TREACY & DARCY BEYER June 2003"
+      ]
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1780,
+    "total_tokens": 3552
+  },
+  "cost": 0.020014999999999998,
+  "status": "OK",
+  "request_time": 16.47
+}

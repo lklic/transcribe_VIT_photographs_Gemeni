@@ -1,0 +1,76 @@
+{
+  "id": "2726",
+  "barcode": "130910",
+  "box_barcode": "32044114864226",
+  "recto_filename": "130910_1.tif",
+  "verso_filename": "130910_2.tif",
+  "work_id": "W00004019",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "back": {
+        "title": "'St John & the Magdalen'",
+        "additional_titles": [
+          "Virgin and Dead Christ"
+        ],
+        "artist": {
+          "name": "Giotto's close follower",
+          "additional_annotations": [
+            "other ph -> Maso?",
+            "(Neapolitan?)"
+          ]
+        },
+        "date": "ca. 1340",
+        "dimensions": [
+          {
+            "original": "Panel 23\" x 15 5/16\" cm. 57.5 x 39 cm 57x39",
+            "cm": "57.5cm x 39cm",
+            "dimension_type": "Panel"
+          }
+        ],
+        "repository": {
+          "name": "Metropolitan Museum of Art (R. Lehman",
+          "city": "New York",
+          "country": "US",
+          "identifier": "1975. 5.102",
+          "ex": true
+        },
+        "materials": "Panel"
+      }
+    },
+    "photograph": {
+      "back": {
+        "yellow_dot": true
+      }
+    },
+    "history": {
+      "exhibitions": [
+        "Paris. Orangerie, 1957 Cat. no. 32 as Florentine ca. 1340"
+      ],
+      "provenance": [
+        "Earl of Norfolk, Arundel Castle, Sussex"
+      ],
+      "attribution": [
+        "Giotto's close follower",
+        "other ph -> Maso?",
+        "(Neapolitan?)"
+      ]
+    },
+    "additional_annotations": {
+      "back": [
+        "3138",
+        "J. Steinmeyer, Lucerne.",
+        ".95 x 60 cm",
+        "pendant to National Gallery, London (3895) Virgin and Dead Christ"
+      ]
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1872,
+    "total_tokens": 3644
+  },
+  "cost": 0.020935000000000002,
+  "status": "OK",
+  "request_time": 17.48
+}

@@ -1,0 +1,70 @@
+{
+  "id": "2795",
+  "barcode": "32044157068537",
+  "box_barcode": "32044114864234",
+  "recto_filename": "32044157068537_1.tif",
+  "verso_filename": "32044157068537_2.tif",
+  "work_id": "W00030333",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "La Madonna col Bambino Gesù in Trono ai lati Angeli e Sante",
+        "artist": "Tommaso Vigilia",
+        "repository": {
+          "name": "Museo Nazionale",
+          "city": "PALERMO"
+        },
+        "full_text": "(Ed. Alinari) N. 33072. PALERMO - Museo Nazionale. La Madonna col Bambino Gesù in Trono ai lati Angeli e Sante. (Tommaso Vigilia). 272"
+      },
+      "back": {
+        "artist": {
+          "name": "Tommaso da Vigilia"
+        },
+        "dimensions": [
+          {
+            "original": "cm. 320 x 224",
+            "cm": "320cm x 224cm",
+            "dimension_type": "canvas"
+          }
+        ],
+        "repository": {
+          "name": "Coll. Regionale della Sicilia",
+          "city": "PALERMO"
+        },
+        "materials": "Fresco tf. on canvas"
+      },
+      "history": {
+        "provenance": [
+          "Detached fresco (1881) from the cappella dell'Ordine dei Cavalieri Teutonici nel Casale Risalaimi near Marineo"
+        ],
+        "literature": [
+          "Bottari, Pitt. Quattrocento in Sicilia, fig. 87, p. 182"
+        ]
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "name": "Alinari",
+          "identifier": "272",
+          "alinari_id": "33072"
+        }
+      },
+      "back": {
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "front": "(Ed. Alinari) N. 33072. PALERMO - Museo Nazionale. La Madonna col Bambino Gesù in Trono ai lati Angeli e Sante. (Tommaso Vigilia). 272"
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1359,
+    "total_tokens": 3131
+  },
+  "cost": 0.015805,
+  "status": "OK",
+  "request_time": 11.97
+}

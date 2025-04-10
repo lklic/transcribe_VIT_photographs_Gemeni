@@ -1,0 +1,61 @@
+{
+  "id": "2738",
+  "barcode": "32044157068123",
+  "box_barcode": "32044114864226",
+  "recto_filename": "32044157068123_1.tif",
+  "verso_filename": "32044157068123_2.tif",
+  "work_id": "W00013162",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "Giuseppe Venduto, pittura di R. Odorisio",
+        "artist": "R. Odorisio",
+        "inscriptions": [
+          "?PICTORIS?"
+        ],
+        "repository": {
+          "name": "Chiesa dell' Incoronata",
+          "city": "Napoli",
+          "country": "IT"
+        },
+        "full_text": "8530 Giuseppe Venduto, pittura di R. Odorisio - Chiesa dell' Incoronata Napoli 306"
+      },
+      "back": {
+        "title": "\"Joseph sold\"",
+        "artist": {
+          "name": "Roberto Oderisi",
+          "listed": true
+        },
+        "date": "1360",
+        "repository": {
+          "name": "Incoronata",
+          "city": "NAPOLI",
+          "country": "IT"
+        },
+        "materials": "Fresco"
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "identifier": "8530"
+        }
+      },
+      "back": {
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "front": "8530 Giuseppe Venduto, pittura di R. Odorisio - Chiesa dell' Incoronata Napoli 306"
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 2236,
+    "total_tokens": 4008
+  },
+  "cost": 0.024575,
+  "status": "OK",
+  "request_time": 17.98
+}

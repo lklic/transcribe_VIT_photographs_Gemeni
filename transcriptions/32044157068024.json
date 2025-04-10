@@ -1,0 +1,20 @@
+{
+  "id": "2739",
+  "barcode": "32044157068024",
+  "box_barcode": "32044114864226",
+  "recto_filename": "32044157068024_1.tif",
+  "verso_filename": "32044157068024_2.tif",
+  "work_id": "W00013162",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "raw_response": "ny\n```json\n{\n  \"artwork\": {\n    \"back\": {\n      \"title\": \"S. Simone e S. Anna (affresco)\",\n      \"artist\": {\n        \"name\": \"Roberto Oderisio?\",\n        \"listed\": true\n      },\n      \"repository\": {\n        \"name\": \"S. Maria dell' Incoronata\",\n        \"city\": \"Naples\",\n        \"country\": \"IT\"\n      },\n      \"materials\": \"fresco\"\n    }\n  },\n  \"photograph\": {\n    \"back\": {\n      \"photographer\": {\n        \"identifier\": \"35392?\",\n        \"stamp\": \"LABORATORIO FOTOGRAFICO DELLA SOPRINTENDENZA ALLE GALLERIE E MUSEI Neg. N. 35392 ? AVVISO: LE LASTRE RELATIVE A QUESTA RIPRODUZIONE SONO PROPRIETA' DI QUESTA R. SOVRINTENDENZA. LA PUBBLICA- ZIONE E' AUTORIZZATA DA QUESTA R. SOVRINTENDENZA. RIVOLGERSI NAPOLI\"\n      },\n      \"yellow_dot\": true\n    }\n  },\n  \"additional_annotations\": {\n    \"back\": [\n      {\n        \"Luogo\": \"Napoli, Chiesa di S. Maria dell' Incoronata\"\n      },\n      {\n        \"Autore\": \"Roberto Oderisio?\"\n      },\n      {\n        \"Soggetto\": \"S. Simone e S. Anna (affresco)\"\n      },\n      {\n        \"Fot. eseguita il\": \"\"\n      },\n      {\n        \"Initials\": \"A. M.\"\n      }\n    ]\n  }\n}\n```"
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1379,
+    "total_tokens": 3151
+  },
+  "cost": 0.016005,
+  "status": "OK",
+  "request_time": 17.42
+}

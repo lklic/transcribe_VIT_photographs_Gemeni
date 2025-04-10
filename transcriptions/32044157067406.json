@@ -1,0 +1,65 @@
+{
+  "id": "2731",
+  "barcode": "32044157067406",
+  "box_barcode": "32044114864226",
+  "recto_filename": "32044157067406_1.tif",
+  "verso_filename": "32044157067406_2.tif",
+  "work_id": "W00013122",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "back": {
+        "title": "Crocefisso",
+        "artist": {
+          "name": "Roberto Oderisio",
+          "listed": false
+        },
+        "repository": {
+          "name": "Cathedral (Duomo)",
+          "city": "Teano",
+          "country": "IT",
+          "stamp": "LABORATORIO FOTOGRAFICO DELLA SOPRINTENDENZA ALLA GALLERIE - NAPOLI"
+        }
+      }
+    },
+    "photograph": {
+      "back": {
+        "photographer": {
+          "identifier": "36227",
+          "stamp": "LABORATORIO FOTOGRAFICO DELLA SOPRINTENDENZA ALLA GALLERIE - NAPOLI Neg. N. 36227 DIRITTO DI RIPRODUZIONE INTERNATIONALE DEI MONUMENTI, GALLERIE E MUSEI DELLO STATO RISERVATO AL MINISTERO P. I. FOT. SOPRINTENDENZA GALLERIE - Napoli"
+        },
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        {
+          "Luogo": "Teano - Duomo"
+        },
+        {
+          "Autore": "Roberto Oderisio"
+        },
+        {
+          "Soggetto": "Crocefisso"
+        },
+        {
+          "Artist Confirmation": "Oderisi"
+        },
+        {
+          "Initials": "A. M."
+        },
+        {
+          "Repository": "Cathedral TEANO"
+        }
+      ]
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1464,
+    "total_tokens": 3236
+  },
+  "cost": 0.016855000000000002,
+  "status": "OK",
+  "request_time": 14.82
+}

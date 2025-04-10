@@ -1,0 +1,53 @@
+{
+  "id": "2723",
+  "barcode": "32044157067695",
+  "box_barcode": "32044114864226",
+  "recto_filename": "32044157067695_1.tif",
+  "verso_filename": "32044157067695_2.tif",
+  "work_id": "W00013128",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "back": {
+        "title": "Birth of the Virgin",
+        "artist": {
+          "name": "Roberto Odorisi (?)",
+          "listed": true,
+          "additional_annotations": [
+            "School: (E.)"
+          ]
+        },
+        "repository": {
+          "name": "S. Lorenzo",
+          "city": "NAPOLI",
+          "country": "IT",
+          "stamp": "R. SOPRAINTENDENZA ALL'ARTE MEDIOEVALE MODERNA DELLA CAMPANIA GABINETTO FOTOGRAFICO"
+        },
+        "materials": "Fresco"
+      },
+      "history": {
+        "attribution": [
+          "Maestro di Giovanni Barrile"
+        ]
+      }
+    },
+    "photograph": {
+      "back": {
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        "Faded text: (parete destra - scena inferiore)"
+      ]
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1469,
+    "total_tokens": 3241
+  },
+  "cost": 0.016905,
+  "status": "OK",
+  "request_time": 13.97
+}

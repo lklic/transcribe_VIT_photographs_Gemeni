@@ -1,0 +1,71 @@
+{
+  "id": "2769",
+  "barcode": "32044157067984",
+  "box_barcode": "32044114864226",
+  "recto_filename": "32044157067984_1.tif",
+  "verso_filename": "32044157067984_2.tif",
+  "work_id": "W00013162",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "Il Battesimo",
+        "artist": "R. de Oderisio",
+        "repository": {
+          "name": "Chiesa dell'Incoronata",
+          "city": "NAPOLI",
+          "country": "IT"
+        },
+        "materials_technique": "Fresco",
+        "full_text": "25486 NAPOLI - Chiesa dell'Incoronata - R. de Oderisio - Il Battesimo - Ripr. Int. - Anderson - Roma"
+      },
+      "back": {
+        "title": "Baptism",
+        "artist": {
+          "name": "Roberto Oderisi.",
+          "listed": true,
+          "additional_annotations": [
+            "p"
+          ]
+        },
+        "date": "1360",
+        "repository": {
+          "name": "Incoronata",
+          "city": "NAPOLI",
+          "country": "IT"
+        },
+        "materials": "Fresco"
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "name": "Anderson - Roma",
+          "identifier": "25486"
+        }
+      },
+      "back": {
+        "photographer": {
+          "anderson_id": "25486"
+        },
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "front": "25486 NAPOLI - Chiesa dell'Incoronata - R. de Oderisio - Il Battesimo - Ripr. Int. - Anderson - Roma",
+      "back": [
+        {
+          "number_on_dot": "14"
+        }
+      ]
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1969,
+    "total_tokens": 3741
+  },
+  "cost": 0.021905,
+  "status": "OK",
+  "request_time": 16.59
+}

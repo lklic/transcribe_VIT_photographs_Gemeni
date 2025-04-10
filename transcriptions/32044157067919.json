@@ -1,0 +1,51 @@
+{
+  "id": "2790",
+  "barcode": "32044157067919",
+  "box_barcode": "32044114864234",
+  "recto_filename": "32044157067919_1.tif",
+  "verso_filename": "32044157067919_2.tif",
+  "work_id": "",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "inscriptions": [
+          "VERGINE.REGINA.VI CTORIA.DEI.MISERICOR",
+          "DOMINI [or DOMUS] TU. IUDI?"
+        ],
+        "full_text": "01 /"
+      },
+      "back": {
+        "title": "Annunciazione",
+        "artist": {
+          "name": "Tommaso de Vigilia?"
+        },
+        "repository": {
+          "name": "Museo",
+          "city": "Palermo",
+          "country": "IT",
+          "stamp": "AMERICAN ACADEMY IN ROME\nIII, PALERMO / 6. GIU 1928"
+        }
+      }
+    },
+    "photograph": {
+      "back": {
+        "yellow_dot": false
+      }
+    },
+    "additional_annotations": {
+      "front": "01 /",
+      "back": [
+        "repository_city: Palermo"
+      ]
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1682,
+    "total_tokens": 3454
+  },
+  "cost": 0.019034999999999996,
+  "status": "OK",
+  "request_time": 18.04
+}

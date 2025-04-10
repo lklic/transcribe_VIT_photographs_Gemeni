@@ -1,0 +1,62 @@
+{
+  "id": "2716",
+  "barcode": "32044157067778",
+  "box_barcode": "32044114864226",
+  "recto_filename": "32044157067778_1.tif",
+  "verso_filename": "32044157067778_2.tif",
+  "work_id": "W00013128",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "back": {
+        "title": "Frescoes: „Annunciation & Epiphany“",
+        "additional_titles": [
+          "Cappella absidale - Affreschi: parete sinistra -"
+        ],
+        "artist": {
+          "name": "Roberto Oderisi (?) (L.E.)",
+          "listed": true,
+          "additional_annotations": [
+            "? Robert",
+            "Maestro di Giovanni Barrile"
+          ]
+        },
+        "repository": {
+          "name": "S. Lorenzo",
+          "city": "NAPOLI",
+          "country": "IT"
+        },
+        "materials": "Frescoes"
+      },
+      "history": {
+        "attribution": [
+          "listed Roberto Oderisi (?) (L.E.)",
+          "? Robert",
+          "Maestro di Giovanni Barrile"
+        ]
+      }
+    },
+    "photograph": {
+      "back": {
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        "N/A check / follows / Giotto",
+        "Left wall",
+        "5th Chapel",
+        "Choir",
+        "Number: 23"
+      ]
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1566,
+    "total_tokens": 3338
+  },
+  "cost": 0.017875000000000002,
+  "status": "OK",
+  "request_time": 14.95
+}

@@ -1,0 +1,46 @@
+{
+  "id": "2702",
+  "barcode": "32044157067356",
+  "box_barcode": "32044114864226",
+  "recto_filename": "32044157067356_1.tif",
+  "verso_filename": "32044157067356_2.tif",
+  "work_id": "W00013124",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "back": {
+        "title": "Pietà with Symbols of the Passion",
+        "artist": {
+          "name": "R. Oderisi",
+          "listed": true
+        },
+        "repository": {
+          "name": "Fogg Art Museum",
+          "city": "CAMBRIDGE",
+          "state": "MA",
+          "country": "US",
+          "gift": true
+        }
+      },
+      "history": {
+        "provenance": [
+          "S. Clemente / vendutale supp di Mich.",
+          "G.L. Winthrop Bequest 1943"
+        ]
+      }
+    },
+    "photograph": {
+      "back": {
+        "yellow_dot": false
+      }
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1465,
+    "total_tokens": 3237
+  },
+  "cost": 0.016864999999999998,
+  "status": "OK",
+  "request_time": 14.83
+}

@@ -1,0 +1,65 @@
+{
+  "id": "2789",
+  "barcode": "32044157068016",
+  "box_barcode": "32044114864234",
+  "recto_filename": "32044157068016_1.tif",
+  "verso_filename": "32044157068016_2.tif",
+  "work_id": "",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "inscriptions": [
+          "AVE GRATIA"
+        ],
+        "full_text": "810"
+      },
+      "back": {
+        "title": "Madonna, Santa Lucia e Santa Caterina",
+        "artist": {
+          "name": "Cristofano ? rina",
+          "listed": false
+        },
+        "repository": {
+          "name": "Chiesa di Santa Maria Nuova",
+          "city": "Collesano",
+          "country": "IT",
+          "stamp": "PALERMO / GALLERIA NAZIONALE / della SICILIA"
+        }
+      },
+      "history": {
+        "attribution": [
+          "Cristofano ? rina",
+          "Corvinato De Vigilia"
+        ]
+      }
+    },
+    "photograph": {
+      "back": {
+        "photographer": {
+          "stamp": "AMERICAN ACADEMY IN ROME / 16,"
+        },
+        "yellow_dot": false
+      }
+    },
+    "additional_annotations": {
+      "front": "810",
+      "back": [
+        "Location: Collesano",
+        "Repository: Chiesa di Santa Maria Nuova",
+        "Subject: Madonna, Santa Lucia e Santa Caterina",
+        "Artist Attribution: di Cristofano ? rina",
+        "Additional Annotation: Corvinato De Vigilia",
+        "Location Reinforcement: S.Maria Nuova / COLLESANO!"
+      ]
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1688,
+    "total_tokens": 3460
+  },
+  "cost": 0.019095,
+  "status": "OK",
+  "request_time": 18.47
+}

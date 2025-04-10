@@ -1,0 +1,51 @@
+{
+  "id": "2743",
+  "barcode": "32044157068131",
+  "box_barcode": "32044114864226",
+  "recto_filename": "32044157068131_1.tif",
+  "verso_filename": "32044157068131_2.tif",
+  "work_id": "",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "Il Sacramento del Matrimonio",
+        "artist": "R. Oderisio",
+        "repository": {
+          "name": "Chiesa dell' Incoronata",
+          "city": "Napoli",
+          "country": "IT"
+        },
+        "full_text": "697 Il Sacramento del Matrimonio, pittura di R. Oderisio - Chiesa dell' Incoronata Napoli"
+      },
+      "back": {
+        "artist": {
+          "name": "R. Oderisi",
+          "listed": true
+        }
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "identifier": "697"
+        }
+      },
+      "back": {}
+    },
+    "additional_annotations": {
+      "front": "697 Il Sacramento del Matrimonio, pittura di R. Oderisio - Chiesa dell' Incoronata Napoli",
+      "back": [
+        "Stamp: BERNHARD BERENSON I TATTI - SETTIGNANO FLORENCE NAPOLI"
+      ]
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1274,
+    "total_tokens": 3046
+  },
+  "cost": 0.014955,
+  "status": "OK",
+  "request_time": 11.46
+}

@@ -1,0 +1,117 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+.navigation {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.navigation button {
+    padding: 8px 15px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.navigation span {
+    display: inline-block;
+    min-width: 150px;
+    font-weight: bold;
+}
+
+.viewer-container {
+    display: flex;
+    gap: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    max-height: 90vh; /* Limit overall viewer height */
+}
+
+.image-column {
+    flex: 1; /* Takes up half the space */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    min-height: 0; /* Allow flex items to shrink properly */
+    max-height: 85vh; /* Explicitly constrain column height slightly less than overall */
+}
+
+.metadata-column {
+    flex: 1; /* Takes up half the space */
+    border-left: 1px solid #ccc;
+    padding-left: 20px;
+    overflow-y: auto; /* Add scroll if metadata is long */
+    max-height: 80vh; /* Limit height */
+}
+
+.image-container {
+    position: relative; /* Needed for absolute positioning of spyglass */
+    border: 1px solid #ddd;
+    padding: 5px;
+    background-color: #eee;
+    /* overflow: hidden; */ /* Removed to prevent spyglass clipping */
+    cursor: crosshair;
+    /* Explicitly set height to divide the column space */
+    height: 50%; /* Each container takes half the column height */
+    /* flex: 1; */ /* Remove flex grow/shrink for explicit height */
+    min-height: 0; /* Still useful */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%; /* Ensure image fits container */
+    object-fit: contain; /* Scale image while preserving aspect ratio */
+}
+
+.spyglass {
+    position: absolute;
+    border: 3px solid #555;
+    border-radius: 50%;
+    width: 650px; /* Final size */
+    height: 650px; /* Final size */
+    background-repeat: no-repeat;
+    pointer-events: none; /* Allows clicking through the spyglass */
+    display: none; /* Hidden by default */
+    z-index: 10;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+/* Styles for metadata display */
+#metadata-display {
+    font-size: 0.9em;
+    line-height: 1.6;
+}
+
+#metadata-display div {
+    margin-bottom: 5px;
+    padding-left: 10px; /* Indentation for nested levels */
+}
+
+#metadata-display strong {
+    color: #555;
+    margin-right: 5px;
+}
+
+/* Restore level-based indentation rules */
+#metadata-display .level-0 { padding-left: 0; }
+#metadata-display .level-1 { padding-left: 15px; }
+#metadata-display .level-2 { padding-left: 30px; }
+#metadata-display .level-3 { padding-left: 45px; }
+/* Add more levels if needed */
+
+#metadata-display .array-item::before {
+    content: "- "; /* Keep array item marker */
+}

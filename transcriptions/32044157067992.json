@@ -1,0 +1,63 @@
+{
+  "id": "2772",
+  "barcode": "32044157067992",
+  "box_barcode": "32044114864226",
+  "recto_filename": "32044157067992_1.tif",
+  "verso_filename": "32044157067992_2.tif",
+  "work_id": "W00013162",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "La Regina Giovanna",
+        "artist": "R. de Oderisio",
+        "repository": {
+          "name": "Chiesa dell'Incoronata",
+          "city": "NAPOLI",
+          "country": "IT"
+        },
+        "full_text": "25493 - NAPOLI - Chiesa dell'Incoronata - R. de Oderisio - La Regina Giovanna - Ripr. Int. - Anderson - Roma"
+      },
+      "back": {
+        "artist": {
+          "name": "Roberto Oderisi",
+          "listed": true
+        },
+        "date": "about 1360",
+        "repository": {
+          "name": "Incoronata",
+          "city": "NAPOLI",
+          "country": "IT"
+        },
+        "materials": "Fresco"
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "name": "Anderson",
+          "identifier": "25493"
+        }
+      },
+      "back": {
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "front": "25493 - NAPOLI - Chiesa dell'Incoronata - R. de Oderisio - La Regina Giovanna - Ripr. Int. - Anderson - Roma",
+      "back": [
+        "P",
+        "5",
+        "8"
+      ]
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1625,
+    "total_tokens": 3397
+  },
+  "cost": 0.018465000000000002,
+  "status": "OK",
+  "request_time": 14.73
+}

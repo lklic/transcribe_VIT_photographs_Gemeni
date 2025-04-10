@@ -1,0 +1,48 @@
+{
+  "id": "2800",
+  "barcode": "32044157068545",
+  "box_barcode": "32044114864234",
+  "recto_filename": "32044157068545_1.tif",
+  "verso_filename": "32044157068545_2.tif",
+  "work_id": "W00030339",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "repository": {
+          "name": "Sagro Speco",
+          "city": "Subiaco",
+          "country": "IT"
+        },
+        "materials_technique": "Fresco"
+      },
+      "back": {
+        "title": "Frescoes.",
+        "repository": {
+          "name": "Sagro Speco",
+          "city": "Subiaco",
+          "country": "IT"
+        },
+        "materials": "Frescoes"
+      }
+    },
+    "photograph": {
+      "back": {
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        "filing_note: filed with Tommaso di Vigilia"
+      ]
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1315,
+    "total_tokens": 3087
+  },
+  "cost": 0.015365,
+  "status": "OK",
+  "request_time": 11.12
+}

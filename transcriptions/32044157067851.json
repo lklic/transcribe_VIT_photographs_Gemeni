@@ -1,0 +1,59 @@
+{
+  "id": "2756",
+  "barcode": "32044157067851",
+  "box_barcode": "32044114864226",
+  "recto_filename": "32044157067851_1.tif",
+  "verso_filename": "32044157067851_2.tif",
+  "work_id": "",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "Il Sacrametto dell' Eucarestia",
+        "artist": "R. Odorisio",
+        "repository": {
+          "name": "Chiesa dell' Incoronata",
+          "city": "Napoli",
+          "country": "IT"
+        },
+        "materials_technique": "pittura"
+      },
+      "back": {
+        "title": "\"Eucarestia\"",
+        "additional_titles": [
+          "(detail)"
+        ],
+        "artist": {
+          "name": "R. Oderisi",
+          "listed": true
+        },
+        "repository": {
+          "name": "Incoronata",
+          "city": "NAPOLI",
+          "country": "IT"
+        }
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "identifier": "8525"
+        }
+      }
+    },
+    "additional_annotations": {
+      "front": "8525 Il Sacrametto dell' Eucarestia, pittura R. Odorisio - Chiesa dell' Incoronata Napoli 284",
+      "back": [
+        "front_identifier: 284"
+      ]
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1378,
+    "total_tokens": 3150
+  },
+  "cost": 0.015995000000000002,
+  "status": "OK",
+  "request_time": 14.16
+}

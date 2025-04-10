@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digiteca Transcription Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Digiteca Transcription Viewer</h1>
+
+    <div class="navigation">
+        <button id="prev-button" disabled>< Previous</button>
+        <span id="item-info">Loading...</span>
+        <button id="next-button" disabled>Next ></button>
+    </div>
+
+    <div class="viewer-container">
+        <div class="image-column">
+            <!-- Verso Image (Back) - Moved to top -->
+            <div class="image-container" id="back-image-container">
+                <img id="back-image" src="" alt="Verso Image">
+                <div class="spyglass" id="back-spyglass"></div>
+            </div>
+            <!-- Recto Image (Front) - Moved to bottom -->
+            <div class="image-container" id="front-image-container">
+                <img id="front-image" src="" alt="Recto Image">
+                <div class="spyglass" id="front-spyglass"></div>
+            </div>
+        </div>
+        <div class="metadata-column">
+            <h2>Metadata</h2>
+            <div id="metadata-display">
+                <p>Loading metadata...</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

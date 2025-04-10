@@ -1,0 +1,20 @@
+{
+  "id": "2750",
+  "barcode": "32044157067943",
+  "box_barcode": "32044114864226",
+  "recto_filename": "32044157067943_1.tif",
+  "verso_filename": "32044157067943_2.tif",
+  "work_id": "W00013162",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "raw_response": "ny\n```json\n{\n  \"artwork\": {\n    \"front\": {\n      \"title\": \"Angeli nella Volta\",\n      \"artist\": \"R. Odorisio\",\n      \"materials_technique\": \"Fresco\",\n      \"repository\": {\n        \"name\": \"Chiesa dell' Incoronata\",\n        \"city\": \"Napoli\",\n        \"country\": \"IT\"\n      },\n      \"full_text\": \"8531 Angeli nella Volta, dipinta dal R. Odorisio - Chiesa dell' Incoronata Napoli\"\n    },\n    \"back\": {\n      \"artist\": {\n        \"name\": \"Roberto Oderisi\",\n        \"listed\": true\n      },\n      \"date\": \"about 1360\",\n      \"repository\": {\n        \"name\": \"Incoronata\",\n        \"city\": \"NAPOLI\",\n        \"country\": \"IT\"\n      },\n      \"materials\": \"Fresco\"\n    }\n  },\n  \"photograph\": {\n    \"front\": {\n      \"photographer\": {\n        \"identifier\": \"8531\"\n      }\n    },\n    \"back\": {\n      \"yellow_dot\": true\n    }\n  },\n  \"additional_annotations\": {\n    \"front\": \"8531 Angeli nella Volta, dipinta dal R. Odorisio - Chiesa dell' Incoronata Napoli\",\n    \"back\": [\n      {\n        \"Sticker\": \"6\"\n      }\n    ]\n  }\n}\n```"
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1497,
+    "total_tokens": 3269
+  },
+  "cost": 0.017185,
+  "status": "OK",
+  "request_time": 16.47
+}

@@ -1,0 +1,52 @@
+{
+  "id": "2727",
+  "barcode": "32044157067604",
+  "box_barcode": "32044114864226",
+  "recto_filename": "32044157067604_1.tif",
+  "verso_filename": "32044157067604_2.tif",
+  "work_id": "",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "back": {
+        "artist": {
+          "name": "Roberto d. Oderisio"
+        },
+        "date": "1300-1399",
+        "dimensions": [
+          {
+            "original": "m. 1.85 x 1.60",
+            "cm": "185cm x 160cm",
+            "dimension_type": "tavola"
+          }
+        ],
+        "repository": {
+          "name": "Museo Pepoli",
+          "city": "TRAPANI",
+          "country": "IT"
+        },
+        "materials": "tavola"
+      }
+    },
+    "photograph": {
+      "back": {
+        "yellow_dot": false
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        {
+          "places notes": ""
+        }
+      ]
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1011,
+    "total_tokens": 2783
+  },
+  "cost": 0.012325,
+  "status": "OK",
+  "request_time": 9.65
+}

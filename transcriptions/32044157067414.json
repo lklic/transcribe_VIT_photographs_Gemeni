@@ -1,0 +1,72 @@
+{
+  "id": "2735",
+  "barcode": "32044157067414",
+  "box_barcode": "32044114864226",
+  "recto_filename": "32044157067414_1.tif",
+  "verso_filename": "32044157067414_2.tif",
+  "work_id": "W00013162",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "back": {
+        "title": "Frescoes Joseph in jail interprets dreams",
+        "additional_titles": [
+          "Moses & the burning bush",
+          "Scena sacra (affresco - particolare)"
+        ],
+        "artist": {
+          "name": "Roberto di Oderisio",
+          "listed": true
+        },
+        "repository": {
+          "name": "S. Maria dell' Incoronata",
+          "city": "Naples",
+          "country": "IT"
+        },
+        "materials": "fresco"
+      }
+    },
+    "photograph": {
+      "back": {
+        "photographer": {
+          "identifier": "35395",
+          "stamp": "LABORATORIO FOTOGRAFICO DELLE R. GALLERIE E MUSEI ALLE GALLERIE - NAPOLI Neg. N. 35395 SOTTO LA TUTELA DELLE LEGGE INTERNAZIONALE ECC. RIPRODUZIONE VIETATA NO È OBBLIGATORIA CITARE NOM. AUTORE E RACCOLTA GALLERIE E MUSEI AUT. MINISTERIALE"
+        },
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        {
+          "Luogo": "Napoli, Chiesa di S. Maria dell'Incoronata"
+        },
+        {
+          "Autore": "Roberto Oderisio"
+        },
+        {
+          "Soggetto": "Scena sacra (affresco - particolare)"
+        },
+        {
+          "Fot.": "Vendita II"
+        },
+        {
+          "annotation": "U/c"
+        },
+        {
+          "annotation": "A. M."
+        },
+        {
+          "annotation": "21"
+        }
+      ]
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1409,
+    "total_tokens": 3181
+  },
+  "cost": 0.016305,
+  "status": "OK",
+  "request_time": 15.09
+}

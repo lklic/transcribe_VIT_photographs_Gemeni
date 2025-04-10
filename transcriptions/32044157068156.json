@@ -1,0 +1,66 @@
+{
+  "id": "2753",
+  "barcode": "32044157068156",
+  "box_barcode": "32044114864226",
+  "recto_filename": "32044157068156_1.tif",
+  "verso_filename": "32044157068156_2.tif",
+  "work_id": "W00013162",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "back": {
+        "title": "Bonifacio VIII e angeli (?) Magio (?)",
+        "artist": {
+          "name": "Roberto Oderisio",
+          "listed": true
+        },
+        "repository": {
+          "name": "Chiesa di S. Maria dell' Incoronata",
+          "city": "Napoli",
+          "country": "IT"
+        },
+        "materials": "affresco"
+      }
+    },
+    "photograph": {
+      "back": {
+        "photographer": {
+          "name": "LABORATORIO FOTOGRAFICO DELLE GALLERIE E MUSEI",
+          "identifier": "35397",
+          "stamp": "LABORATORIO FOTOGRAFICO DELLE GALLERIE E MUSEI ALLE GALLERIE - NAPOLI Neg. N. 35397 SOTTO LA TUTELA DELLA LEGGE 11 GIUGNO 1896 N 281 PROPRIETA' ARTISTICA RISERVATA LA FORMULA NON SI E' SOGGETTRATTA ..."
+        },
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        {
+          "Luogo": "Napoli. Chiesa di S. Maria dell' Incoronata."
+        },
+        {
+          "Autore": "Roberto Oderisio."
+        },
+        {
+          "Soggetto": "Bonifacio VIII e angeli (?) Magio (?)"
+        },
+        {
+          "Fot. eseguita il": ""
+        },
+        {
+          "Other": "A. M."
+        },
+        {
+          "Location Text": "S. Maria dell' Incoronata NAPLES"
+        }
+      ]
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1548,
+    "total_tokens": 3320
+  },
+  "cost": 0.017695,
+  "status": "OK",
+  "request_time": 16.52
+}

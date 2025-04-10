@@ -1,0 +1,64 @@
+{
+  "id": "2742",
+  "barcode": "32044157068230",
+  "box_barcode": "32044114864226",
+  "recto_filename": "32044157068230_1.tif",
+  "verso_filename": "32044157068230_2.tif",
+  "work_id": "W00013162",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "Affresco di R.o de Oderisio",
+        "artist": "R.o de Oderisio",
+        "repository": {
+          "name": "Chiesa dell'Incoronata",
+          "city": "NAPOLI",
+          "country": "IT"
+        },
+        "materials_technique": "Affresco",
+        "full_text": "11891 NAPOLI — Chiesa dell'Incoronata Affresco di R.o de Oderisio (Foto Sommer)"
+      },
+      "back": {
+        "title": "Marriage",
+        "additional_titles": [
+          "Sacr. del Matrimonio"
+        ],
+        "artist": {
+          "name": "Roberto Oderisi",
+          "listed": true
+        },
+        "date": "1360",
+        "repository": {
+          "name": "Incoronata",
+          "city": "NAPOLI",
+          "country": "IT",
+          "stamp": "BERNHARD BERENSON * FLORENCE * TATTI, SETTIGNANO - Incoronata NAPOLI"
+        },
+        "materials": "Fresco"
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "name": "Sommer",
+          "identifier": "11891"
+        }
+      },
+      "back": {
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "front": "11891 NAPOLI — Chiesa dell'Incoronata Affresco di R.o de Oderisio (Foto Sommer)"
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1375,
+    "total_tokens": 3147
+  },
+  "cost": 0.015965,
+  "status": "OK",
+  "request_time": 12.59
+}

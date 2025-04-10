@@ -1,0 +1,61 @@
+{
+  "id": "2709",
+  "barcode": "32044157067372",
+  "box_barcode": "32044114864226",
+  "recto_filename": "32044157067372_1.tif",
+  "verso_filename": "32044157067372_2.tif",
+  "work_id": "W00013125",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "back": {
+        "title": "Crucifixion with Franciscan Donor (detaile)",
+        "additional_titles": [
+          "Crocefissione"
+        ],
+        "artist": {
+          "name": "Oderisi (sd.)",
+          "listed": true,
+          "additional_annotations": [
+            {
+              "initial_attribution": "Roberto d'Oderisio"
+            }
+          ]
+        },
+        "repository": {
+          "name": "S. Francesco",
+          "city": "EBOLI",
+          "state": "Salerno",
+          "country": "IT",
+          "stamp": "R. SOPRAINTENDENZA ALL'ARTE MEDIOEVALE E MODERNA DELLA CAMPANIA GABINETTO FOTOGRAFICO"
+        }
+      }
+    },
+    "photograph": {
+      "back": {
+        "photographer": {
+          "stamp": "R. SOPRAINTENDENZA ALL'ARTE MEDIOEVALE E MODERNA DELLA CAMPANIA GABINETTO FOTOGRAFICO"
+        },
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        {
+          "location_within_repository": "Sacristy"
+        },
+        {
+          "initial_location_annotation": "Eboli - S. Francesco"
+        }
+      ]
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1499,
+    "total_tokens": 3271
+  },
+  "cost": 0.017204999999999998,
+  "status": "OK",
+  "request_time": 14.57
+}

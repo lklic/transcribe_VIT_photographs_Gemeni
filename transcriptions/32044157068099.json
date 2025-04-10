@@ -1,0 +1,20 @@
+{
+  "id": "2773",
+  "barcode": "32044157068099",
+  "box_barcode": "32044114864226",
+  "recto_filename": "32044157068099_1.tif",
+  "verso_filename": "32044157068099_2.tif",
+  "work_id": "",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "raw_response": "ny\n```json\n{\n  \"artwork\": {\n    \"back\": {\n      \"title\": \"painted cross\",\n      \"artist\": {\n        \"name\": \"Maestro di Giovanni Barrile\",\n        \"additional_annotations\": [\n          {\"attribution\": \"attr.\"}\n        ]\n      },\n      \"date\": \"ca. 1330-1333\",\n      \"repository\": {\n        \"name\": \"Cathedral\",\n        \"city\": \"TEANO\",\n        \"state\": \"Caserta\",\n        \"country\": \"IT\",\n        \"stamp\": \"GIFT OF TREACY & DARCY BEYER June 2013\",\n        \"gift\": true\n      }\n    },\n    \"history\": {\n      \"attribution\": [\n        \"attr. Maestro di Giovanni Barrile, ca .1330-133)\"\n      ]\n    }\n  },\n  \"photograph\": {\n    \"back\": {\n      \"photographer\": {\n        \"name\": \"ROBERTO SIGISMONDI\",\n        \"identifier\": \"624.09\",\n        \"stamp\": \"FOTO ARTE ITALIANA ROBERTO SIGISMONDI - ROMA 1990\"\n      }\n    }\n  },\n  \"additional_annotations\": {\n    \"back\": [\n      {\"location detail\": \"above high altar\"}\n    ]\n  }\n}\n```"
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1066,
+    "total_tokens": 2838
+  },
+  "cost": 0.012875000000000001,
+  "status": "OK",
+  "request_time": 12.72
+}

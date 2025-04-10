@@ -1,0 +1,53 @@
+{
+  "id": "2798",
+  "barcode": "32044157068743",
+  "box_barcode": "32044114864234",
+  "recto_filename": "32044157068743_1.tif",
+  "verso_filename": "32044157068743_2.tif",
+  "work_id": "W00030332",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "inscriptions": [
+          "SCTA AGATA",
+          "SCTA LUCIA",
+          "SCTA ..."
+        ]
+      },
+      "back": {
+        "artist": {
+          "name": "Tommaso Vigilia",
+          "listed": false
+        },
+        "repository": {
+          "name": "Museo Nazionale",
+          "city": "PALERMO",
+          "country": "IT"
+        }
+      }
+    },
+    "photograph": {
+      "back": {
+        "photographer": {
+          "stamp": "FOTOGRAFIE ARTISTICHE VIA FRATTINA ROMA"
+        },
+        "identifier": "C-4236",
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        "Palermo - Museo"
+      ]
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 895,
+    "total_tokens": 2667
+  },
+  "cost": 0.011165,
+  "status": "OK",
+  "request_time": 10.61
+}

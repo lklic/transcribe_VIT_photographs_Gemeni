@@ -1,0 +1,50 @@
+{
+  "id": "2721",
+  "barcode": "32044157067596",
+  "box_barcode": "32044114864226",
+  "recto_filename": "32044157067596_1.tif",
+  "verso_filename": "32044157067596_2.tif",
+  "work_id": "W00013128",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "back": {
+        "title": "Epiphany",
+        "artist": {
+          "name": "Roberto Oderisi (?)",
+          "listed": true,
+          "additional_annotations": [
+            "modifier: (Ex)",
+            "alternative_attribution: Master of Giovanni Barrile"
+          ]
+        },
+        "repository": {
+          "name": "S. Lorenzo",
+          "city": "NAPOLI",
+          "country": "IT"
+        },
+        "materials": "Fresco"
+      }
+    },
+    "photograph": {
+      "back": {
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        "view: (detail)",
+        "identifier: C 1590",
+        "identifier: 4112"
+      ]
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1189,
+    "total_tokens": 2961
+  },
+  "cost": 0.014105,
+  "status": "OK",
+  "request_time": 14.29
+}

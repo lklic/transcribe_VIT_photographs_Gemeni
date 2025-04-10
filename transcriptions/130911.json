@@ -1,0 +1,65 @@
+{
+  "id": "2725",
+  "barcode": "130911",
+  "box_barcode": "32044114864226",
+  "recto_filename": "130911_1.tif",
+  "verso_filename": "130911_2.tif",
+  "work_id": "W00004019",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "back": {
+        "title": "St John & the Magdalen",
+        "artist": {
+          "name": "Giotto's circle follower",
+          "listed": true,
+          "additional_annotations": [
+            "Maso?"
+          ]
+        },
+        "dimensions": [
+          {
+            "original": "Panel 23\" x 15 5/8\"",
+            "cm": "57.5cm x 39cm",
+            "dimension_type": "Panel"
+          }
+        ],
+        "repository": {
+          "name": "Metropolitan Museum of Art",
+          "city": "New York",
+          "country": "US",
+          "identifier": "1975.5.102",
+          "ex": true
+        }
+      },
+      "history": {
+        "provenance": [
+          "Earl of Norfolk. Arundel Castle, Sussex"
+        ],
+        "attribution": [
+          "Florentine"
+        ]
+      }
+    },
+    "photograph": {
+      "back": {
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        "The other panel to what might have been a triptych is in the British National Gallery and was at one time giv. to C. Lorenzetti!",
+        "26",
+        "ex (R. Lehman)"
+      ]
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1653,
+    "total_tokens": 3425
+  },
+  "cost": 0.018744999999999998,
+  "status": "OK",
+  "request_time": 13.8
+}

@@ -1,0 +1,71 @@
+{
+  "id": "2732",
+  "barcode": "32044157067505",
+  "box_barcode": "32044114864226",
+  "recto_filename": "32044157067505_1.tif",
+  "verso_filename": "32044157067505_2.tif",
+  "work_id": "W00013122",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "back": {
+        "title": "Crocefisso (part. Dopo il rest.)",
+        "artist": {
+          "name": "Roberto Oderisio",
+          "additional_annotations": [
+            {
+              "artist_inscription": "Roberto di Oderisio"
+            }
+          ]
+        },
+        "dimensions": [
+          {
+            "original": "cm. 220x147",
+            "cm": "220cm x 147cm"
+          }
+        ],
+        "repository": {
+          "name": "Cathedral",
+          "city": "Teano",
+          "country": "IT"
+        }
+      },
+      "history": {
+        "exhibitions": [
+          "IV exh. Restauri, Naples, 1960 p. 39"
+        ],
+        "literature": [
+          "ACROPOLI, 1962 fasc. I, p. 81"
+        ]
+      }
+    },
+    "photograph": {
+      "back": {
+        "photographer": {
+          "name": "LABORATORIO FOTOGRAFICO DELLA SOPRINTENDENZA ALLE GALLERIE NAPOLI",
+          "identifier": "16233",
+          "stamp": "LABORATORIO FOTOGRAFICO DELLA SOPRINTENDENZA ALLE GALLERIE NAPOLI Neg. N. 16233 DIRITTI D' AUTORE DELLA LEGGE SULLA PROPRIETÀ INTERNAZIONALE SUI DIRITTI D'AUTORE. RIPRODUZIONE VIETATA SENZA AUTORIZZAZIONE. OGNI COPIA NON AUTORIZZATA GALLERIE DENUN."
+        },
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        {
+          "handwritten": "A. M."
+        },
+        {
+          "printed_form_label": "Fat. eseguita il"
+        }
+      ]
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1395,
+    "total_tokens": 3167
+  },
+  "cost": 0.016165,
+  "status": "OK",
+  "request_time": 14.89
+}

@@ -1,0 +1,56 @@
+{
+  "id": "2767",
+  "barcode": "32044157068180",
+  "box_barcode": "32044114864226",
+  "recto_filename": "32044157068180_1.tif",
+  "verso_filename": "32044157068180_2.tif",
+  "work_id": "",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "La Confessione",
+        "artist": "R. de Oderisio",
+        "repository": {
+          "name": "Chiesa dell'Incoronata",
+          "city": "NAPOLI",
+          "country": "IT"
+        },
+        "materials_technique": "Affresco",
+        "full_text": "NAPOLI - Chiesa dell'Incoronata. Affresco di R. de Oderisio La Confessione 301"
+      },
+      "back": {
+        "artist": {
+          "name": "R Oderisi",
+          "listed": true
+        },
+        "repository": {
+          "name": "Incoronata",
+          "city": "NAPOLI",
+          "country": "IT"
+        }
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "identifier": "301"
+        }
+      }
+    },
+    "additional_annotations": {
+      "front": "NAPOLI - Chiesa dell'Incoronata. Affresco di R. de Oderisio La Confessione 301",
+      "back": [
+        "stamp: BERNHARD BERENSON * FLORENCE * Incoronata Napoli"
+      ]
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1309,
+    "total_tokens": 3081
+  },
+  "cost": 0.015305000000000001,
+  "status": "OK",
+  "request_time": 13.33
+}

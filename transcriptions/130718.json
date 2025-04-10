@@ -1,0 +1,50 @@
+{
+  "id": "2724",
+  "barcode": "130718",
+  "box_barcode": "32044114864226",
+  "recto_filename": "130718_1.tif",
+  "verso_filename": "130718_2.tif",
+  "work_id": "",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "back": {
+        "artist": {
+          "name": "close Follower of Giotto",
+          "listed": true
+        },
+        "dimensions": [
+          {
+            "original": "23 1/2\" x 15 1/2\"",
+            "cm": "59.69cm x 39.37cm"
+          }
+        ],
+        "repository": {
+          "name": "Metropolitan Museum of Art (R. Lehman Collection)",
+          "city": "New York",
+          "country": "US",
+          "identifier": "1975.5.102",
+          "ex": true
+        }
+      }
+    },
+    "photograph": {
+      "back": {}
+    },
+    "additional_annotations": {
+      "back": [
+        {
+          "identifier": "#60.7"
+        }
+      ]
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 924,
+    "total_tokens": 2696
+  },
+  "cost": 0.011455,
+  "status": "OK",
+  "request_time": 11.42
+}

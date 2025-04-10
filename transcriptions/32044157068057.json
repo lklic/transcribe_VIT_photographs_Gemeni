@@ -1,0 +1,20 @@
+{
+  "id": "2754",
+  "barcode": "32044157068057",
+  "box_barcode": "32044114864226",
+  "recto_filename": "32044157068057_1.tif",
+  "verso_filename": "32044157068057_2.tif",
+  "work_id": "W00013162",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "raw_response": "ny\n```json\n{\n  \"artwork\": {\n    \"front\": {\n      \"title\": \"Chiesa dell' Incoronata - Luigi d' Angiò\",\n      \"artist\": \"R. de Oderisio\",\n      \"repository\": {\n        \"name\": \"Chiesa dell' Incoronata\",\n        \"city\": \"NAPOLI\",\n        \"country\": \"IT\"\n      },\n      \"full_text\": \"25489 - NAPOLI - Chiesa dell' Incoronata - R. de Oderisio - Luigi d' Angiò - Ripr. Int. - Anderson - Roma\"\n    },\n    \"back\": {\n      \"title\": \"Eucarestia\",\n      \"artist\": {\n        \"name\": \"Roberto Odorisi\",\n        \"listed\": true\n      },\n      \"date\": \"1360\",\n      \"repository\": {\n        \"name\": \"Incoronata\",\n        \"city\": \"NAPOLI\",\n        \"country\": \"IT\"\n      },\n      \"materials\": \"Fresco\"\n    }\n  },\n  \"photograph\": {\n    \"front\": {\n      \"photographer\": {\n        \"name\": \"Anderson\",\n        \"identifier\": \"25489\",\n        \"anderson_id\": \"25489\"\n      }\n    },\n    \"back\": {\n      \"yellow_dot\": true\n    }\n  },\n  \"additional_annotations\": {\n    \"front\": \"25489 - NAPOLI - Chiesa dell' Incoronata - R. de Oderisio - Luigi d' Angiò - Ripr. Int. - Anderson - Roma\",\n    \"back\": []\n  }\n}\n```"
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 2469,
+    "total_tokens": 4241
+  },
+  "cost": 0.026905,
+  "status": "OK",
+  "request_time": 21.28
+}

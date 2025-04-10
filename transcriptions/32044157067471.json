@@ -1,0 +1,61 @@
+{
+  "id": "2710",
+  "barcode": "32044157067471",
+  "box_barcode": "32044114864226",
+  "recto_filename": "32044157067471_1.tif",
+  "verso_filename": "32044157067471_2.tif",
+  "work_id": "W00013130",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "inscriptions": [
+          "S [...] S [...] S [...] S [...] S [...] M[...]S [...] S [...] S [...] S [...] S [...]"
+        ]
+      },
+      "back": {
+        "title": "Madonna & ten Saints",
+        "artist": {
+          "name": "Roberto Oderisi?"
+        },
+        "repository": {
+          "name": "Nat. Gallery",
+          "city": "LONDON",
+          "country": "GB",
+          "identifier": "5715."
+        },
+        "history": {
+          "attribution": [
+            "Reconsider with Andrea da Firenze other photo with ↑"
+          ]
+        }
+      }
+    },
+    "photograph": {
+      "back": {
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        {
+          "u 15": "u 15"
+        },
+        {
+          "cf": "Carmine Altarpiace"
+        },
+        {
+          "Storeroom": "(Storeroom)"
+        }
+      ]
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1014,
+    "total_tokens": 2786
+  },
+  "cost": 0.012355,
+  "status": "OK",
+  "request_time": 11.04
+}

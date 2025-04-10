@@ -1,0 +1,57 @@
+{
+  "id": "2779",
+  "barcode": "32044157068206",
+  "box_barcode": "32044114864234",
+  "recto_filename": "32044157068206_1.tif",
+  "verso_filename": "32044157068206_2.tif",
+  "work_id": "W00030323",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "back": {
+        "title": "La Vergine e l'Eterno Padre seguiti da Angeli, la Vergine, il Bambino e 4 Santi Gaudenzio (?Gaetano?), Bartolomeo, Ricco",
+        "artist": {
+          "name": "Antonio Catalano",
+          "listed": false,
+          "additional_annotations": [
+            "Anche nello Ricco?"
+          ]
+        },
+        "repository": {
+          "name": "Museo Regionale",
+          "city": "Messina",
+          "country": "IT"
+        },
+        "materials": "Canvas"
+      },
+      "history": {
+        "provenance": [
+          "Messina, Chiesa d. S. Maria dell' Indirizzo"
+        ],
+        "literature": [
+          "T. (?)P (?) H. (?) Cinquecento in Sicilia, Pl. LXII, p. 292"
+        ]
+      }
+    },
+    "photograph": {
+      "front": {},
+      "back": {
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "front": "275",
+      "back": [
+        "06114"
+      ]
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1184,
+    "total_tokens": 2956
+  },
+  "cost": 0.014055,
+  "status": "OK",
+  "request_time": 15.19
+}

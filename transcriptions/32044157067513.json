@@ -1,0 +1,20 @@
+{
+  "id": "2734",
+  "barcode": "32044157067513",
+  "box_barcode": "32044114864226",
+  "recto_filename": "32044157067513_1.tif",
+  "verso_filename": "32044157067513_2.tif",
+  "work_id": "W00013162",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "raw_response": "ny\n```json\n{\n  \"artwork\": {\n    \"front\": {\n      \"title\": \"Giuseppe in carcere\",\n      \"artist\": \"R. de Oderisio\",\n      \"repository\": {\n        \"name\": \"Chiesa dell' Incoronata\",\n        \"city\": \"NAPOLI\",\n        \"country\": \"IT\"\n      },\n      \"full_text\": \"25454 NAPOLI - Chiesa dell' Incoronata - R. de Oderisio - Giuseppe in carcere - Ripr. Int. - Anderson - Roma\"\n    },\n    \"back\": {\n      \"title\": \"\\\"Joseph in prison\\\"\",\n      \"artist\": {\n        \"name\": \"Oderisi\"\n      },\n      \"repository\": {\n        \"name\": \"Incoronata\",\n        \"city\": \"NAPLES\",\n        \"country\": \"IT\"\n      }\n    }\n  },\n  \"photograph\": {\n    \"front\": {\n      \"photographer\": {\n        \"name\": \"Anderson\",\n        \"anderson_id\": \"25454\"\n      }\n    },\n    \"back\": {\n      \"yellow_dot\": true\n    }\n  },\n  \"additional_annotations\": {\n    \"front\": \"25454 NAPOLI - Chiesa dell' Incoronata - R. de Oderisio - Giuseppe in carcere - Ripr. Int. - Anderson - Roma\"\n  }\n}\n```"
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1150,
+    "total_tokens": 2922
+  },
+  "cost": 0.013715,
+  "status": "OK",
+  "request_time": 11.64
+}

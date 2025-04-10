@@ -1,0 +1,65 @@
+{
+  "id": "2794",
+  "barcode": "32044157068636",
+  "box_barcode": "32044114864234",
+  "recto_filename": "32044157068636_1.tif",
+  "verso_filename": "32044157068636_2.tif",
+  "work_id": "",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "inscriptions": [
+          "CON EV VA SANT THE..."
+        ]
+      },
+      "back": {
+        "title": "Madonna, Angeli e Sante",
+        "artist": {
+          "name": "Tommaso de Vigilia"
+        },
+        "dimensions": [
+          {
+            "original": "cm. 320x224",
+            "cm": "320cm x 224cm",
+            "dimension_type": "canvas"
+          }
+        ],
+        "repository": {
+          "name": "Gall. Regionale della Sicilia",
+          "city": "Palermo",
+          "country": "IT"
+        },
+        "materials": "Fresco tf. on canvas"
+      },
+      "history": {
+        "provenance": [
+          "Detached fresco (1881) from the Cappella dell'Ordine dei Cavalieri Teutonici nel Casale Risalaimi near Marineo"
+        ],
+        "literature": [
+          "Bottari, Pitt. Quattrocento in Sicilia, fig. 87 p. 82"
+        ]
+      }
+    },
+    "photograph": {
+      "back": {
+        "photographer": {
+          "stamp": "PALERMO GABINETTO FOTOGRAFICO del Mus... Naz..."
+        }
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        "stamp: AMERICAN ACADEMY in ROME"
+      ]
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1598,
+    "total_tokens": 3370
+  },
+  "cost": 0.018195000000000003,
+  "status": "OK",
+  "request_time": 16.03
+}

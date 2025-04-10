@@ -1,0 +1,48 @@
+{
+  "id": "2707",
+  "barcode": "32044157067463",
+  "box_barcode": "32044114864226",
+  "recto_filename": "32044157067463_1.tif",
+  "verso_filename": "32044157067463_2.tif",
+  "work_id": "W00013125",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "back": {
+        "title": "Crucifixion with Franciscan Donor",
+        "artist": {
+          "name": "Oderisi (cd.)",
+          "listed": true
+        },
+        "repository": {
+          "name": "Sacristy S. Francesco",
+          "city": "EBOLI",
+          "state": "Salerno",
+          "country": "IT"
+        }
+      }
+    },
+    "photograph": {
+      "back": {
+        "photographer": {
+          "stamp": "R. SOPRINTENDENZA DELLA CAMPANIA GABINETTO FOTOGRAFICO"
+        },
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        "sticker: 136",
+        "sticker: 3"
+      ]
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1407,
+    "total_tokens": 3179
+  },
+  "cost": 0.016285,
+  "status": "OK",
+  "request_time": 12.5
+}

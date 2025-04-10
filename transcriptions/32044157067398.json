@@ -1,0 +1,65 @@
+{
+  "id": "2714",
+  "barcode": "32044157067398",
+  "box_barcode": "32044114864226",
+  "recto_filename": "32044157067398_1.tif",
+  "verso_filename": "32044157067398_2.tif",
+  "work_id": "W00013126",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "Madonna col Bambino",
+        "artist": "Scuola Senese",
+        "inscriptions": [
+          "MAT",
+          "ODERISIUM"
+        ],
+        "repository": {
+          "name": "Chiesa di S. Domenico Maggiore",
+          "city": "NAPOLI",
+          "country": "IT"
+        },
+        "full_text": "25239 NAPOLI Madonna col Bambino - Scuola Senese - Chiesa di S. Domenico Maggiore - Ripr. Int. Anderson - Roma"
+      },
+      "back": {
+        "title": "Lunette: \"Madonna of Humility & twelve Angels\"",
+        "artist": {
+          "name": "Roberto Oderisi",
+          "listed": true
+        },
+        "repository": {
+          "name": "S.Domenico Magg.",
+          "city": "NAPOLI"
+        }
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "name": "Anderson",
+          "identifier": "25239",
+          "anderson_id": "25239"
+        }
+      },
+      "back": {
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "front": "25239 NAPOLI Madonna col Bambino - Scuola Senese - Chiesa di S. Domenico Maggiore - Ripr. Int. Anderson - Roma",
+      "back": [
+        "R. Oderisi S. Dom.",
+        "5"
+      ]
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1266,
+    "total_tokens": 3038
+  },
+  "cost": 0.014875,
+  "status": "OK",
+  "request_time": 11.78
+}

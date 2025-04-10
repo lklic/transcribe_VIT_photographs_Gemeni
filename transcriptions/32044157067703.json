@@ -1,0 +1,64 @@
+{
+  "id": "2728",
+  "barcode": "32044157067703",
+  "box_barcode": "32044114864226",
+  "recto_filename": "32044157067703_1.tif",
+  "verso_filename": "32044157067703_2.tif",
+  "work_id": "W00013129",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "S. Caterina, testa affresco nella chiesa SS. Trinità - Venosa",
+        "repository": {
+          "name": "chiesa SS. Trinità",
+          "city": "Venosa",
+          "country": "IT"
+        },
+        "materials_technique": "affresco",
+        "full_text": "9444 S. Caterina, testa affresco nella chiesa SS. Trinità - Venosa"
+      },
+      "back": {
+        "title": "Fresco: \"St Catherine & Pietà\" (detail)",
+        "artist": {
+          "name": "Roberto Oderisi",
+          "listed": true
+        },
+        "repository": {
+          "name": "SS. Trinità",
+          "city": "VENOSA",
+          "country": "IT"
+        },
+        "materials": "Fresco"
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "identifier": "9444"
+        }
+      },
+      "back": {
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        {
+          "annotation": "echo of Arch Br. (?)"
+        },
+        {
+          "annotation": "(Mezz)"
+        }
+      ]
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1315,
+    "total_tokens": 3087
+  },
+  "cost": 0.015365,
+  "status": "OK",
+  "request_time": 14.13
+}

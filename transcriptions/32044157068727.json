@@ -1,0 +1,20 @@
+{
+  "id": "2791",
+  "barcode": "32044157068727",
+  "box_barcode": "32044114864234",
+  "recto_filename": "32044157068727_1.tif",
+  "verso_filename": "32044157068727_2.tif",
+  "work_id": "",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "raw_response": "ny\n```json\n{\n  \"artwork\": {\n    \"front\": {\n      \"title\": \"La Madonna col Bambino Gesù in Trono e Santi.\",\n      \"artist\": \"Tommaso Vigilia\",\n      \"date\": \"1486\",\n      \"inscriptions\": [\n        \"THOMAVS DEVIGILIA PANORMITA PINXIT MCCCLXXXXVI\"\n      ],\n      \"repository\": {\n        \"name\": \"Museo Nazionale\",\n        \"city\": \"PALERMO\"\n      },\n      \"full_text\": \"(Ed. Alinari) N. 33073. PALERMO - Museo Nazionale. La Madonna col Bambino Gesù in Trono e Santi. (Tommaso Vigilia).\"\n    },\n    \"back\": {\n      \"title\": \"altarpiece : Virgin with SS. Christopher, Joseph Agatha, Lucy, Calogerus and Dominic\",\n      \"artist\": {\n        \"name\": \"Tommaso de Vigilia di Palermo\",\n        \"listed\": false,\n        \"additional_annotations\": [\n          {\n            \"signed_and_dated\": \"Sd a. d. 1486\"\n          }\n        ]\n      },\n      \"date\": \"1486\",\n      \"dimensions\": [\n        {\n          \"original\": \"Central Panel cm.148.5x89\",\n          \"cm\": \"148.5cm x 89cm\",\n          \"dimension_type\": \"Central Panel\"\n        },\n        {\n          \"original\": \"laterals cm.148.5x41\",\n          \"cm\": \"148.5cm x 41cm\",\n          \"dimension_type\": \"laterals\"\n        }\n      ],\n      \"repository\": {\n        \"name\": \"Museo Naz.\",\n        \"city\": \"PALERMO\",\n        \"country\": \"IT\",\n        \"identifier\": \"No. 35\"\n      }\n    },\n    \"history\": {\n      \"provenance\": [\n        \"church in Sciacca\",\n        \"Collection of Duca della Verdura\"\n      ],\n      \"literature\": [\n        \"s. Bottari, Pitt. Quattrocento in Sicilia, figs. 85-86, p. 81\"\n      ]\n    }\n  },\n  \"photograph\": {\n    \"front\": {\n      \"photographer\": {\n        \"name\": \"Alinari\",\n        \"alinari_id\": \"33073\"\n      }\n    },\n    \"back\": {}\n  },\n  \"additional_annotations\": {\n    \"front\": \"(Ed. Alinari) N. 33073. PALERMO - Museo Nazionale. La Madonna col Bambino Gesù in Trono e Santi. (Tommaso Vigilia).\",\n    \"back\": [\n      {\n        \"inscription_transcription\": \"THOMAVS. DE. VIGILIA. PANORMITA. PINXIT. MCCCC.L.XXX.VI\"\n      },\n      {\n        \"stamp\": \"FOTOTECA MARIAN AND GEORGE KAFTAL\"\n      }\n    ]\n  }\n}\n```"
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1910,
+    "total_tokens": 3682
+  },
+  "cost": 0.021315,
+  "status": "OK",
+  "request_time": 18.2
+}

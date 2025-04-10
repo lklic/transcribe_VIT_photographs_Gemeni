@@ -1,0 +1,50 @@
+{
+  "id": "2705",
+  "barcode": "32044157067562",
+  "box_barcode": "32044114864226",
+  "recto_filename": "32044157067562_1.tif",
+  "verso_filename": "32044157067562_2.tif",
+  "work_id": "W00013123",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "back": {
+        "title": "Madonna",
+        "artist": {
+          "name": "Roberto Oderisi"
+        },
+        "date": "c. 1340",
+        "repository": {
+          "name": "Lee of Fareham Collection",
+          "city": "AVENING",
+          "country": "GB",
+          "identifier": "No. 22"
+        }
+      }
+    },
+    "photograph": {
+      "back": {
+        "photographer": {
+          "name": "WILLIAM E. GRAY",
+          "stamp": "BY APPOINTMENT TO H.M. THE KING / WILLIAM E. GRAY, / 92, Queen's Rd. Bayswater, W / Fine Art Photographer."
+        },
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        {
+          "sticker_number": "1"
+        }
+      ]
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1221,
+    "total_tokens": 2993
+  },
+  "cost": 0.014425,
+  "status": "OK",
+  "request_time": 12.74
+}

@@ -1,0 +1,20 @@
+{
+  "id": "2737",
+  "barcode": "32044157067810",
+  "box_barcode": "32044114864226",
+  "recto_filename": "32044157067810_1.tif",
+  "verso_filename": "32044157067810_2.tif",
+  "work_id": "W00013162",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "raw_response": "ny\n```json\n{\n  \"artwork\": {\n    \"front\": {\n      \"title\": \"Trionfo della Religione e Sacramenti (Lato s.). - Chiesa dell' Incoronata Napoli\",\n      \"inscriptions\": [\n        \"[...]RIS IN DIGNITATE [...]\"\n      ],\n      \"repository\": {\n        \"name\": \"Chiesa dell' Incoronata\",\n        \"city\": \"Napoli\",\n        \"country\": \"IT\"\n      },\n      \"full_text\": \"11428. NAPOLI - Trionfo della Religione e Sacramenti (Lato s.). - Chiesa dell' Incoronata Napoli\"\n    },\n    \"back\": {\n      \"artist\": {\n        \"name\": \"Roberto Oderisi\",\n        \"listed\": true\n      },\n      \"date\": \"about 1360\",\n      \"repository\": {\n        \"name\": \"Incoronata\",\n        \"city\": \"NAPOLI\",\n        \"country\": \"IT\"\n      },\n      \"materials\": \"Fresco\"\n    }\n  },\n  \"photograph\": {\n    \"front\": {\n      \"photographer\": {\n        \"name\": \"Anderson\",\n        \"identifier\": \"11428\",\n        \"anderson_id\": \"11428\"\n      }\n    },\n    \"back\": {\n      \"yellow_dot\": true\n    }\n  },\n  \"additional_annotations\": {\n    \"back\": [\n      \"Active?\",\n      \"N.A\",\n      \"7\"\n    ]\n  }\n}\n```"
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1246,
+    "total_tokens": 3018
+  },
+  "cost": 0.014674999999999999,
+  "status": "OK",
+  "request_time": 14.9
+}

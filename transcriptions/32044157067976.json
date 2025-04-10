@@ -1,0 +1,63 @@
+{
+  "id": "2764",
+  "barcode": "32044157067976",
+  "box_barcode": "32044114864226",
+  "recto_filename": "32044157067976_1.tif",
+  "verso_filename": "32044157067976_2.tif",
+  "work_id": "W00013162",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "Decorazione nella Volta, dipinta dal R. Odorisio",
+        "artist": "R. Odorisio",
+        "repository": {
+          "name": "Chiesa dell' Incoronata",
+          "city": "Napoli",
+          "country": "IT"
+        },
+        "materials_technique": "Fresco",
+        "full_text": "8532 Decorazione nella Volta, dipinta dal R. Odorisio - Chiesa dell' Incoronata Napoli .26"
+      },
+      "back": {
+        "artist": {
+          "name": "Roberto Oderisi",
+          "listed": true
+        },
+        "date": "about 1360",
+        "repository": {
+          "name": "Incoronata",
+          "city": "NAPOLI",
+          "country": "IT"
+        },
+        "materials": "Fresco"
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "identifier": "8532 .26"
+        }
+      },
+      "back": {
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "front": "8532 Decorazione nella Volta, dipinta dal R. Odorisio - Chiesa dell' Incoronata Napoli .26",
+      "back": [
+        {
+          "location_confirmation": "Incoronata NAPOLI"
+        }
+      ]
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1718,
+    "total_tokens": 3490
+  },
+  "cost": 0.019395000000000003,
+  "status": "OK",
+  "request_time": 16.35
+}

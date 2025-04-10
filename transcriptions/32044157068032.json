@@ -1,0 +1,57 @@
+{
+  "id": "2744",
+  "barcode": "32044157068032",
+  "box_barcode": "32044114864226",
+  "recto_filename": "32044157068032_1.tif",
+  "verso_filename": "32044157068032_2.tif",
+  "work_id": "W00013162",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "Lo sposalizio",
+        "artist": "R. de Oderisio",
+        "repository": {
+          "name": "Chiesa dell' Incoronata",
+          "city": "NAPOLI",
+          "country": "IT"
+        },
+        "full_text": "25485 NAPOLI Chiesa dell' Incoronata R. de Oderisio Lo sposalizio"
+      },
+      "back": {
+        "title": "\"Marriage\"",
+        "artist": {
+          "name": "Oderisi",
+          "listed": false
+        },
+        "repository": {
+          "name": "Incoronata",
+          "city": "NAPLES",
+          "country": "IT"
+        }
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "identifier": "25485"
+        }
+      }
+    },
+    "additional_annotations": {
+      "front": "25485 NAPOLI Chiesa dell' Incoronata R. de Oderisio Lo sposalizio",
+      "back": [
+        "133",
+        "9"
+      ]
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 907,
+    "total_tokens": 2679
+  },
+  "cost": 0.011285,
+  "status": "OK",
+  "request_time": 10.8
+}

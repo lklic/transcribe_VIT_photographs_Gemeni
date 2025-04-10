@@ -1,0 +1,51 @@
+{
+  "id": "2717",
+  "barcode": "32044157067588",
+  "box_barcode": "32044114864226",
+  "recto_filename": "32044157067588_1.tif",
+  "verso_filename": "32044157067588_2.tif",
+  "work_id": "W00013128",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "back": {
+        "title": "Annunciation",
+        "artist": {
+          "name": "Roberto Oderisi (?)",
+          "listed": true,
+          "additional_annotations": [
+            "Period: (E.)"
+          ]
+        },
+        "repository": {
+          "name": "S. Lorenzo",
+          "city": "NAPOLI",
+          "country": "IT"
+        },
+        "materials": "Fresco"
+      }
+    },
+    "photograph": {
+      "back": {
+        "photographer": {
+          "stamp": "R. SOPRAINTENDENZA ALL'ARTE MEDIOEVALE MODERNA DELLA CAMPANIA GABINETTO FOTOGRAFICO"
+        },
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        "Location detail: (parete finestra - scena Superiore)",
+        "Mention: Mostra di Giovanni Barile"
+      ]
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1751,
+    "total_tokens": 3523
+  },
+  "cost": 0.019725,
+  "status": "OK",
+  "request_time": 17.27
+}

@@ -1,0 +1,60 @@
+{
+  "id": "2715",
+  "barcode": "32044157067489",
+  "box_barcode": "32044114864226",
+  "recto_filename": "32044157067489_1.tif",
+  "verso_filename": "32044157067489_2.tif",
+  "work_id": "W00013128",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "back": {
+        "title": "Marriage of the Virgin",
+        "artist": {
+          "name": "Roberto Oderisi (?) (E.)",
+          "listed": true
+        },
+        "repository": {
+          "name": "S. Lorenzo",
+          "city": "NAPOLI",
+          "country": "IT"
+        },
+        "materials": "Fresco"
+      },
+      "history": {
+        "attribution": [
+          "Maestro di Giovanni Barrile (Antonio Cavarretto?)"
+        ]
+      }
+    },
+    "photograph": {
+      "back": {
+        "photographer": {
+          "stamp": "R. SOPRAINTENDENZA ALL'ARTE MEDIOEVALE MODERNA DELLA CAMPANIA GABINETTO FOTOGRAFICO"
+        },
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        {
+          "faint_text_top": "S. Lorenzo maggiore, Napoli?"
+        },
+        {
+          "location_annotation": "(parete destra - scena superiore)"
+        },
+        {
+          "faint_text_middle": "Listed - Roberto Oderisco"
+        }
+      ]
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1510,
+    "total_tokens": 3282
+  },
+  "cost": 0.017315,
+  "status": "OK",
+  "request_time": 13.1
+}

@@ -1,0 +1,47 @@
+{
+  "id": "2720",
+  "barcode": "32044157067497",
+  "box_barcode": "32044114864226",
+  "recto_filename": "32044157067497_1.tif",
+  "verso_filename": "32044157067497_2.tif",
+  "work_id": "W00013128",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "back": {
+        "title": "Marriage of the Virgin",
+        "artist": {
+          "name": "Roberto Oderisi (?) (E.?)",
+          "listed": true,
+          "additional_annotations": [
+            "Attribution: Maestro di Giovanni Barrile"
+          ]
+        },
+        "repository": {
+          "name": "S. Lorenzo",
+          "city": "NAPOLI",
+          "country": "IT"
+        }
+      }
+    },
+    "photograph": {
+      "back": {
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        "Initial Annotation: Roberto Oderisi (?) E.",
+        "Number: C. 1588"
+      ]
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 1009,
+    "total_tokens": 2781
+  },
+  "cost": 0.012304999999999998,
+  "status": "OK",
+  "request_time": 10.79
+}

@@ -1,0 +1,53 @@
+{
+  "id": "2755",
+  "barcode": "32044157067950",
+  "box_barcode": "32044114864226",
+  "recto_filename": "32044157067950_1.tif",
+  "verso_filename": "32044157067950_2.tif",
+  "work_id": "",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "Chiesa dell'Incoronata. Affresco",
+        "artist": "R. de Oderisiis",
+        "repository": {
+          "name": "Chiesa dell'Incoronata",
+          "city": "NAPOLI",
+          "country": "IT"
+        },
+        "materials_technique": "Affresco",
+        "full_text": "11899 NAPOLI — Chiesa dell'Incoronata. Affresco di R. de Oderisiis — Sommer e Napoli"
+      },
+      "back": {
+        "artist": {
+          "name": "R Oderisi",
+          "listed": true
+        },
+        "repository": {
+          "name": "Incoronata",
+          "city": "NAPOLI"
+        }
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "name": "Sommer e Napoli",
+          "identifier": "11899"
+        }
+      }
+    },
+    "additional_annotations": {
+      "front": "11899 NAPOLI — Chiesa dell'Incoronata. Affresco di R. de Oderisiis — Sommer e Napoli"
+    }
+  },
+  "usage": {
+    "input_tokens": 1772,
+    "output_tokens": 816,
+    "total_tokens": 2588
+  },
+  "cost": 0.010375,
+  "status": "OK",
+  "request_time": 9.94
+}
