@@ -1,6 +1,8 @@
 # Digiteca Image Transcription with Gemini
 
-This project contains a Python script (`process_digiteca_gemini_full.py`) designed to process pairs of historical artwork photographs using the Google Gemini API for transcription. It reads image information from a CSV file, fetches corresponding local image files, sends them to the Gemini API with a specific prompt, and saves the structured JSON transcription results.
+##(View the results here)[https://lklic.github.io/transcribe_VIT_photographs_Gemeni/digiteca-viewer/]
+
+This project contains a Python script (`process_digiteca.py`) designed to process pairs of historical artwork photographs using the Google Gemini API for transcription. It reads image information from a CSV file, fetches corresponding local image files, sends them to the Gemini API with a specific prompt, and saves the structured JSON transcription results.
 
 ## Prerequisites
 
