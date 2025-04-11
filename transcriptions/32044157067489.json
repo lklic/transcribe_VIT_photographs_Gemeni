@@ -8,53 +8,96 @@
   "model": "gemini-2.5-pro-preview-03-25",
   "annotations": {
     "artwork": {
+      "front": {
+        "title": "",
+        "artist": "",
+        "date": "",
+        "inscriptions": [],
+        "repository": {
+          "name": "",
+          "city": "",
+          "state": "",
+          "country": "",
+          "identifier": ""
+        },
+        "materials_technique": "",
+        "full_text": ""
+      },
       "back": {
         "title": "Marriage of the Virgin",
+        "title_qualifier": "",
+        "additional_titles": [],
         "artist": {
-          "name": "Roberto Oderisi (?) (E.)",
-          "listed": true
+          "name": "Roberto Oderisi (?)(E.)",
+          "listed": true,
+          "additional_annotations": []
         },
+        "date": "",
+        "date_qualifier": "",
+        "dimensions": [],
         "repository": {
           "name": "S. Lorenzo",
           "city": "NAPOLI",
-          "country": "IT"
+          "state": "",
+          "country": "IT",
+          "identifier": "",
+          "stamp": "R. SOPRAINTENDENZA ALL' ARTE MEDIOEVALE MODERNA DELLA CAMPANIA GABINETTO FOTOGRAFICO",
+          "gift": false,
+          "gift_of": "",
+          "collection": "",
+          "location": "",
+          "ex": false
         },
         "materials": "Fresco"
       },
+      "identifiers": {
+        "kress": ""
+      },
       "history": {
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
         "attribution": [
-          "Maestro di Giovanni Barrile (Antonio Cavarretto?)"
+          "Roberto Oderisi (?)(E.)",
+          "Maestro di Giovanni Barrile (Antonio Cavaretti?)"
         ]
       }
     },
     "photograph": {
+      "front": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        }
+      },
       "back": {
         "photographer": {
-          "stamp": "R. SOPRAINTENDENZA ALL'ARTE MEDIOEVALE MODERNA DELLA CAMPANIA GABINETTO FOTOGRAFICO"
+          "name": "",
+          "identifier": "",
+          "stamp": "",
+          "alinari_id": "",
+          "anderson_id": ""
         },
         "yellow_dot": true
       }
     },
     "additional_annotations": {
+      "front": "",
       "back": [
-        {
-          "faint_text_top": "S. Lorenzo maggiore, Napoli?"
-        },
-        {
-          "location_annotation": "(parete destra - scena superiore)"
-        },
-        {
-          "faint_text_middle": "Listed - Roberto Oderisco"
-        }
+        "Faint top annotation: [...] Napoli [erased]",
+        "Location within site: (parete destra - scena superiore)"
       ]
     }
   },
   "usage": {
-    "input_tokens": 1772,
-    "output_tokens": 1510,
-    "total_tokens": 3282
+    "input_tokens": 2899,
+    "output_tokens": 2319,
+    "total_tokens": 5218
   },
-  "cost": 0.017315,
-  "status": "OK",
-  "request_time": 13.1
+  "cost": 0.026813749999999997,
+  "status": "OK_Validated",
+  "request_time": 21.12
 }

@@ -1,0 +1,84 @@
+{
+  "artwork": {
+    "front": {
+      "title": "",
+      "artist": "",
+      "date": "",
+      "inscriptions": [],
+      "repository": {
+        "name": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "identifier": ""
+      },
+      "materials_technique": "",
+      "full_text": ""
+    },
+    "back": {
+      "title": "",
+      "additional_titles": [],
+      "artist": {
+        "name": "",
+        "listed": false,
+        "additional_annotations": []
+      },
+      "date": "",
+      "dimensions": [
+        {
+          "original": "",
+          "cm": "",
+          "dimension_type": ""
+        }
+      ],
+      "repository": {
+        "name": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "identifier": "",
+        "stamp": "",
+        "gift": false,
+        "gift_of": "",
+        "collection": "",
+        "location": "",
+        "ex": false
+      },
+      "materials": ""
+    },
+    "identifiers": {
+      "kress": ""
+    },
+    "history": {
+      "exhibitions": [],
+      "provenance": [],
+      "literature": [],
+      "loans": [],
+      "attribution": []
+    }
+  },
+  "photograph": {
+    "front": {
+      "photographer": {
+        "name": "",
+        "identifier": "",
+        "alinari_id": "",
+        "anderson_id": ""
+      }
+    },
+    "back": {
+      "photographer": {
+        "name": "",
+        "identifier": "",
+        "stamp": "",
+        "alinari_id": "",
+        "anderson_id": ""
+      },
+      "yellow_dot": false
+    }
+  },
+  "additional_annotations": {
+    "front": "",
+    "back": []
+  }
+}

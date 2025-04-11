@@ -11,47 +11,91 @@
       "front": {
         "title": "Lo sposalizio",
         "artist": "R. de Oderisio",
+        "date": "",
+        "inscriptions": [],
         "repository": {
           "name": "Chiesa dell' Incoronata",
           "city": "NAPOLI",
-          "country": "IT"
+          "state": "",
+          "country": "IT",
+          "identifier": ""
         },
-        "full_text": "25485 NAPOLI Chiesa dell' Incoronata R. de Oderisio Lo sposalizio"
+        "materials_technique": "",
+        "full_text": "23485 NAPOLI Chiesa dell' Incoronata R. de Oderisio Lo sposalizio"
       },
       "back": {
         "title": "\"Marriage\"",
+        "title_qualifier": "",
+        "additional_titles": [],
         "artist": {
           "name": "Oderisi",
-          "listed": false
+          "listed": false,
+          "additional_annotations": []
         },
+        "date": "",
+        "date_qualifier": "",
+        "dimensions": [],
         "repository": {
           "name": "Incoronata",
           "city": "NAPLES",
-          "country": "IT"
-        }
+          "state": "",
+          "country": "IT",
+          "identifier": "",
+          "stamp": "",
+          "gift": false,
+          "gift_of": "",
+          "collection": "",
+          "location": "",
+          "ex": false
+        },
+        "materials": ""
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
+        "attribution": []
       }
     },
     "photograph": {
       "front": {
         "photographer": {
-          "identifier": "25485"
+          "name": "Anderson",
+          "identifier": "23485",
+          "alinari_id": "",
+          "anderson_id": "23485"
         }
+      },
+      "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
+        "yellow_dot": false
       }
     },
     "additional_annotations": {
-      "front": "25485 NAPOLI Chiesa dell' Incoronata R. de Oderisio Lo sposalizio",
+      "front": "NAPOLI Chiesa dell' Incoronata R. de Oderisio Lo sposalizio",
       "back": [
-        "133",
-        "9"
+        "Sticker: 133",
+        "Number: 9",
+        "Faint text: Pecor[?] III [erased]"
       ]
     }
   },
   "usage": {
-    "input_tokens": 1772,
-    "output_tokens": 907,
-    "total_tokens": 2679
+    "input_tokens": 2899,
+    "output_tokens": 1856,
+    "total_tokens": 4755
   },
-  "cost": 0.011285,
-  "status": "OK",
-  "request_time": 10.8
+  "cost": 0.022183750000000002,
+  "status": "OK_Validated",
+  "request_time": 18.39
 }

@@ -9,28 +9,56 @@
   "annotations": {
     "artwork": {
       "front": {
+        "title": "Chiesa dell' Incoronata",
         "artist": "R. de Oderisio",
+        "date": "",
+        "inscriptions": [],
         "repository": {
           "name": "Chiesa dell' Incoronata",
           "city": "NAPOLI",
-          "country": "IT"
+          "state": "",
+          "country": "IT",
+          "identifier": ""
         },
         "materials_technique": "Affresco",
         "full_text": "25490 NAPOLI - Chiesa dell' Incoronata - R. de Oderisio - Affresco - Ripr. Int. - Anderson - Roma"
       },
       "back": {
         "title": "Joachim's Expulsion from Temple",
+        "title_qualifier": "",
+        "additional_titles": [],
         "artist": {
           "name": "Roberto Oderisi",
-          "listed": true
+          "listed": true,
+          "additional_annotations": []
         },
-        "date": "about 1360",
+        "date": "1360",
+        "date_qualifier": "about",
+        "dimensions": [],
         "repository": {
           "name": "Incoronata",
           "city": "NAPOLI",
-          "country": "IT"
+          "state": "",
+          "country": "IT",
+          "identifier": "",
+          "stamp": "",
+          "gift": false,
+          "gift_of": "",
+          "collection": "",
+          "location": "",
+          "ex": false
         },
         "materials": "Fresco"
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
+        "attribution": []
       }
     },
     "photograph": {
@@ -38,27 +66,34 @@
         "photographer": {
           "name": "Anderson",
           "identifier": "25490",
+          "alinari_id": "",
           "anderson_id": "25490"
         }
       },
       "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
         "yellow_dot": true
       }
     },
     "additional_annotations": {
-      "front": "25490 NAPOLI - Chiesa dell' Incoronata - R. de Oderisio - Affresco - Ripr. Int. - Anderson - Roma",
+      "front": "NAPOLI - Chiesa dell' Incoronata - R. de Oderisio - Affresco - Ripr. Int. - Roma",
       "back": [
-        "p",
-        "D"
+        "Initial: p"
       ]
     }
   },
   "usage": {
-    "input_tokens": 1772,
-    "output_tokens": 1714,
-    "total_tokens": 3486
+    "input_tokens": 2899,
+    "output_tokens": 2898,
+    "total_tokens": 5797
   },
-  "cost": 0.019354999999999997,
-  "status": "OK",
-  "request_time": 14.9
+  "cost": 0.03260375,
+  "status": "OK_Validated",
+  "request_time": 23.05
 }

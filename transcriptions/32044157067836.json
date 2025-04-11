@@ -11,46 +11,90 @@
       "front": {
         "title": "Dettaglio del Sacramento del Matrimonio",
         "artist": "R. Odorisio",
+        "date": "",
+        "inscriptions": [],
         "repository": {
-          "name": "Chiesa dell' Incoronata"
+          "name": "Chiesa dell' Incoronata",
+          "city": "Napoli",
+          "state": "",
+          "country": "IT",
+          "identifier": ""
         },
+        "materials_technique": "pittura",
         "full_text": "923 Dettaglio del Sacramento del Matrimonio, pittura di R. Odorisio Chiesa dell' Incoronata"
       },
       "back": {
-        "title": "Fresco: \"Marriage\" (detail)",
+        "title": "Marriage",
+        "title_qualifier": "(detail)",
+        "additional_titles": [],
         "artist": {
           "name": "Roberto Oderisi",
-          "listed": true
+          "listed": true,
+          "additional_annotations": []
         },
         "date": "1360",
+        "date_qualifier": "about",
+        "dimensions": [],
         "repository": {
           "name": "Incoronata",
           "city": "NAPOLI",
-          "country": "IT"
+          "state": "",
+          "country": "IT",
+          "identifier": "",
+          "stamp": "",
+          "gift": false,
+          "gift_of": "",
+          "collection": "",
+          "location": "",
+          "ex": false
         },
         "materials": "Fresco"
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
+        "attribution": []
       }
     },
     "photograph": {
       "front": {
         "photographer": {
-          "identifier": "923"
+          "name": "",
+          "identifier": "923",
+          "alinari_id": "",
+          "anderson_id": ""
         }
       },
       "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
         "yellow_dot": true
       }
     },
     "additional_annotations": {
-      "front": "923 Dettaglio del Sacramento del Matrimonio, pittura di R. Odorisio Chiesa dell' Incoronata"
+      "front": "923 Dettaglio del Sacramento del Matrimonio, pittura di R. Odorisio Chiesa dell' Incoronata",
+      "back": [
+        "Incoronata",
+        "NAPOLI"
+      ]
     }
   },
   "usage": {
-    "input_tokens": 1772,
-    "output_tokens": 1143,
-    "total_tokens": 2915
+    "input_tokens": 2899,
+    "output_tokens": 1452,
+    "total_tokens": 4351
   },
-  "cost": 0.013645,
-  "status": "OK",
-  "request_time": 11.92
+  "cost": 0.01814375,
+  "status": "OK_Validated",
+  "request_time": 14.13
 }

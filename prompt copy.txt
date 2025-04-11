@@ -9,6 +9,7 @@ KEY RULES:
 - Convert inches to cm (1 inch = 2.54cm)
 - If there is a question mark next to text this refers to uncertainty. Please keep this as part of the transcription
 - History entries as listed in order
+- If text has been erased, mark it with "(erased)" at the end of the transcription 
 
 
 
@@ -53,10 +54,13 @@ OUTPUT STRUCTURE (only include populated fields):
         "country": "", // country location as ISO 3166, two letters, can be interpreted
         "identifier": "", // near repository info in the bottom right
         "stamp": "", // Any repository-related stamps
-        "gift": false, // True If listed as a gift, 
+        "gift": false, // True If listed as a gift
+        "gift_of": "", // name of person or collection
+        "collection": "", // name of collection within the repository
+        "location": "", // location within the repository        
         "ex": false, // True. The text "ex" will be next to the repository name
       },
-      "materials": "" // Technical details about materials used
+      "materials": "" // materials or technique used
     },
     "identifiers": {
       "kress": "" // For artworks part of a Kress collection, must start with "K"

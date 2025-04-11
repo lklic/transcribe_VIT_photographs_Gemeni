@@ -1,0 +1,86 @@
+{
+  "artwork": {
+    "front": {
+      "title": "", // Transcribe printed text, typically in Italian, often the main title.
+      "artist": "", // Transcribe the artist's name exactly as written on the front.
+      "date": "", // Transcribe the production date. Format: YYYY or YYYY-YYYY. Should be pre-1800.
+      "inscriptions": [], // Transcribe any text visible *within* the artwork image itself (e.g., text on a scroll in a painting). List each as a string in the array.
+      "repository": {
+        "name": "", // Transcribe the name of the institution holding the artwork (e.g., museum, gallery) found on the front.
+        "city": "", // Transcribe the city where the repository is located, found on the front.
+        "state": "", // Transcribe the state/region, found on the front.
+        "country": "", // Transcribe or interpret the country location as a two-letter ISO 3166 code (e.g., "IT", "GB", "FR"), based on front info.
+        "identifier": "" // Transcribe the inventory or catalog number assigned by the repository, found on the front.
+      },
+      "materials_technique": "", // Transcribe the description of materials and technique (e.g., "oil on canvas", "pen and ink", "marble sculpture"), found on the front.
+      "full_text": "" // Concatenate all transcribed text from the front of the photograph *outside* the artwork area itself.
+    },
+    "back": {
+      "title": "", // Transcribe the main title found on the back, generally in English.
+      "title_qualifier": "", // qualifier terms for the title such as "detail" or other.
+      "additional_titles": [], // Transcribe any other titles found on the back, listing each as a string.
+      "artist": {
+        "name": "", // Transcribe the artist's name exactly as written on the back.
+        "listed": false, // Set to true ONLY if the artist name or artwork title is explicitly preceded by the word "listed". Otherwise, false.
+        "additional_annotations": [] // Transcribe any other specific annotations directly related to the artist found on the back. Format as key-value strings, e.g., ["School: Venetian", "Follower of: Bellini"].
+      },
+      "date": "", // Transcribe the production date found on the back. Format: YYYY or YYYY-YYYY. Should be pre-1800.
+      "date_qualifier": "", // Dates will often be preceeded with a qualifier such as "C" to indicate circa
+      "dimensions": [ // Array containing dimension entries found on the back. Create one object per distinct dimension entry.
+        {
+          "original": "", // Transcribe the dimension text exactly as written (e.g., "110 x 85 cm", "43 1/4 x 33 1/2 in").
+          "cm": "", // Provide the dimension normalized to centimeters in the format "Xcm x Ycm". Perform conversion if original is in inches (1in = 2.54cm). Round to reasonable precision if needed (e.g., one decimal place).
+          "dimension_type": "" // Transcribe the type of dimension if specified (e.g., "canvas", "frame", "panel", "image area").
+        }
+      ],
+      "repository": {
+        "name": "", // Transcribe repository name from the back (often in bottom-right corner, may include city). Could be a museum, collection, or monument location.
+        "city": "", // Transcribe the city location from the back.
+        "state": "", // Transcribe the state/region from the back, normalize to 2-letter code if applicable (e.g., US states).
+        "country": "", // Transcribe or interpret the country location from the back as a two-letter ISO 3166 code.
+        "identifier": "", // Transcribe the inventory/catalog number found on the back (often near repository info).
+        "stamp": "", // Transcribe the full text of any repository-related stamps found on the back.
+        "gift": false, // Set to true if the text indicates the artwork was a gift to the repository (e.g., contains "Gift of...").
+        "gift_of": "", // name of person or collection
+        "collection": "", // name of collection within the repository
+        "location": "", // location within the repository   
+        "ex": false // Set to true if the repository name is preceded by "ex" or "ex collection".
+      },
+      "materials": "" // Transcribe technical details about materials found on the back (might differ from front).
+    },
+    "identifiers": {
+      "kress": "" // Transcribe the Kress collection identifier, if present. Must start with "K".
+    },
+    "history": {
+      "exhibitions": [], // Transcribe entries marked with "exh." or indicating exhibition history. List each as a string.
+      "provenance": [], // Transcribe entries marked with "prov." or indicating ownership history/acquisition. List each as a string.
+      "literature": [], // Transcribe entries marked with "lit.", "bib.", or indicating bibliography/literature references. List each as a string.
+      "loans": [], // Transcribe entries marked with "loan" or indicating loan history. List each as a string.
+      "attribution": [] // Transcribe entries discussing attribution history, often marked with "attr.". List each as a string.
+    }
+  },
+  "photograph": {
+    "front": {
+      "photographer": {
+        "name": "", // Transcribe the photographer's name found on the front (e.g., Anderson, Alinari).
+        "identifier": "", // Transcribe any identifier number printed next to the photographer's name on the front. Do not confuse with repository identifiers.
+        "alinari_id": "", // If Alinari photo, extract only the number X from "Ed. Alinari no. X" found on the front.
+        "anderson_id": "" // If Anderson photo, extract only the number from the identifier found on the front (may also be labeled A.C. Cooper).
+      }
+    },
+    "back": {
+      "photographer": {
+        "name": "", // Transcribe photographer's name found on the back (might be in a stamp).
+        "identifier": "", // Transcribe any photographer-assigned number found on the back, often near a stamp.
+        "stamp": "", // Transcribe the full text of any photographer's stamp found on the back (likely contains "photo", "photographer", "fotografo", etc.).
+        "alinari_id": "", // If Alinari photo, extract only the number X from "Ed. Alinari no. X" found on the back.
+        "anderson_id": "" // If Anderson photo, extract only the number from the identifier found on the back.
+      },
+      "yellow_dot": false // Set to true if a distinct yellow dot/sticker is present on the back.
+    }
+  },
+  "additional_annotations": {
+    "front": "", // Provide a full transcription of ALL text present on the front of the photograph, excluding text *within* the artwork image itself, photographer name/ID, and ignored stamps/barcodes. (This overlaps with other fields but serves as a catch-all).
+    "back": [] // Transcribe any other annotations or text fragments from the back that do not fit neatly into the specific fields above. Format each distinct piece of information as a key-value string, e.g., ["Condition note: Tear in upper left", "Reference: Smith 1982, p. 45"]. Use descriptive keys.
+  }
+}

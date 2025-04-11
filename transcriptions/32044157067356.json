@@ -8,39 +8,92 @@
   "model": "gemini-2.5-pro-preview-03-25",
   "annotations": {
     "artwork": {
+      "front": {
+        "title": "",
+        "artist": "",
+        "date": "",
+        "inscriptions": [],
+        "repository": {
+          "name": "",
+          "city": "",
+          "state": "",
+          "country": "",
+          "identifier": ""
+        },
+        "materials_technique": "",
+        "full_text": ""
+      },
       "back": {
         "title": "Pietà with Symbols of the Passion",
+        "title_qualifier": "",
+        "additional_titles": [],
         "artist": {
           "name": "R. Oderisi",
-          "listed": true
+          "listed": true,
+          "additional_annotations": []
         },
+        "date": "",
+        "date_qualifier": "",
+        "dimensions": [],
         "repository": {
           "name": "Fogg Art Museum",
           "city": "CAMBRIDGE",
           "state": "MA",
           "country": "US",
-          "gift": true
-        }
+          "identifier": "",
+          "stamp": "",
+          "gift": true,
+          "gift_of": "G. L. Winthrop Bequest 1943",
+          "collection": "",
+          "location": "",
+          "ex": false
+        },
+        "materials": ""
+      },
+      "identifiers": {
+        "kress": ""
       },
       "history": {
+        "exhibitions": [],
         "provenance": [
-          "S. Clemente / vendutale supp di Mich.",
-          "G.L. Winthrop Bequest 1943"
-        ]
+          "S. Clemente vendutala supp da Misbeh"
+        ],
+        "literature": [],
+        "loans": [],
+        "attribution": []
       }
     },
     "photograph": {
+      "front": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        }
+      },
       "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
         "yellow_dot": false
       }
+    },
+    "additional_annotations": {
+      "front": "",
+      "back": []
     }
   },
   "usage": {
-    "input_tokens": 1772,
-    "output_tokens": 1465,
-    "total_tokens": 3237
+    "input_tokens": 2899,
+    "output_tokens": 2022,
+    "total_tokens": 4921
   },
-  "cost": 0.016864999999999998,
-  "status": "OK",
-  "request_time": 14.83
+  "cost": 0.023843749999999997,
+  "status": "OK_Validated",
+  "request_time": 19.19
 }

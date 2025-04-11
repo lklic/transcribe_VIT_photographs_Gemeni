@@ -9,45 +9,96 @@
   "annotations": {
     "artwork": {
       "front": {
-        "materials_technique": "Fresco"
+        "title": "",
+        "artist": "",
+        "date": "",
+        "inscriptions": [],
+        "repository": {
+          "name": "",
+          "city": "",
+          "state": "",
+          "country": "",
+          "identifier": ""
+        },
+        "materials_technique": "",
+        "full_text": ""
       },
       "back": {
-        "title": "Marriage of the Virgin & Birth of the Virgin",
+        "title": "Cappella absidale - affreschi - parete destra -",
+        "title_qualifier": "",
         "additional_titles": [
-          "Cappella absidale - affreschi - parete destra -"
+          "Frescoes: 'Marriage of the Virgin & Birth of the Virgin'"
         ],
         "artist": {
           "name": "Roberto Oderisi (?) (L.E.)",
           "listed": true,
           "additional_annotations": [
-            "alternative_attribution: Maestro di Giovanni Barile"
+            "Maestro di Giovanni Barile"
           ]
         },
+        "date": "",
+        "date_qualifier": "",
+        "dimensions": [],
         "repository": {
-          "name": "S. Lorenzo Maggiore",
-          "city": "Napoli",
-          "country": "IT"
+          "name": "S. Lorenzo",
+          "city": "NAPOLI",
+          "state": "",
+          "country": "IT",
+          "identifier": "",
+          "stamp": "",
+          "gift": false,
+          "gift_of": "",
+          "collection": "",
+          "location": "Cappella absidale - parete destra -",
+          "ex": false
         },
-        "materials": "Frescoes"
+        "materials": "affreschi"
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
+        "attribution": []
       }
     },
     "photograph": {
+      "front": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        }
+      },
       "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
         "yellow_dot": true
       }
     },
     "additional_annotations": {
+      "front": "",
       "back": [
-        "sticker_number: 22"
+        "Location Reference: S. Lorenzo Maggiore - Napoli - [erased]",
+        "Label Number: 22"
       ]
     }
   },
   "usage": {
-    "input_tokens": 1772,
-    "output_tokens": 1154,
-    "total_tokens": 2926
+    "input_tokens": 2899,
+    "output_tokens": 2051,
+    "total_tokens": 4950
   },
-  "cost": 0.013755000000000002,
-  "status": "OK",
-  "request_time": 11.71
+  "cost": 0.024133750000000002,
+  "status": "OK_Validated",
+  "request_time": 18.82
 }

@@ -11,27 +11,58 @@
       "front": {
         "title": "Madonna col Bambino",
         "artist": "Scuola Senese",
+        "date": "",
         "inscriptions": [
-          "MAT",
-          "ODIER"
+          "ΦΑΤ",
+          "ΟΜΙΚΟC"
         ],
         "repository": {
           "name": "Chiesa di S. Domenico Maggiore",
           "city": "NAPOLI",
-          "country": "IT"
+          "state": "",
+          "country": "IT",
+          "identifier": ""
         },
-        "full_text": "22220 NAPOLI Madonna col Bambino. Scuola Senese. Chiesa di S. Domenico Maggiore. Ripr. Int. - Anderson - Roma"
+        "materials_technique": "",
+        "full_text": "22239 NAPOLI - Madonna col Bambino - Scuola Senese - Chiesa di S. Domenico Maggiore - Ripr. Int. - Anderson - Roma"
       },
       "back": {
+        "title": "",
+        "title_qualifier": "",
+        "additional_titles": [],
+        "artist": {
+          "name": "",
+          "listed": false,
+          "additional_annotations": []
+        },
+        "date": "",
+        "date_qualifier": "",
+        "dimensions": [],
         "repository": {
           "name": "S. Domenico Magg.",
           "city": "NAPLES",
-          "country": "IT"
-        }
+          "state": "",
+          "country": "IT",
+          "identifier": "",
+          "stamp": "",
+          "gift": false,
+          "gift_of": "",
+          "collection": "",
+          "location": "",
+          "ex": false
+        },
+        "materials": ""
+      },
+      "identifiers": {
+        "kress": ""
       },
       "history": {
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
         "attribution": [
-          "ester Robert d'Anjou'",
+          "ester Robert Oderisi",
           "with Andrea Vanni"
         ]
       }
@@ -40,24 +71,33 @@
       "front": {
         "photographer": {
           "name": "Anderson",
-          "identifier": "22220",
-          "anderson_id": "22220"
+          "identifier": "22239",
+          "alinari_id": "",
+          "anderson_id": "22239"
         }
       },
       "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
         "yellow_dot": true
       }
     },
     "additional_annotations": {
-      "front": "22220 NAPOLI Madonna col Bambino. Scuola Senese. Chiesa di S. Domenico Maggiore. Ripr. Int. - Anderson - Roma"
+      "front": "22239 NAPOLI - Madonna col Bambino - Scuola Senese - Chiesa di S. Domenico Maggiore - Ripr. Int. - Roma",
+      "back": []
     }
   },
   "usage": {
-    "input_tokens": 1772,
-    "output_tokens": 1066,
-    "total_tokens": 2838
+    "input_tokens": 2899,
+    "output_tokens": 2265,
+    "total_tokens": 5164
   },
-  "cost": 0.012875000000000001,
-  "status": "OK",
-  "request_time": 11.63
+  "cost": 0.02627375,
+  "status": "OK_Validated",
+  "request_time": 20.41
 }

@@ -9,56 +9,91 @@
   "annotations": {
     "artwork": {
       "front": {
-        "title": "Affresco di R.o de Oderisio",
-        "artist": "R.o de Oderisio",
+        "title": "Chiesa dell'Incoronata. Affresco di R. de Oderisio",
+        "artist": "R. de Oderisio",
+        "date": "",
+        "inscriptions": [],
         "repository": {
           "name": "Chiesa dell'Incoronata",
           "city": "NAPOLI",
-          "country": "IT"
+          "state": "",
+          "country": "IT",
+          "identifier": ""
         },
         "materials_technique": "Affresco",
-        "full_text": "11891 NAPOLI — Chiesa dell'Incoronata Affresco di R.o de Oderisio (Foto Sommer)"
+        "full_text": "11891 NAPOLI — Chiesa dell'Incoronata. Affresco di R. de Oderisio Ediz. Sommer & Figli"
       },
       "back": {
         "title": "Marriage",
+        "title_qualifier": "",
         "additional_titles": [
           "Sacr. del Matrimonio"
         ],
         "artist": {
           "name": "Roberto Oderisi",
-          "listed": true
+          "listed": true,
+          "additional_annotations": []
         },
         "date": "1360",
+        "date_qualifier": "about",
+        "dimensions": [],
         "repository": {
           "name": "Incoronata",
           "city": "NAPOLI",
+          "state": "",
           "country": "IT",
-          "stamp": "BERNHARD BERENSON * FLORENCE * TATTI, SETTIGNANO - Incoronata NAPOLI"
+          "identifier": "",
+          "stamp": "",
+          "gift": false,
+          "gift_of": "",
+          "collection": "",
+          "location": "",
+          "ex": false
         },
         "materials": "Fresco"
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
+        "attribution": []
       }
     },
     "photograph": {
       "front": {
         "photographer": {
-          "name": "Sommer",
-          "identifier": "11891"
+          "name": "Ediz. Sommer & Figli",
+          "identifier": "11891",
+          "alinari_id": "",
+          "anderson_id": ""
         }
       },
       "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
         "yellow_dot": true
       }
     },
     "additional_annotations": {
-      "front": "11891 NAPOLI — Chiesa dell'Incoronata Affresco di R.o de Oderisio (Foto Sommer)"
+      "front": "11891 NAPOLI — Chiesa dell'Incoronata. Affresco di R. de Oderisio Ediz. Sommer & Figli",
+      "back": []
     }
   },
   "usage": {
-    "input_tokens": 1772,
-    "output_tokens": 1375,
-    "total_tokens": 3147
+    "input_tokens": 2899,
+    "output_tokens": 2130,
+    "total_tokens": 5029
   },
-  "cost": 0.015965,
-  "status": "OK",
-  "request_time": 12.59
+  "cost": 0.02492375,
+  "status": "OK_Validated",
+  "request_time": 19.27
 }

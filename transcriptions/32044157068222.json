@@ -9,60 +9,96 @@
   "annotations": {
     "artwork": {
       "front": {
+        "title": "Chiesa dell' Incoronata (Napoli)",
+        "artist": "",
+        "date": "",
         "inscriptions": [
-          "...GESU... CHRISTO... FILIUS... DI ... DEI... AMEN..."
+          "HOC OPUS [...] FECIT [...]",
+          "T DEO [...] GLORIA [...]"
         ],
         "repository": {
           "name": "Chiesa dell' Incoronata",
           "city": "Napoli",
-          "country": "IT"
+          "state": "",
+          "country": "IT",
+          "identifier": ""
         },
-        "full_text": "8590. MESSINA. Chiesa dell' Incoronata Napoli"
+        "materials_technique": "",
+        "full_text": "8500. MESSINA - Chiesa dell' Incoronata (Napoli)"
       },
       "back": {
+        "title": "Incoronata",
+        "title_qualifier": "",
+        "additional_titles": [
+          "NAPOLI"
+        ],
         "artist": {
           "name": "Roberto Oderisi",
-          "listed": true
+          "listed": true,
+          "additional_annotations": []
         },
         "date": "1360",
+        "date_qualifier": "about",
+        "dimensions": [],
         "repository": {
           "name": "Incoronata",
           "city": "NAPOLI",
-          "country": "IT"
+          "state": "",
+          "country": "IT",
+          "identifier": "",
+          "stamp": "",
+          "gift": false,
+          "gift_of": "",
+          "collection": "",
+          "location": "",
+          "ex": false
         },
         "materials": "Fresco"
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
+        "attribution": []
       }
     },
     "photograph": {
       "front": {
         "photographer": {
-          "name": "Alinari",
-          "identifier": "8590",
-          "alinari_id": "8590"
+          "name": "",
+          "identifier": "8500",
+          "alinari_id": "",
+          "anderson_id": ""
         }
       },
       "back": {
         "photographer": {
-          "name": "Alinari"
+          "name": "",
+          "identifier": "",
+          "stamp": "",
+          "alinari_id": "",
+          "anderson_id": ""
         },
         "yellow_dot": true
       }
     },
     "additional_annotations": {
-      "front": "8590. MESSINA. Chiesa dell' Incoronata Napoli",
+      "front": "8500. MESSINA - Chiesa dell' Incoronata (Napoli)",
       "back": [
-        {
-          "photographer_note": "Alinari 23"
-        }
+        "Internal Code: A11 23"
       ]
     }
   },
   "usage": {
-    "input_tokens": 1772,
-    "output_tokens": 2327,
-    "total_tokens": 4099
+    "input_tokens": 2899,
+    "output_tokens": 2428,
+    "total_tokens": 5327
   },
-  "cost": 0.025485,
-  "status": "OK",
-  "request_time": 20.56
+  "cost": 0.027903749999999998,
+  "status": "OK_Validated",
+  "request_time": 23.87
 }

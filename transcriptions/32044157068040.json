@@ -9,43 +9,89 @@
   "annotations": {
     "artwork": {
       "front": {
-        "title": "I Sacramenti",
-        "artist": "S. Roberto Oderisi",
+        "title": "Il Sacro Collegio Ordina S. Luigi Vescovo di Tolosa",
+        "artist": "",
+        "date": "",
+        "inscriptions": [],
         "repository": {
-          "name": "Chiesa dell' Incoronata",
+          "name": "Cattedrale di Napoli",
           "city": "Napoli",
-          "country": "IT"
+          "state": "",
+          "country": "IT",
+          "identifier": ""
         },
-        "full_text": "273. I Sacramenti. Napoli. Chiesa dell' Incoronata S. Roberto Oderisi."
+        "materials_technique": "",
+        "full_text": "293 - Napoli - Il Sacro Collegio Ordina S. Luigi Vescovo di Tolosa nella Cattedrale di Napoli"
       },
       "back": {
+        "title": "",
+        "title_qualifier": "",
+        "additional_titles": [],
         "artist": {
           "name": "Roberto Oderisi",
-          "listed": true
+          "listed": true,
+          "additional_annotations": []
         },
         "date": "1360",
+        "date_qualifier": "about",
+        "dimensions": [],
         "repository": {
-          "city": "NAPOLI",
-          "country": "IT"
+          "name": "Napoli",
+          "city": "Napoli",
+          "state": "",
+          "country": "IT",
+          "identifier": "",
+          "stamp": "",
+          "gift": false,
+          "gift_of": "",
+          "collection": "",
+          "location": "",
+          "ex": false
         },
         "materials": "Fresco"
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
+        "attribution": []
       }
     },
     "photograph": {
+      "front": {
+        "photographer": {
+          "name": "",
+          "identifier": "293",
+          "alinari_id": "",
+          "anderson_id": ""
+        }
+      },
       "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
         "yellow_dot": true
       }
     },
     "additional_annotations": {
-      "front": "273. I Sacramenti. Napoli. Chiesa dell' Incoronata S. Roberto Oderisi."
+      "front": "293 - Napoli - Il Sacro Collegio Ordina S. Luigi Vescovo di Tolosa nella Cattedrale di Napoli",
+      "back": []
     }
   },
   "usage": {
-    "input_tokens": 1772,
-    "output_tokens": 1394,
-    "total_tokens": 3166
+    "input_tokens": 2899,
+    "output_tokens": 3044,
+    "total_tokens": 5943
   },
-  "cost": 0.016155000000000003,
-  "status": "OK",
-  "request_time": 12.81
+  "cost": 0.03406375,
+  "status": "OK_Validated",
+  "request_time": 27.12
 }

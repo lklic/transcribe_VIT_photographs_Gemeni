@@ -8,44 +8,96 @@
   "model": "gemini-2.5-pro-preview-03-25",
   "annotations": {
     "artwork": {
+      "front": {
+        "title": "",
+        "artist": "",
+        "date": "",
+        "inscriptions": [],
+        "repository": {
+          "name": "",
+          "city": "",
+          "state": "",
+          "country": "",
+          "identifier": ""
+        },
+        "materials_technique": "",
+        "full_text": ""
+      },
       "back": {
         "title": "Painted Cross",
-        "additional_titles": [
-          "(detail)"
-        ],
+        "title_qualifier": "detail",
+        "additional_titles": [],
         "artist": {
           "name": "Roberto Oderisi",
           "listed": true,
-          "additional_annotations": [
-            "Nicolo di Tommaso"
-          ]
+          "additional_annotations": []
         },
+        "date": "",
+        "date_qualifier": "",
+        "dimensions": [],
         "repository": {
           "name": "Cappella della Disciplina della Croce",
           "city": "NAPOLI",
-          "country": "IT"
-        }
+          "state": "",
+          "country": "IT",
+          "identifier": "",
+          "stamp": "",
+          "gift": false,
+          "gift_of": "",
+          "collection": "",
+          "location": "",
+          "ex": false
+        },
+        "materials": ""
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
+        "attribution": [
+          "Nicolo di Tommaso"
+        ]
       }
     },
     "photograph": {
+      "front": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        }
+      },
       "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
         "yellow_dot": true
       }
     },
     "additional_annotations": {
+      "front": "",
       "back": [
-        "Roberto d'Ode[?] : ",
-        "Cappella della[?] : ",
-        "Discip[?] : "
+        "Faint text: Roberto d'Ode[risio] [erased]",
+        "Faint text: Cappella della Disciplina della Croce [erased]",
+        "Faint text: Napoli [erased]"
       ]
     }
   },
   "usage": {
-    "input_tokens": 1772,
-    "output_tokens": 980,
-    "total_tokens": 2752
+    "input_tokens": 2899,
+    "output_tokens": 2050,
+    "total_tokens": 4949
   },
-  "cost": 0.012015,
-  "status": "OK",
-  "request_time": 10.79
+  "cost": 0.02412375,
+  "status": "OK_Validated",
+  "request_time": 17.25
 }

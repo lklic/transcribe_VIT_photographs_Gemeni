@@ -7,14 +7,97 @@
   "work_id": "W00013162",
   "model": "gemini-2.5-pro-preview-03-25",
   "annotations": {
-    "raw_response": "ny\n```json\n{\n  \"artwork\": {\n    \"front\": {\n      \"title\": \"Trionfo della Religione e Sacramenti (Lato s.). - Chiesa dell' Incoronata Napoli\",\n      \"inscriptions\": [\n        \"[...]RIS IN DIGNITATE [...]\"\n      ],\n      \"repository\": {\n        \"name\": \"Chiesa dell' Incoronata\",\n        \"city\": \"Napoli\",\n        \"country\": \"IT\"\n      },\n      \"full_text\": \"11428. NAPOLI - Trionfo della Religione e Sacramenti (Lato s.). - Chiesa dell' Incoronata Napoli\"\n    },\n    \"back\": {\n      \"artist\": {\n        \"name\": \"Roberto Oderisi\",\n        \"listed\": true\n      },\n      \"date\": \"about 1360\",\n      \"repository\": {\n        \"name\": \"Incoronata\",\n        \"city\": \"NAPOLI\",\n        \"country\": \"IT\"\n      },\n      \"materials\": \"Fresco\"\n    }\n  },\n  \"photograph\": {\n    \"front\": {\n      \"photographer\": {\n        \"name\": \"Anderson\",\n        \"identifier\": \"11428\",\n        \"anderson_id\": \"11428\"\n      }\n    },\n    \"back\": {\n      \"yellow_dot\": true\n    }\n  },\n  \"additional_annotations\": {\n    \"back\": [\n      \"Active?\",\n      \"N.A\",\n      \"7\"\n    ]\n  }\n}\n```"
+    "artwork": {
+      "front": {
+        "title": "Mosaico trionfale alla Biblia di Faraone",
+        "artist": "R. Odorisio",
+        "date": "",
+        "inscriptions": [
+          "[...] M.CCC.LI.IN.DICTI S. [...]",
+          "[...]R.OBERTVS.SICV[...]"
+        ],
+        "repository": {
+          "name": "Chiesa dell' Incoronata",
+          "city": "Napoli",
+          "state": "",
+          "country": "IT",
+          "identifier": ""
+        },
+        "materials_technique": "pittura",
+        "full_text": "14928 Mosaico trionfale alla Biblia di Faraone, pittura di R. Odorisio - Chiesa dell' Incoronata Napoli"
+      },
+      "back": {
+        "title": "Incoronata",
+        "title_qualifier": "",
+        "additional_titles": [],
+        "artist": {
+          "name": "Roberto Oderisi",
+          "listed": true,
+          "additional_annotations": []
+        },
+        "date": "1360",
+        "date_qualifier": "about",
+        "dimensions": [],
+        "repository": {
+          "name": "Incoronata",
+          "city": "NAPOLI",
+          "state": "",
+          "country": "IT",
+          "identifier": "",
+          "stamp": "",
+          "gift": false,
+          "gift_of": "",
+          "collection": "",
+          "location": "",
+          "ex": false
+        },
+        "materials": "Fresco"
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
+        "attribution": []
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "name": "",
+          "identifier": "14928",
+          "alinari_id": "",
+          "anderson_id": ""
+        }
+      },
+      "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "front": "14928 Mosaico trionfale alla Biblia di Faraone, pittura di R. Odorisio - Chiesa dell' Incoronata Napoli",
+      "back": [
+        "Note: Active?",
+        "Label: II A"
+      ]
+    }
   },
   "usage": {
-    "input_tokens": 1772,
-    "output_tokens": 1246,
-    "total_tokens": 3018
+    "input_tokens": 2899,
+    "output_tokens": 2060,
+    "total_tokens": 4959
   },
-  "cost": 0.014674999999999999,
-  "status": "OK",
-  "request_time": 14.9
+  "cost": 0.024223750000000002,
+  "status": "OK_Validated",
+  "request_time": 20.14
 }

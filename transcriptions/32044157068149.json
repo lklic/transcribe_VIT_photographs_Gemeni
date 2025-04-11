@@ -9,32 +9,56 @@
   "annotations": {
     "artwork": {
       "front": {
-        "title": "Chiesa dell'Incoronata - Affresco",
+        "title": "Chiesa dell'Incoronata",
         "artist": "R. de Oderisio",
+        "date": "",
+        "inscriptions": [],
         "repository": {
           "name": "Chiesa dell'Incoronata",
-          "city": "Napoli",
-          "country": "IT"
+          "city": "NAPOLI",
+          "state": "",
+          "country": "IT",
+          "identifier": ""
         },
         "materials_technique": "Affresco",
         "full_text": "25488 NAPOLI Chiesa dell'Incoronata - R. de Oderisio - Affresco Ripr. Int. Anderson - Roma"
       },
       "back": {
-        "title": "Fresco",
-        "additional_titles": [
-          "Incoronata"
-        ],
+        "title": "Incoronata",
+        "title_qualifier": "",
+        "additional_titles": [],
         "artist": {
           "name": "Roberto Oderisi",
-          "listed": true
+          "listed": true,
+          "additional_annotations": []
         },
         "date": "1360",
+        "date_qualifier": "about",
+        "dimensions": [],
         "repository": {
-          "name": "Chiesa dell'Incoronata",
-          "city": "Napoli",
-          "country": "IT"
+          "name": "",
+          "city": "NAPOLI",
+          "state": "",
+          "country": "IT",
+          "identifier": "",
+          "stamp": "",
+          "gift": false,
+          "gift_of": "",
+          "collection": "",
+          "location": "Incoronata",
+          "ex": false
         },
         "materials": "Fresco"
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
+        "attribution": []
       }
     },
     "photograph": {
@@ -42,23 +66,34 @@
         "photographer": {
           "name": "Anderson",
           "identifier": "25488",
+          "alinari_id": "",
           "anderson_id": "25488"
         }
       },
       "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
         "yellow_dot": true
       }
     },
     "additional_annotations": {
-      "front": "25488 NAPOLI Chiesa dell'Incoronata - R. de Oderisio - Affresco Ripr. Int. Anderson - Roma"
+      "front": "25488 NAPOLI Chiesa dell'Incoronata - R. de Oderisio - Affresco Ripr. Int. Anderson - Roma",
+      "back": [
+        "Sticker Number: 12"
+      ]
     }
   },
   "usage": {
-    "input_tokens": 1772,
-    "output_tokens": 1834,
-    "total_tokens": 3606
+    "input_tokens": 2899,
+    "output_tokens": 2027,
+    "total_tokens": 4926
   },
-  "cost": 0.020554999999999997,
-  "status": "OK",
-  "request_time": 18.04
+  "cost": 0.023893750000000005,
+  "status": "OK_Validated",
+  "request_time": 17.98
 }

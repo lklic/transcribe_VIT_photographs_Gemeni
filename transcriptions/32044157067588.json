@@ -8,44 +8,96 @@
   "model": "gemini-2.5-pro-preview-03-25",
   "annotations": {
     "artwork": {
+      "front": {
+        "title": "",
+        "artist": "",
+        "date": "",
+        "inscriptions": [],
+        "repository": {
+          "name": "",
+          "city": "",
+          "state": "",
+          "country": "",
+          "identifier": ""
+        },
+        "materials_technique": "",
+        "full_text": ""
+      },
       "back": {
-        "title": "Annunciation",
+        "title": "\"Annunciation\"",
+        "title_qualifier": "(parete sinistra - scena superiore)",
+        "additional_titles": [],
         "artist": {
-          "name": "Roberto Oderisi (?)",
+          "name": "Roberto Oderisi (?) (E.)",
           "listed": true,
           "additional_annotations": [
-            "Period: (E.)"
+            "[erased] Roberto de Oderisio"
           ]
         },
+        "date": "",
+        "date_qualifier": "",
+        "dimensions": [],
         "repository": {
           "name": "S. Lorenzo",
           "city": "NAPOLI",
-          "country": "IT"
+          "state": "",
+          "country": "IT",
+          "identifier": "",
+          "stamp": "",
+          "gift": false,
+          "gift_of": "",
+          "collection": "",
+          "location": "",
+          "ex": false
         },
         "materials": "Fresco"
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
+        "attribution": [
+          "Mastro de Giovanni Barrile"
+        ]
       }
     },
     "photograph": {
+      "front": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        }
+      },
       "back": {
         "photographer": {
-          "stamp": "R. SOPRAINTENDENZA ALL'ARTE MEDIOEVALE MODERNA DELLA CAMPANIA GABINETTO FOTOGRAFICO"
+          "name": "R. SOPRAINTENDENZA ALL'ARTE MEDIOEVALE MODERNA DELLA CAMPANIA GABINETTO FOTOGRAFICO",
+          "identifier": "",
+          "stamp": "R. SOPRAINTENDENZA ALL'ARTE MEDIOEVALE MODERNA DELLA CAMPANIA GABINETTO FOTOGRAFICO",
+          "alinari_id": "",
+          "anderson_id": ""
         },
         "yellow_dot": true
       }
     },
     "additional_annotations": {
+      "front": "",
       "back": [
-        "Location detail: (parete finestra - scena Superiore)",
-        "Mention: Mostra di Giovanni Barile"
+        "S. Lorenzo Maggiore - Napoli- [erased]"
       ]
     }
   },
   "usage": {
-    "input_tokens": 1772,
-    "output_tokens": 1751,
-    "total_tokens": 3523
+    "input_tokens": 2899,
+    "output_tokens": 2316,
+    "total_tokens": 5215
   },
-  "cost": 0.019725,
-  "status": "OK",
-  "request_time": 17.27
+  "cost": 0.026783750000000002,
+  "status": "OK_Validated",
+  "request_time": 20.18
 }

@@ -8,55 +8,103 @@
   "model": "gemini-2.5-pro-preview-03-25",
   "annotations": {
     "artwork": {
+      "front": {
+        "title": "",
+        "artist": "",
+        "date": "",
+        "inscriptions": [],
+        "repository": {
+          "name": "",
+          "city": "",
+          "state": "",
+          "country": "",
+          "identifier": ""
+        },
+        "materials_technique": "",
+        "full_text": ""
+      },
       "back": {
         "title": "Frescoes: „Annunciation & Epiphany“",
+        "title_qualifier": "",
         "additional_titles": [
-          "Cappella absidale - Affreschi: parete sinistra -"
+          "Cappella absidale -",
+          "Affreschi: parete sinistra -"
         ],
         "artist": {
-          "name": "Roberto Oderisi (?) (L.E.)",
+          "name": "Roberto Oderisi (?)",
           "listed": true,
           "additional_annotations": [
-            "? Robert",
+            "Nicola Memmelink [erased]",
+            "follower of Giotto [erased]",
+            "? Roberti [erased]",
             "Maestro di Giovanni Barrile"
           ]
         },
+        "date": "",
+        "date_qualifier": "",
+        "dimensions": [],
         "repository": {
           "name": "S. Lorenzo",
           "city": "NAPOLI",
-          "country": "IT"
+          "state": "",
+          "country": "IT",
+          "identifier": "",
+          "stamp": "",
+          "gift": false,
+          "gift_of": "",
+          "collection": "",
+          "location": "Left wall 5th Chapel Choir",
+          "ex": false
         },
         "materials": "Frescoes"
       },
+      "identifiers": {
+        "kress": ""
+      },
       "history": {
-        "attribution": [
-          "listed Roberto Oderisi (?) (L.E.)",
-          "? Robert",
-          "Maestro di Giovanni Barrile"
-        ]
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [
+          "(L.E.)"
+        ],
+        "loans": [],
+        "attribution": []
       }
     },
     "photograph": {
+      "front": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        }
+      },
       "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
         "yellow_dot": true
       }
     },
     "additional_annotations": {
+      "front": "",
       "back": [
-        "N/A check / follows / Giotto",
-        "Left wall",
-        "5th Chapel",
-        "Choir",
+        "S. Lorenzo Maggiore [erased]",
         "Number: 23"
       ]
     }
   },
   "usage": {
-    "input_tokens": 1772,
-    "output_tokens": 1566,
-    "total_tokens": 3338
+    "input_tokens": 2899,
+    "output_tokens": 2045,
+    "total_tokens": 4944
   },
-  "cost": 0.017875000000000002,
-  "status": "OK",
-  "request_time": 14.95
+  "cost": 0.024073749999999998,
+  "status": "OK_Validated",
+  "request_time": 17.27
 }

@@ -7,14 +7,95 @@
   "work_id": "W00013129",
   "model": "gemini-2.5-pro-preview-03-25",
   "annotations": {
-    "raw_response": "ny\n```json\n{\n  \"artwork\": {\n    \"front\": {\n      \"title\": \"S. Caterina, affresco nella chiesa SS. Trinità - Venosa\",\n      \"repository\": {\n        \"name\": \"chiesa SS. Trinità\",\n        \"city\": \"Venosa\",\n        \"country\": \"IT\"\n      },\n      \"materials_technique\": \"affresco\",\n      \"full_text\": \"9443 S. Caterina, affresco nella chiesa SS. Trinità - Venosa\"\n    },\n    \"back\": {\n      \"title\": \"St Catherine & Pietà\",\n      \"artist\": {\n        \"name\": \"Roberto Odorisi\",\n        \"listed\": true\n      },\n      \"repository\": {\n        \"name\": \"SS. Trinità\",\n        \"city\": \"Venosa (Melfi?)\",\n        \"country\": \"IT\"\n      },\n      \"materials\": \"Fresco\"\n    }\n  },\n  \"photograph\": {\n    \"front\": {\n      \"photographer\": {\n        \"identifier\": \"9443\"\n      }\n    },\n    \"back\": {\n      \"yellow_dot\": true\n    }\n  },\n  \"additional_annotations\": {\n    \"front\": \"9443 S. Caterina, affresco nella chiesa SS. Trinità - Venosa\",\n    \"back\": [\n      {\n        \"Annotation\": \"G. de Eboli (?)\"\n      },\n      {\n        \"Sticker Number\": \"25\"\n      }\n    ]\n  }\n}\n```"
+    "artwork": {
+      "front": {
+        "title": "S. Caterina, affresco nella chiesa SS. Trinità",
+        "artist": "",
+        "date": "",
+        "inscriptions": [],
+        "repository": {
+          "name": "chiesa SS. Trinità",
+          "city": "Venosa",
+          "state": "",
+          "country": "IT",
+          "identifier": ""
+        },
+        "materials_technique": "affresco",
+        "full_text": "9443 S. Caterina, affresco nella chiesa SS. Trinità - Venosa"
+      },
+      "back": {
+        "title": "St Catherine & Pietà",
+        "title_qualifier": "",
+        "additional_titles": [],
+        "artist": {
+          "name": "Roberto Oderisi",
+          "listed": true,
+          "additional_annotations": []
+        },
+        "date": "",
+        "date_qualifier": "",
+        "dimensions": [],
+        "repository": {
+          "name": "SS.Trinità",
+          "city": "Venosa",
+          "state": "",
+          "country": "IT",
+          "identifier": "",
+          "stamp": "",
+          "gift": false,
+          "gift_of": "",
+          "collection": "",
+          "location": "",
+          "ex": false
+        },
+        "materials": "Fresco"
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
+        "attribution": []
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "name": "",
+          "identifier": "9443",
+          "alinari_id": "",
+          "anderson_id": ""
+        }
+      },
+      "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "front": "9443 S. Caterina, affresco nella chiesa SS. Trinità - Venosa",
+      "back": [
+        "G. de Eboli [erased]",
+        "Number: 25",
+        "Location Note: (Mezz.)"
+      ]
+    }
   },
   "usage": {
-    "input_tokens": 1772,
-    "output_tokens": 1318,
-    "total_tokens": 3090
+    "input_tokens": 2899,
+    "output_tokens": 1887,
+    "total_tokens": 4786
   },
-  "cost": 0.015394999999999999,
-  "status": "OK",
-  "request_time": 16.54
+  "cost": 0.02249375,
+  "status": "OK_Validated",
+  "request_time": 19.47
 }

@@ -11,32 +11,54 @@
       "front": {
         "title": "Lo Sposalizio",
         "artist": "R. de Oderisio",
+        "date": "",
+        "inscriptions": [],
         "repository": {
-          "name": "Chiesa dell'Incoronata",
+          "name": "Chiesa dell' Incoronata",
           "city": "NAPOLI",
-          "country": "IT"
+          "state": "",
+          "country": "IT",
+          "identifier": ""
         },
-        "materials_technique": "Fresco",
-        "full_text": "25485 NAPOLI - Chiesa dell'Incoronata - R. de Oderisio - Lo Sposalizio - Ripr. Int. - Anderson Roma"
+        "materials_technique": "",
+        "full_text": "25485 NAPOLI - Chiesa dell' Incoronata R. de Oderisio - Lo Sposalizio - Ripr. Int."
       },
       "back": {
-        "title": "Fresco : \"Marriage\"",
+        "title": "\"Marriage\"",
+        "title_qualifier": "",
+        "additional_titles": [],
         "artist": {
           "name": "Roberto Oderisi",
           "listed": true,
-          "additional_annotations": [
-            {
-              "date_approximation": "about 1360"
-            }
-          ]
+          "additional_annotations": []
         },
         "date": "1360",
+        "date_qualifier": "about",
+        "dimensions": [],
         "repository": {
           "name": "Incoronata",
           "city": "NAPOLI",
-          "country": "IT"
+          "state": "",
+          "country": "IT",
+          "identifier": "",
+          "stamp": "",
+          "gift": false,
+          "gift_of": "",
+          "collection": "",
+          "location": "",
+          "ex": false
         },
         "materials": "Fresco"
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
+        "attribution": []
       }
     },
     "photograph": {
@@ -44,23 +66,35 @@
         "photographer": {
           "name": "Anderson",
           "identifier": "25485",
+          "alinari_id": "",
           "anderson_id": "25485"
         }
       },
       "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
         "yellow_dot": true
       }
     },
     "additional_annotations": {
-      "front": "25485 NAPOLI - Chiesa dell'Incoronata - R. de Oderisio - Lo Sposalizio - Ripr. Int. - Anderson Roma"
+      "front": "25485 NAPOLI - Chiesa dell' Incoronata R. de Oderisio - Lo Sposalizio - Ripr. Int.",
+      "back": [
+        "Handwritten note: d",
+        "Handwritten note: P"
+      ]
     }
   },
   "usage": {
-    "input_tokens": 1772,
-    "output_tokens": 1270,
-    "total_tokens": 3042
+    "input_tokens": 2899,
+    "output_tokens": 1932,
+    "total_tokens": 4831
   },
-  "cost": 0.014915000000000001,
-  "status": "OK",
-  "request_time": 13.08
+  "cost": 0.02294375,
+  "status": "OK_Validated",
+  "request_time": 16.32
 }

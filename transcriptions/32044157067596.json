@@ -8,43 +8,96 @@
   "model": "gemini-2.5-pro-preview-03-25",
   "annotations": {
     "artwork": {
+      "front": {
+        "title": "",
+        "artist": "",
+        "date": "",
+        "inscriptions": [],
+        "repository": {
+          "name": "",
+          "city": "",
+          "state": "",
+          "country": "",
+          "identifier": ""
+        },
+        "materials_technique": "",
+        "full_text": ""
+      },
       "back": {
         "title": "Epiphany",
+        "title_qualifier": "detail",
+        "additional_titles": [
+          "Manto di Giovanni Barrile"
+        ],
         "artist": {
           "name": "Roberto Oderisi (?)",
           "listed": true,
           "additional_annotations": [
-            "modifier: (Ex)",
-            "alternative_attribution: Master of Giovanni Barrile"
+            "Ex [erased]"
           ]
         },
+        "date": "1390",
+        "date_qualifier": "C",
+        "dimensions": [],
         "repository": {
           "name": "S. Lorenzo",
-          "city": "NAPOLI",
-          "country": "IT"
+          "city": "Napoli",
+          "state": "",
+          "country": "IT",
+          "identifier": "",
+          "stamp": "",
+          "gift": false,
+          "gift_of": "",
+          "collection": "",
+          "location": "",
+          "ex": false
         },
         "materials": "Fresco"
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
+        "attribution": []
       }
     },
     "photograph": {
+      "front": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        }
+      },
       "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
         "yellow_dot": true
       }
     },
     "additional_annotations": {
+      "front": "",
       "back": [
-        "view: (detail)",
-        "identifier: C 1590",
-        "identifier: 4112"
+        "Identifier: 41N"
       ]
     }
   },
   "usage": {
-    "input_tokens": 1772,
-    "output_tokens": 1189,
-    "total_tokens": 2961
+    "input_tokens": 2899,
+    "output_tokens": 3271,
+    "total_tokens": 6170
   },
-  "cost": 0.014105,
-  "status": "OK",
-  "request_time": 14.29
+  "cost": 0.036333750000000005,
+  "status": "OK_Validated",
+  "request_time": 28.72
 }

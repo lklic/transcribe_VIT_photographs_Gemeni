@@ -9,53 +9,104 @@
   "annotations": {
     "artwork": {
       "front": {
+        "title": "",
+        "artist": "",
+        "date": "",
         "inscriptions": [
-          "S [...] S [...] S [...] S [...] S [...] M[...]S [...] S [...] S [...] S [...] S [...]"
-        ]
+          "SCS ANDREAS APLS",
+          "SCS IOHS BAP",
+          "SCS BARTHOLOMEUS APLS",
+          "SCS LAURENTIUS",
+          "SCS NICOLAUS EPISCOPUS",
+          "SCS STEPHANUS",
+          "SCS AGN...",
+          "SCS IOHS EV",
+          "SCS PAULUS APLS"
+        ],
+        "repository": {
+          "name": "",
+          "city": "",
+          "state": "",
+          "country": "",
+          "identifier": ""
+        },
+        "materials_technique": "",
+        "full_text": ""
       },
       "back": {
         "title": "Madonna & ten Saints",
+        "title_qualifier": "",
+        "additional_titles": [],
         "artist": {
-          "name": "Roberto Oderisi?"
+          "name": "Roberto Oderisi?",
+          "listed": false,
+          "additional_annotations": []
         },
+        "date": "",
+        "date_qualifier": "",
+        "dimensions": [],
         "repository": {
           "name": "Nat. Gallery",
           "city": "LONDON",
+          "state": "",
           "country": "GB",
-          "identifier": "5715."
+          "identifier": "5715.",
+          "stamp": "",
+          "gift": false,
+          "gift_of": "",
+          "collection": "",
+          "location": "(Storeroom)",
+          "ex": false
         },
-        "history": {
-          "attribution": [
-            "Reconsider with Andrea da Firenze other photo with ↑"
-          ]
-        }
+        "materials": ""
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
+        "attribution": [
+          "Reconsider with Andrea da Firenze other photo with ->"
+        ]
       }
     },
     "photograph": {
+      "front": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        }
+      },
       "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
         "yellow_dot": true
       }
     },
     "additional_annotations": {
+      "front": "",
       "back": [
-        {
-          "u 15": "u 15"
-        },
-        {
-          "cf": "Carmine Altarpiace"
-        },
-        {
-          "Storeroom": "(Storeroom)"
-        }
+        "Archive ID?: u 15",
+        "Comparison?: cf Carmine Allaspice"
       ]
     }
   },
   "usage": {
-    "input_tokens": 1772,
-    "output_tokens": 1014,
-    "total_tokens": 2786
+    "input_tokens": 2899,
+    "output_tokens": 2140,
+    "total_tokens": 5039
   },
-  "cost": 0.012355,
-  "status": "OK",
-  "request_time": 11.04
+  "cost": 0.025023749999999997,
+  "status": "OK_Validated",
+  "request_time": 18.24
 }

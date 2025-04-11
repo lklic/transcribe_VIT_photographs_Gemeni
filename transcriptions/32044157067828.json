@@ -9,44 +9,91 @@
   "annotations": {
     "artwork": {
       "front": {
-        "title": "DETTAGLIO, pittura di R. Oderisio",
-        "artist": "R. Oderisio",
+        "title": "DETTAGLIO, pittura di R. Odorisio",
+        "artist": "R. Odorisio",
+        "date": "",
+        "inscriptions": [],
         "repository": {
           "name": "Chiesa dell' Incoronata",
           "city": "Napoli",
-          "country": "IT"
+          "state": "",
+          "country": "IT",
+          "identifier": ""
         },
-        "full_text": "8533 DETTAGLIO, pittura di R. Oderisio - Chiesa dell' Incoronata Napoli 241"
+        "materials_technique": "pittura",
+        "full_text": "8533 DETTAGLIO, pittura di R. Odorisio - Chiesa dell' Incoronata Napoli"
       },
       "back": {
+        "title": "",
+        "title_qualifier": "",
+        "additional_titles": [],
         "artist": {
           "name": "R. Oderisi",
-          "listed": true
-        }
+          "listed": true,
+          "additional_annotations": []
+        },
+        "date": "",
+        "date_qualifier": "",
+        "dimensions": [],
+        "repository": {
+          "name": "",
+          "city": "",
+          "state": "",
+          "country": "",
+          "identifier": "",
+          "stamp": "",
+          "gift": false,
+          "gift_of": "",
+          "collection": "",
+          "location": "",
+          "ex": false
+        },
+        "materials": ""
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
+        "attribution": []
       }
     },
     "photograph": {
       "front": {
         "photographer": {
-          "identifier": "8533"
+          "name": "",
+          "identifier": "8533",
+          "alinari_id": "",
+          "anderson_id": ""
         }
+      },
+      "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
+        "yellow_dot": false
       }
     },
     "additional_annotations": {
-      "front": "8533 DETTAGLIO, pittura di R. Oderisio - Chiesa dell' Incoronata Napoli 241",
+      "front": "8533 DETTAGLIO, pittura di R. Odorisio - Chiesa dell' Incoronata Napoli",
       "back": [
-        {
-          "annotation": "M(?)/F(?)"
-        }
+        "Annotation: 45"
       ]
     }
   },
   "usage": {
-    "input_tokens": 1772,
-    "output_tokens": 1556,
-    "total_tokens": 3328
+    "input_tokens": 2899,
+    "output_tokens": 2244,
+    "total_tokens": 5143
   },
-  "cost": 0.017775,
-  "status": "OK",
-  "request_time": 13.71
+  "cost": 0.026063749999999997,
+  "status": "OK_Validated",
+  "request_time": 21.15
 }

@@ -8,43 +8,90 @@
   "model": "gemini-2.5-pro-preview-03-25",
   "annotations": {
     "artwork": {
+      "front": {
+        "title": "",
+        "artist": "",
+        "date": "",
+        "inscriptions": [],
+        "repository": {
+          "name": "",
+          "city": "",
+          "state": "",
+          "country": "",
+          "identifier": ""
+        },
+        "materials_technique": "",
+        "full_text": ""
+      },
       "back": {
         "title": "Madonna",
+        "title_qualifier": "",
+        "additional_titles": [],
         "artist": {
-          "name": "Roberto Oderisi"
+          "name": "Roberto Oderisi",
+          "listed": false,
+          "additional_annotations": []
         },
-        "date": "c. 1340",
+        "date": "1340",
+        "date_qualifier": "c.",
+        "dimensions": [],
         "repository": {
           "name": "Lee of Fareham Collection",
           "city": "AVENING",
+          "state": "Gloucester",
           "country": "GB",
-          "identifier": "No. 22"
-        }
+          "identifier": "no. 22",
+          "stamp": "",
+          "gift": false,
+          "gift_of": "",
+          "collection": "Lee of Fareham Collection",
+          "location": "",
+          "ex": false
+        },
+        "materials": ""
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
+        "attribution": []
       }
     },
     "photograph": {
+      "front": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        }
+      },
       "back": {
         "photographer": {
           "name": "WILLIAM E. GRAY",
-          "stamp": "BY APPOINTMENT TO H.M. THE KING / WILLIAM E. GRAY, / 92, Queen's Rd. Bayswater, W / Fine Art Photographer."
+          "identifier": "",
+          "stamp": "BY APPOINTMENT\nTO H.M. THE KING\nWILLIAM E. GRAY,\n92, Queen's Rd. Bayswater, W.\nFine Art Photographer.",
+          "alinari_id": "",
+          "anderson_id": ""
         },
         "yellow_dot": true
       }
     },
     "additional_annotations": {
-      "back": [
-        {
-          "sticker_number": "1"
-        }
-      ]
+      "front": "",
+      "back": []
     }
   },
   "usage": {
-    "input_tokens": 1772,
-    "output_tokens": 1221,
-    "total_tokens": 2993
+    "input_tokens": 2899,
+    "output_tokens": 1606,
+    "total_tokens": 4505
   },
-  "cost": 0.014425,
-  "status": "OK",
-  "request_time": 12.74
+  "cost": 0.01968375,
+  "status": "OK_Validated",
+  "request_time": 14.73
 }

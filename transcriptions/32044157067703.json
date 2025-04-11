@@ -9,56 +9,93 @@
   "annotations": {
     "artwork": {
       "front": {
-        "title": "S. Caterina, testa affresco nella chiesa SS. Trinità - Venosa",
+        "title": "S. Caterina, testa affresco nella chiesa SS. Trinità",
+        "artist": "",
+        "date": "",
+        "inscriptions": [],
         "repository": {
           "name": "chiesa SS. Trinità",
           "city": "Venosa",
-          "country": "IT"
+          "state": "",
+          "country": "IT",
+          "identifier": ""
         },
         "materials_technique": "affresco",
         "full_text": "9444 S. Caterina, testa affresco nella chiesa SS. Trinità - Venosa"
       },
       "back": {
-        "title": "Fresco: \"St Catherine & Pietà\" (detail)",
+        "title": "Fresco: \"St Catherine & Pietà\"",
+        "title_qualifier": "detail",
+        "additional_titles": [],
         "artist": {
           "name": "Roberto Oderisi",
-          "listed": true
+          "listed": true,
+          "additional_annotations": []
         },
+        "date": "",
+        "date_qualifier": "",
+        "dimensions": [],
         "repository": {
           "name": "SS. Trinità",
-          "city": "VENOSA",
-          "country": "IT"
+          "city": "VENOSA (Melfi)",
+          "state": "",
+          "country": "IT",
+          "identifier": "",
+          "stamp": "",
+          "gift": false,
+          "gift_of": "",
+          "collection": "",
+          "location": "",
+          "ex": false
         },
         "materials": "Fresco"
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
+        "attribution": [
+          "echo of Arch.? [erased]"
+        ]
       }
     },
     "photograph": {
       "front": {
         "photographer": {
-          "identifier": "9444"
+          "name": "",
+          "identifier": "9444",
+          "alinari_id": "",
+          "anderson_id": ""
         }
       },
       "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
         "yellow_dot": true
       }
     },
     "additional_annotations": {
+      "front": "9444 S. Caterina, testa affresco nella chiesa SS. Trinità - Venosa",
       "back": [
-        {
-          "annotation": "echo of Arch Br. (?)"
-        },
-        {
-          "annotation": "(Mezz)"
-        }
+        "echo of Arch.? [erased]"
       ]
     }
   },
   "usage": {
-    "input_tokens": 1772,
-    "output_tokens": 1315,
-    "total_tokens": 3087
+    "input_tokens": 2899,
+    "output_tokens": 2199,
+    "total_tokens": 5098
   },
-  "cost": 0.015365,
-  "status": "OK",
-  "request_time": 14.13
+  "cost": 0.025613749999999998,
+  "status": "OK_Validated",
+  "request_time": 18.8
 }

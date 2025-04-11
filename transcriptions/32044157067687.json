@@ -8,33 +8,94 @@
   "model": "gemini-2.5-pro-preview-03-25",
   "annotations": {
     "artwork": {
+      "front": {
+        "title": "",
+        "artist": "",
+        "date": "",
+        "inscriptions": [],
+        "repository": {
+          "name": "",
+          "city": "",
+          "state": "",
+          "country": "",
+          "identifier": ""
+        },
+        "materials_technique": "",
+        "full_text": ""
+      },
       "back": {
+        "title": "Naples. S. Lorenzo",
+        "title_qualifier": "",
+        "additional_titles": [
+          "S. Lorenzo NAPOLI"
+        ],
         "artist": {
           "name": "R. Oderisi",
-          "listed": true
+          "listed": true,
+          "additional_annotations": []
         },
+        "date": "",
+        "date_qualifier": "",
+        "dimensions": [],
         "repository": {
           "name": "S. Lorenzo",
-          "city": "Napoli",
-          "country": "IT"
-        }
+          "city": "NAPOLI",
+          "state": "",
+          "country": "IT",
+          "identifier": "",
+          "stamp": "",
+          "gift": false,
+          "gift_of": "",
+          "collection": "",
+          "location": "",
+          "ex": false
+        },
+        "materials": ""
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
+        "attribution": []
       }
     },
-    "photograph": {},
-    "additional_annotations": {
-      "back": [
-        {
-          "identifier": "C 1889"
+    "photograph": {
+      "front": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "alinari_id": "",
+          "anderson_id": ""
         }
+      },
+      "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
+        "yellow_dot": false
+      }
+    },
+    "additional_annotations": {
+      "front": "",
+      "back": [
+        "Identifier?: C 1889"
       ]
     }
   },
   "usage": {
-    "input_tokens": 1772,
-    "output_tokens": 745,
-    "total_tokens": 2517
+    "input_tokens": 2899,
+    "output_tokens": 2179,
+    "total_tokens": 5078
   },
-  "cost": 0.009665,
-  "status": "OK",
-  "request_time": 9.61
+  "cost": 0.02541375,
+  "status": "OK_Validated",
+  "request_time": 19.75
 }

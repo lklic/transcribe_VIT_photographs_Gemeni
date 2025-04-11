@@ -8,40 +8,96 @@
   "model": "gemini-2.5-pro-preview-03-25",
   "annotations": {
     "artwork": {
+      "front": {
+        "title": "",
+        "artist": "",
+        "date": "",
+        "inscriptions": [],
+        "repository": {
+          "name": "",
+          "city": "",
+          "state": "",
+          "country": "",
+          "identifier": ""
+        },
+        "materials_technique": "",
+        "full_text": ""
+      },
       "back": {
         "title": "Marriage of the Virgin",
+        "title_qualifier": "",
+        "additional_titles": [],
         "artist": {
-          "name": "Roberto Oderisi (?) (E.?)",
+          "name": "Roberto Oderisi (?) (E.)",
           "listed": true,
           "additional_annotations": [
-            "Attribution: Maestro di Giovanni Barrile"
+            "Alternative Attribution: Maestro di Giovanni Barrile"
           ]
         },
+        "date": "1388",
+        "date_qualifier": "C.",
+        "dimensions": [],
         "repository": {
           "name": "S. Lorenzo",
           "city": "NAPOLI",
-          "country": "IT"
-        }
+          "state": "",
+          "country": "IT",
+          "identifier": "",
+          "stamp": "",
+          "gift": false,
+          "gift_of": "",
+          "collection": "",
+          "location": "",
+          "ex": false
+        },
+        "materials": ""
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
+        "attribution": []
       }
     },
     "photograph": {
+      "front": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        }
+      },
       "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
         "yellow_dot": true
       }
     },
     "additional_annotations": {
+      "front": "",
       "back": [
-        "Initial Annotation: Roberto Oderisi (?) E.",
-        "Number: C. 1588"
+        "Top faint annotation: [erased]",
+        "Top annotation: Roberto Oderisi (?) E.",
+        "Blue mark: x"
       ]
     }
   },
   "usage": {
-    "input_tokens": 1772,
-    "output_tokens": 1009,
-    "total_tokens": 2781
+    "input_tokens": 2899,
+    "output_tokens": 1877,
+    "total_tokens": 4776
   },
-  "cost": 0.012304999999999998,
-  "status": "OK",
-  "request_time": 10.79
+  "cost": 0.022393749999999997,
+  "status": "OK_Validated",
+  "request_time": 18.38
 }

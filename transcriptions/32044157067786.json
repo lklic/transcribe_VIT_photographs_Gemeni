@@ -8,54 +8,98 @@
   "model": "gemini-2.5-pro-preview-03-25",
   "annotations": {
     "artwork": {
+      "front": {
+        "title": "",
+        "artist": "",
+        "date": "",
+        "inscriptions": [],
+        "repository": {
+          "name": "",
+          "city": "",
+          "state": "",
+          "country": "",
+          "identifier": ""
+        },
+        "materials_technique": "",
+        "full_text": ""
+      },
       "back": {
         "title": "Epiphany",
+        "title_qualifier": "( parete sinistra - scena inferiore )",
         "additional_titles": [
-          "parte sinistra - scena inferiore"
+          "Miracoli dei ... [erased]"
         ],
         "artist": {
-          "name": "Roberto Oderisi (?) (LE.)",
+          "name": "Roberto Oderisi (?)",
           "listed": true,
           "additional_annotations": [
-            {
-              "alternative_attribution": "Maestro di Giovanni Barrile"
-            }
+            "(E.)"
           ]
         },
+        "date": "",
+        "date_qualifier": "",
+        "dimensions": [],
         "repository": {
           "name": "S. Lorenzo Maggiore",
           "city": "Napoli",
+          "state": "",
           "country": "IT",
-          "stamp": "R. SOPRAINTENDENZA ALL'ARTE MEDIOEVALE MODERNA DELLA CAMPANIA / GABINETTO FOTOGRAFICO"
+          "identifier": "",
+          "stamp": "",
+          "gift": false,
+          "gift_of": "",
+          "collection": "",
+          "location": "parete sinistra - scena inferiore",
+          "ex": false
         },
         "materials": "Fresco"
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
+        "attribution": [
+          "Maestro di Giovanni Barrile"
+        ]
       }
     },
     "photograph": {
+      "front": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        }
+      },
       "back": {
         "photographer": {
-          "stamp": "R. SOPRAINTENDENZA ALL'ARTE MEDIOEVALE MODERNA DELLA CAMPANIA / GABINETTO FOTOGRAFICO"
+          "name": "R. Soprintendenza all'Arte Medioevale Moderna della Campania Gabinetto Fotografico",
+          "identifier": "",
+          "stamp": "R. SOPRAINTENDENZA ALL'ARTE MEDIOEVALE MODERNA DELLA CAMPANIA GABINETTO FOTOGRAFICO",
+          "alinari_id": "",
+          "anderson_id": ""
         },
         "yellow_dot": true
       }
     },
     "additional_annotations": {
+      "front": "",
       "back": [
-        {
-          "handwritten_top_left": "S. Lorenzo Maggiore - Napoli"
-        },
-        {
-          "handwritten_bottom_right": "S.Lorenzo\nNAPOLI"
-        }
+        "Faint text top left: S. Lorenzo Maggiore - Napoli"
       ]
     }
   },
   "usage": {
-    "input_tokens": 1772,
-    "output_tokens": 1527,
-    "total_tokens": 3299
+    "input_tokens": 2899,
+    "output_tokens": 2319,
+    "total_tokens": 5218
   },
-  "cost": 0.017485,
-  "status": "OK",
-  "request_time": 15.84
+  "cost": 0.026813749999999997,
+  "status": "OK_Validated",
+  "request_time": 19.56
 }

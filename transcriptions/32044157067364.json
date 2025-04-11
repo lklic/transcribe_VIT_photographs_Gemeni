@@ -8,47 +8,96 @@
   "model": "gemini-2.5-pro-preview-03-25",
   "annotations": {
     "artwork": {
+      "front": {
+        "title": "",
+        "artist": "",
+        "date": "",
+        "inscriptions": [],
+        "repository": {
+          "name": "",
+          "city": "",
+          "state": "",
+          "country": "",
+          "identifier": ""
+        },
+        "materials_technique": "",
+        "full_text": ""
+      },
       "back": {
         "title": "Crucifixion with Franciscan Donor",
-        "additional_titles": [
-          "(detail)"
-        ],
+        "title_qualifier": "(detail)",
+        "additional_titles": [],
         "artist": {
           "name": "Oderisi (sd.)",
-          "listed": true
+          "listed": true,
+          "additional_annotations": []
         },
+        "date": "",
+        "date_qualifier": "",
+        "dimensions": [],
         "repository": {
-          "name": "Sacristy S. Francesco",
+          "name": "S. Francesco",
           "city": "Salerno",
-          "country": "IT"
-        }
+          "state": "",
+          "country": "IT",
+          "identifier": "",
+          "stamp": "",
+          "gift": false,
+          "gift_of": "",
+          "collection": "",
+          "location": "Sacristy",
+          "ex": false
+        },
+        "materials": ""
+      },
+      "identifiers": {
+        "kress": ""
       },
       "history": {
-        "attribution": [
-          "Eboli-Dionisio",
-          "Roberto d'Oderisio (?)",
-          "Guiffone"
-        ]
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
+        "attribution": []
       }
     },
     "photograph": {
+      "front": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        }
+      },
       "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
         "yellow_dot": true
       }
     },
     "additional_annotations": {
+      "front": "",
       "back": [
-        "now Salerno",
-        "EBOLI (Salerno)"
+        "Original Location?: Eboli - Duomo. [erased]",
+        "Possible Attribution?: Roberti Roberto [erased]",
+        "Possible Attribution?: Giuseppe [erased]",
+        "Repository Note: now Salerno",
+        "Location Context: EBOLI (Salerno)"
       ]
     }
   },
   "usage": {
-    "input_tokens": 1772,
-    "output_tokens": 1113,
-    "total_tokens": 2885
+    "input_tokens": 2899,
+    "output_tokens": 2050,
+    "total_tokens": 4949
   },
-  "cost": 0.013345000000000001,
-  "status": "OK",
-  "request_time": 10.93
+  "cost": 0.02412375,
+  "status": "OK_Validated",
+  "request_time": 16.83
 }

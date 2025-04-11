@@ -8,46 +8,97 @@
   "model": "gemini-2.5-pro-preview-03-25",
   "annotations": {
     "artwork": {
+      "front": {
+        "title": "",
+        "artist": "",
+        "date": "",
+        "inscriptions": [],
+        "repository": {
+          "name": "",
+          "city": "",
+          "state": "",
+          "country": "",
+          "identifier": ""
+        },
+        "materials_technique": "",
+        "full_text": ""
+      },
       "back": {
         "title": "Birth of the Virgin",
+        "title_qualifier": "",
+        "additional_titles": [],
         "artist": {
           "name": "Roberto Odorisi (?)",
           "listed": true,
           "additional_annotations": [
-            "School: (E.)"
+            "Annotation: (E.)",
+            "Alternative Attribution: Maestro di Giovanni Barrile"
           ]
         },
+        "date": "",
+        "date_qualifier": "",
+        "dimensions": [],
         "repository": {
           "name": "S. Lorenzo",
           "city": "NAPOLI",
+          "state": "",
           "country": "IT",
-          "stamp": "R. SOPRAINTENDENZA ALL'ARTE MEDIOEVALE MODERNA DELLA CAMPANIA GABINETTO FOTOGRAFICO"
+          "identifier": "",
+          "stamp": "R. SOPRAINTENDENZA ALL'ARTE MEDIOEVALE MODERNA DELLA CAMPANIA / GABINETTO FOTOGRAFICO",
+          "gift": false,
+          "gift_of": "",
+          "collection": "",
+          "location": "",
+          "ex": false
         },
         "materials": "Fresco"
       },
+      "identifiers": {
+        "kress": ""
+      },
       "history": {
-        "attribution": [
-          "Maestro di Giovanni Barrile"
-        ]
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
+        "attribution": []
       }
     },
     "photograph": {
+      "front": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        }
+      },
       "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
         "yellow_dot": true
       }
     },
     "additional_annotations": {
+      "front": "",
       "back": [
-        "Faded text: (parete destra - scena inferiore)"
+        "Top Erased Text: [erased]",
+        "Location Note: (parete destra - scena inferiore)",
+        "Mid Erased Text: Listed Roberto...[erased]"
       ]
     }
   },
   "usage": {
-    "input_tokens": 1772,
-    "output_tokens": 1469,
-    "total_tokens": 3241
+    "input_tokens": 2899,
+    "output_tokens": 1743,
+    "total_tokens": 4642
   },
-  "cost": 0.016905,
-  "status": "OK",
-  "request_time": 13.97
+  "cost": 0.021053750000000003,
+  "status": "OK_Validated",
+  "request_time": 15.91
 }

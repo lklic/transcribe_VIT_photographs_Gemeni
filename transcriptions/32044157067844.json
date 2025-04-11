@@ -9,51 +9,89 @@
   "annotations": {
     "artwork": {
       "front": {
-        "title": "li Sacramento della Comunione",
-        "artist": "R. Odorïsio",
+        "title": "Il Sacramento della Comunione",
+        "artist": "R. Odorisio",
+        "date": "",
+        "inscriptions": [],
         "repository": {
           "name": "Chiesa del ' Incoronata",
           "city": "Napoli",
-          "country": "IT"
+          "state": "",
+          "country": "IT",
+          "identifier": ""
         },
         "materials_technique": "pittura",
-        "full_text": "8520 li Sacramento della Comunione, pittura di R. Odorïsio - Chiesa del ' Incoronata Napoli"
+        "full_text": "8520 Il Sacramento della Comunione, pittura di R. Odorisio - Chiesa del ' Incoronata Napoli"
       },
       "back": {
-        "title": "Fresco 'Communion' (detail)",
+        "title": "Fresco 'Communion'",
+        "title_qualifier": "detail",
+        "additional_titles": [],
         "artist": {
           "name": "Roberto Oderisi",
-          "listed": true
+          "listed": true,
+          "additional_annotations": []
         },
-        "date": "about 1360",
+        "date": "1360",
+        "date_qualifier": "about",
+        "dimensions": [],
         "repository": {
           "name": "Incoronata",
           "city": "NAPOLI",
-          "country": "IT"
+          "state": "",
+          "country": "IT",
+          "identifier": "",
+          "stamp": "",
+          "gift": false,
+          "gift_of": "",
+          "collection": "",
+          "location": "",
+          "ex": false
         },
         "materials": "Fresco"
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
+        "attribution": []
       }
     },
     "photograph": {
       "front": {
         "photographer": {
-          "identifier": "8520"
+          "name": "",
+          "identifier": "8520",
+          "alinari_id": "",
+          "anderson_id": ""
         }
       },
       "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
         "yellow_dot": true
       }
     },
     "additional_annotations": {
-      "front": "8520 li Sacramento della Comunione, pittura di R. Odorïsio - Chiesa del ' Incoronata Napoli"
+      "front": "8520 Il Sacramento della Comunione, pittura di R. Odorisio - Chiesa del ' Incoronata Napoli",
+      "back": []
     }
   },
   "usage": {
-    "input_tokens": 1772,
-    "output_tokens": 2095,
-    "total_tokens": 3867
+    "input_tokens": 2899,
+    "output_tokens": 2069,
+    "total_tokens": 4968
   },
-  "cost": 0.023164999999999998,
-  "status": "OK",
-  "request_time": 19.28
+  "cost": 0.024313750000000002,
+  "status": "OK_Validated",
+  "request_time": 18.5
 }

@@ -9,53 +9,91 @@
   "annotations": {
     "artwork": {
       "front": {
-        "title": "Giuseppe Venduto, pittura di R. Odorisio",
+        "title": "Giuseppe Venduto",
         "artist": "R. Odorisio",
+        "date": "",
         "inscriptions": [
-          "?PICTORIS?"
+          "MODERNA ET PISTORIST"
         ],
         "repository": {
           "name": "Chiesa dell' Incoronata",
           "city": "Napoli",
-          "country": "IT"
+          "state": "",
+          "country": "IT",
+          "identifier": ""
         },
-        "full_text": "8530 Giuseppe Venduto, pittura di R. Odorisio - Chiesa dell' Incoronata Napoli 306"
+        "materials_technique": "pittura",
+        "full_text": "8530 Giuseppe Venduto, pittura di R. Odorisio - Chiesa dell' Incoronata Napoli 300"
       },
       "back": {
-        "title": "\"Joseph sold\"",
+        "title": "Joseph sold",
+        "title_qualifier": "",
+        "additional_titles": [],
         "artist": {
           "name": "Roberto Oderisi",
-          "listed": true
+          "listed": true,
+          "additional_annotations": []
         },
         "date": "1360",
+        "date_qualifier": "about",
+        "dimensions": [],
         "repository": {
           "name": "Incoronata",
           "city": "NAPOLI",
-          "country": "IT"
+          "state": "",
+          "country": "IT",
+          "identifier": "",
+          "stamp": "",
+          "gift": false,
+          "gift_of": "",
+          "collection": "",
+          "location": "",
+          "ex": false
         },
         "materials": "Fresco"
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
+        "attribution": []
       }
     },
     "photograph": {
       "front": {
         "photographer": {
-          "identifier": "8530"
+          "name": "",
+          "identifier": "8530",
+          "alinari_id": "",
+          "anderson_id": ""
         }
       },
       "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
         "yellow_dot": true
       }
     },
     "additional_annotations": {
-      "front": "8530 Giuseppe Venduto, pittura di R. Odorisio - Chiesa dell' Incoronata Napoli 306"
+      "front": "8530 Giuseppe Venduto, pittura di R. Odorisio - Chiesa dell' Incoronata Napoli 300",
+      "back": []
     }
   },
   "usage": {
-    "input_tokens": 1772,
-    "output_tokens": 2236,
-    "total_tokens": 4008
+    "input_tokens": 2899,
+    "output_tokens": 2406,
+    "total_tokens": 5305
   },
-  "cost": 0.024575,
-  "status": "OK",
-  "request_time": 17.98
+  "cost": 0.02768375,
+  "status": "OK_Validated",
+  "request_time": 20.52
 }

@@ -8,65 +8,98 @@
   "model": "gemini-2.5-pro-preview-03-25",
   "annotations": {
     "artwork": {
+      "front": {
+        "title": "",
+        "artist": "",
+        "date": "",
+        "inscriptions": [],
+        "repository": {
+          "name": "",
+          "city": "",
+          "state": "",
+          "country": "",
+          "identifier": ""
+        },
+        "materials_technique": "",
+        "full_text": ""
+      },
       "back": {
         "title": "Frescoes Joseph in jail interprets dreams",
+        "title_qualifier": "particolare",
         "additional_titles": [
-          "Moses & the burning bush",
-          "Scena sacra (affresco - particolare)"
+          "L'ebreo in prigione (left) scene - particolare.",
+          "Moses & the burning bush"
         ],
         "artist": {
           "name": "Roberto di Oderisio",
-          "listed": true
+          "listed": true,
+          "additional_annotations": []
         },
+        "date": "",
+        "date_qualifier": "",
+        "dimensions": [],
         "repository": {
-          "name": "S. Maria dell' Incoronata",
+          "name": "Chiesa di S. Maria dell' Incoronata",
           "city": "Naples",
-          "country": "IT"
+          "state": "",
+          "country": "IT",
+          "identifier": "",
+          "stamp": "",
+          "gift": false,
+          "gift_of": "",
+          "collection": "",
+          "location": "",
+          "ex": false
         },
-        "materials": "fresco"
+        "materials": "Frescoes"
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
+        "attribution": []
       }
     },
     "photograph": {
+      "front": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        }
+      },
       "back": {
         "photographer": {
+          "name": "LABORATORIO FOTOGRAFICO DELLA SOPRINTENDENZA ALLE GALLERIE - NAPOLI",
           "identifier": "35395",
-          "stamp": "LABORATORIO FOTOGRAFICO DELLE R. GALLERIE E MUSEI ALLE GALLERIE - NAPOLI Neg. N. 35395 SOTTO LA TUTELA DELLE LEGGE INTERNAZIONALE ECC. RIPRODUZIONE VIETATA NO È OBBLIGATORIA CITARE NOM. AUTORE E RACCOLTA GALLERIE E MUSEI AUT. MINISTERIALE"
+          "stamp": "LABORATORIO FOTOGRAFICO DELLA SOPRINTENDENZA ALLE GALLERIE - NAPOLI Neg. N. 35395 SOTTO LA TUTELA DELLA LEGGE INTERNAZIONALE SUL DIRITTO DI AUTORE E PROIBITA OGNI RIPRODUZIONE CHE NON PORTI AUTORIZZAZIONE. ART. 65 LEGGE 22 APRILE 1941 N. 633 MINISTERO P. ISTRUZIONE",
+          "alinari_id": "",
+          "anderson_id": ""
         },
         "yellow_dot": true
       }
     },
     "additional_annotations": {
+      "front": "",
       "back": [
-        {
-          "Luogo": "Napoli, Chiesa di S. Maria dell'Incoronata"
-        },
-        {
-          "Autore": "Roberto Oderisio"
-        },
-        {
-          "Soggetto": "Scena sacra (affresco - particolare)"
-        },
-        {
-          "Fot.": "Vendita II"
-        },
-        {
-          "annotation": "U/c"
-        },
-        {
-          "annotation": "A. M."
-        },
-        {
-          "annotation": "21"
-        }
+        "Printed Label: Luogo: Napoli. Chiesa di S. Maria dell' Incoronata Autore: Roberto Oderisio Soggetto: L'ebreo in prigione (left) scene - particolare. Fob. [?] II",
+        "Handwritten Annotation: u/c",
+        "Handwritten Annotation: A. M.",
+        "Printed Number: 21"
       ]
     }
   },
   "usage": {
-    "input_tokens": 1772,
-    "output_tokens": 1409,
-    "total_tokens": 3181
+    "input_tokens": 2899,
+    "output_tokens": 1963,
+    "total_tokens": 4862
   },
-  "cost": 0.016305,
-  "status": "OK",
-  "request_time": 15.09
+  "cost": 0.023253749999999997,
+  "status": "OK_Validated",
+  "request_time": 18.81
 }

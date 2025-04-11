@@ -9,38 +9,80 @@
   "annotations": {
     "artwork": {
       "front": {
-        "materials_technique": "fresco",
+        "title": "",
+        "artist": "",
+        "date": "",
+        "inscriptions": [
+          "D[NVS?] MAGNIFICUS MATH[EVS?] DE ..."
+        ],
         "repository": {
-          "name": "Chiesa di S. Maria dell'Incoronata",
-          "city": "Naples",
-          "country": "IT"
-        }
+          "name": "",
+          "city": "",
+          "state": "",
+          "country": "",
+          "identifier": ""
+        },
+        "materials_technique": "",
+        "full_text": ""
       },
       "back": {
-        "title": "(?) Corona? S. Martino vescovo - particolare",
+        "title": "S. Maria dell' Incoronata",
+        "title_qualifier": "particolare",
+        "additional_titles": [
+          "Affresco particolare"
+        ],
         "artist": {
-          "name": "Oderisi (?)",
-          "listed": true
+          "name": "Oderisi",
+          "listed": true,
+          "additional_annotations": [
+            "Autore: Scuola Oderisi"
+          ]
         },
+        "date": "",
+        "date_qualifier": "",
+        "dimensions": [],
         "repository": {
           "name": "S. Maria dell' Incoronata",
           "city": "NAPLES",
-          "country": "IT"
+          "state": "",
+          "country": "IT",
+          "identifier": "",
+          "stamp": "",
+          "gift": false,
+          "gift_of": "",
+          "collection": "",
+          "location": "",
+          "ex": false
         },
-        "materials": "affresco"
+        "materials": "Affresco"
       },
-      "identifiers": {},
-      "history": {}
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
+        "attribution": []
+      }
     },
     "photograph": {
       "front": {
-        "photographer": {}
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        }
       },
       "back": {
         "photographer": {
-          "name": "LABORATORIO FOTOGRAFICO DELLA R. SOPRINTENDENZA ALLE GALLERIE NAPOLI",
+          "name": "Laboratorio Fotografico della Soprintendenza alle Gallerie - Napoli",
           "identifier": "35396",
-          "stamp": "LABORATORIO FOTOGRAFICO / DELLA / R. SOPRINTENDENZA / ALLE GALLERIE NAPOLI / Neg. N. 35396 / DIVIETO DI RIPRODUZIONE SENZA AUTORIZZAZIONE DELLA / SOPRINTENDENZA ALLE GALLERIE NAPOLI"
+          "stamp": "LABORATORIO FOTOGRAFICO / DELLA / SOPRINTENDENZA / ALLE GALLERIE - NAPOLI / Neg. N 35396 / SI PREGA DI CITARE NELLA PUBBLICA= / ZIONE IL NUMERO DELLA NEGATIVA / E LA PROVENIENZA DELLA FOTOGRAFIA / AUTORIZZAZIONE DELLA SOPRINTENDENZA",
+          "alinari_id": "",
+          "anderson_id": ""
         },
         "yellow_dot": true
       }
@@ -48,16 +90,19 @@
     "additional_annotations": {
       "front": "",
       "back": [
-        "A. M."
+        "Luogo: Maria Nuova? / S. Maria dell'Incoronata",
+        "Soggetto: (7 storie cristiane)",
+        "A.M.",
+        "20"
       ]
     }
   },
   "usage": {
-    "input_tokens": 1772,
-    "output_tokens": 1935,
-    "total_tokens": 3707
+    "input_tokens": 2899,
+    "output_tokens": 2212,
+    "total_tokens": 5111
   },
-  "cost": 0.021565,
-  "status": "OK",
-  "request_time": 17.76
+  "cost": 0.025743750000000003,
+  "status": "OK_Validated",
+  "request_time": 22.39
 }

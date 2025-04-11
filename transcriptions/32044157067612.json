@@ -9,28 +9,56 @@
   "annotations": {
     "artwork": {
       "front": {
-        "title": "Giuseppe in carcere",
+        "title": "Chiesa dell' Incoronata - R. de Oderisio - Giuseppe in carcere",
         "artist": "R. de Oderisio",
+        "date": "",
+        "inscriptions": [],
         "repository": {
-          "name": "Chiesa dell'Incoronata",
+          "name": "Chiesa dell' Incoronata",
           "city": "NAPOLI",
-          "country": "IT"
+          "state": "",
+          "country": "IT",
+          "identifier": ""
         },
-        "full_text": "25484 NAPOLI - Chiesa dell'Incoronata - R. de Oderisio - Giuseppe in carcere - Ripr. Int. - Anderson - Roma"
+        "materials_technique": "",
+        "full_text": "25484 NAPOLI - Chiesa dell' Incoronata - R. de Oderisio - Giuseppe in carcere - Ripr. Int. - Anderson - Roma"
       },
       "back": {
         "title": "Joseph in Prison",
+        "title_qualifier": "",
+        "additional_titles": [],
         "artist": {
           "name": "Roberto Oderisi",
-          "listed": true
+          "listed": true,
+          "additional_annotations": []
         },
-        "date": "about 1360",
+        "date": "1360",
+        "date_qualifier": "about",
+        "dimensions": [],
         "repository": {
           "name": "Incoronata",
           "city": "NAPOLI",
-          "country": "IT"
+          "state": "",
+          "country": "IT",
+          "identifier": "",
+          "stamp": "",
+          "gift": false,
+          "gift_of": "",
+          "collection": "",
+          "location": "",
+          "ex": false
         },
         "materials": "Fresco"
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
+        "attribution": []
       }
     },
     "photograph": {
@@ -38,27 +66,35 @@
         "photographer": {
           "name": "Anderson",
           "identifier": "25484",
+          "alinari_id": "",
           "anderson_id": "25484"
         }
       },
       "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
         "yellow_dot": true
       }
     },
     "additional_annotations": {
-      "front": "25484 NAPOLI - Chiesa dell'Incoronata - R. de Oderisio - Giuseppe in carcere - Ripr. Int. - Anderson - Roma",
+      "front": "25484 NAPOLI - Chiesa dell' Incoronata - R. de Oderisio - Giuseppe in carcere - Ripr. Int. - Anderson - Roma",
       "back": [
-        "RJ",
-        "P"
+        "Pencil Mark: Ky",
+        "Pencil Mark: p"
       ]
     }
   },
   "usage": {
-    "input_tokens": 1772,
-    "output_tokens": 1312,
-    "total_tokens": 3084
+    "input_tokens": 2899,
+    "output_tokens": 1799,
+    "total_tokens": 4698
   },
-  "cost": 0.015335,
-  "status": "OK",
-  "request_time": 11.9
+  "cost": 0.02161375,
+  "status": "OK_Validated",
+  "request_time": 17.77
 }

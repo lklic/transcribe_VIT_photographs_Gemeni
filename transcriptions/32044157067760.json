@@ -8,44 +8,100 @@
   "model": "gemini-2.5-pro-preview-03-25",
   "annotations": {
     "artwork": {
+      "front": {
+        "title": "",
+        "artist": "",
+        "date": "",
+        "inscriptions": [],
+        "repository": {
+          "name": "",
+          "city": "",
+          "state": "",
+          "country": "",
+          "identifier": ""
+        },
+        "materials_technique": "",
+        "full_text": ""
+      },
       "back": {
+        "title": "",
+        "title_qualifier": "",
+        "additional_titles": [],
         "artist": {
           "name": "Roberto di Oderisi",
-          "listed": true
+          "listed": true,
+          "additional_annotations": [
+            "Name variation: Roberto di Oderesie"
+          ]
         },
+        "date": "",
+        "date_qualifier": "",
+        "dimensions": [],
         "repository": {
           "name": "Fogg Museum",
           "city": "Cambridge",
           "state": "MA",
           "country": "US",
           "identifier": "1937.49",
-          "gift": true
-        }
+          "stamp": "",
+          "gift": true,
+          "gift_of": "G.L. Winthrop",
+          "collection": "G.L. Winthrop Bequest",
+          "location": "",
+          "ex": false
+        },
+        "materials": ""
+      },
+      "identifiers": {
+        "kress": ""
       },
       "history": {
+        "exhibitions": [],
         "provenance": [
+          "Grenville L. Winthrop",
           "G.L. Winthrop Bequest 1943"
-        ]
+        ],
+        "literature": [],
+        "loans": [],
+        "attribution": []
       }
     },
     "photograph": {
+      "front": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        }
+      },
       "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
         "yellow_dot": false
       }
     },
     "additional_annotations": {
+      "front": "",
       "back": [
-        "artist: Roberto di Oderesi",
-        "collector: Grenville L. Winthrop"
+        "Top handwritten name: Roberto di Oderesie",
+        "Middle handwritten name: Grenville L. Winthrop",
+        "Date associated with bequest: 1943",
+        "Squiggle/checkmark: Bottom left corner"
       ]
     }
   },
   "usage": {
-    "input_tokens": 1772,
-    "output_tokens": 1103,
-    "total_tokens": 2875
+    "input_tokens": 2899,
+    "output_tokens": 1696,
+    "total_tokens": 4595
   },
-  "cost": 0.013245,
-  "status": "OK",
-  "request_time": 12.4
+  "cost": 0.020583749999999998,
+  "status": "OK_Validated",
+  "request_time": 16.24
 }

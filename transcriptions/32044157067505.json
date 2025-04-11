@@ -8,64 +8,102 @@
   "model": "gemini-2.5-pro-preview-03-25",
   "annotations": {
     "artwork": {
+      "front": {
+        "title": "",
+        "artist": "",
+        "date": "",
+        "inscriptions": [],
+        "repository": {
+          "name": "",
+          "city": "",
+          "state": "",
+          "country": "",
+          "identifier": ""
+        },
+        "materials_technique": "",
+        "full_text": ""
+      },
       "back": {
-        "title": "Crocefisso (part. Dopo il rest.)",
+        "title": "Crocefisso",
+        "title_qualifier": "part. Dopo il rest.",
+        "additional_titles": [],
         "artist": {
           "name": "Roberto Oderisio",
-          "additional_annotations": [
-            {
-              "artist_inscription": "Roberto di Oderisio"
-            }
-          ]
+          "listed": false,
+          "additional_annotations": []
         },
+        "date": "",
+        "date_qualifier": "",
         "dimensions": [
           {
-            "original": "cm. 220x147",
-            "cm": "220cm x 147cm"
+            "original": "cm. 220 x 147",
+            "cm": "220cm x 147cm",
+            "dimension_type": ""
           }
         ],
         "repository": {
-          "name": "Cathedral",
+          "name": "Cattedrale",
           "city": "Teano",
-          "country": "IT"
-        }
+          "state": "",
+          "country": "IT",
+          "identifier": "",
+          "stamp": "",
+          "gift": false,
+          "gift_of": "",
+          "collection": "",
+          "location": "",
+          "ex": false
+        },
+        "materials": ""
+      },
+      "identifiers": {
+        "kress": ""
       },
       "history": {
         "exhibitions": [
           "IV exh. Restauri, Naples, 1960 p. 39"
         ],
+        "provenance": [],
         "literature": [
           "ACROPOLI, 1962 fasc. I, p. 81"
-        ]
+        ],
+        "loans": [],
+        "attribution": []
       }
     },
     "photograph": {
+      "front": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        }
+      },
       "back": {
         "photographer": {
           "name": "LABORATORIO FOTOGRAFICO DELLA SOPRINTENDENZA ALLE GALLERIE NAPOLI",
           "identifier": "16233",
-          "stamp": "LABORATORIO FOTOGRAFICO DELLA SOPRINTENDENZA ALLE GALLERIE NAPOLI Neg. N. 16233 DIRITTI D' AUTORE DELLA LEGGE SULLA PROPRIETÀ INTERNAZIONALE SUI DIRITTI D'AUTORE. RIPRODUZIONE VIETATA SENZA AUTORIZZAZIONE. OGNI COPIA NON AUTORIZZATA GALLERIE DENUN."
+          "stamp": "LABORATORIO FOTOGRAFICO DELLA SOPRINTENDENZA ALLE GALLERIE NAPOLI Neg. N. 16233 ARTICOLO LA LEGGE SULLA STAMPA INTERNAZIONALE SUL DIRITTO D'AUTORE VIETA LA RIPRODUZIONE E QUALSIASI PUBBLICAZIONE DI OPERE SOTTOPOSTE A GALLERIE E MUSEI",
+          "alinari_id": "",
+          "anderson_id": ""
         },
         "yellow_dot": true
       }
     },
     "additional_annotations": {
+      "front": "",
       "back": [
-        {
-          "handwritten": "A. M."
-        },
-        {
-          "printed_form_label": "Fat. eseguita il"
-        }
+        "Handwritten note: A. Mq"
       ]
     }
   },
   "usage": {
-    "input_tokens": 1772,
-    "output_tokens": 1395,
-    "total_tokens": 3167
+    "input_tokens": 2899,
+    "output_tokens": 2338,
+    "total_tokens": 5237
   },
-  "cost": 0.016165,
-  "status": "OK",
-  "request_time": 14.89
+  "cost": 0.02700375,
+  "status": "OK_Validated",
+  "request_time": 20.78
 }

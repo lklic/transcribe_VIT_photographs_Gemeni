@@ -8,40 +8,96 @@
   "model": "gemini-2.5-pro-preview-03-25",
   "annotations": {
     "artwork": {
+      "front": {
+        "title": "",
+        "artist": "",
+        "date": "",
+        "inscriptions": [],
+        "repository": {
+          "name": "",
+          "city": "",
+          "state": "",
+          "country": "",
+          "identifier": ""
+        },
+        "materials_technique": "",
+        "full_text": ""
+      },
       "back": {
         "title": "Painted Cross",
+        "title_qualifier": "",
+        "additional_titles": [],
         "artist": {
           "name": "Roberto Oderisi",
           "listed": true,
           "additional_annotations": [
-            "attribution: Niccolo' di Tommaso"
+            "Attribution: Niccolo di Tommaso"
           ]
         },
+        "date": "",
+        "date_qualifier": "",
+        "dimensions": [],
         "repository": {
           "name": "Cappella della Disciplina della Croce",
           "city": "NAPOLI",
-          "country": "IT"
-        }
+          "state": "",
+          "country": "IT",
+          "identifier": "",
+          "stamp": "",
+          "gift": false,
+          "gift_of": "",
+          "collection": "",
+          "location": "",
+          "ex": false
+        },
+        "materials": ""
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
+        "attribution": []
       }
     },
     "photograph": {
+      "front": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        }
+      },
       "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
         "yellow_dot": true
       }
     },
     "additional_annotations": {
+      "front": "",
       "back": [
-        "Faded text: Roberto Oderisi / Cappella della Disciplina / della Croce",
-        "Annotation: Garrison"
+        "Faint text upper back: Roberto d Oderisi Cappella della Disciplina della Croce [erased]",
+        "Handwritten graphite: Garrison?",
+        "Sticker bottom left: 4"
       ]
     }
   },
   "usage": {
-    "input_tokens": 1772,
-    "output_tokens": 1250,
-    "total_tokens": 3022
+    "input_tokens": 2899,
+    "output_tokens": 1691,
+    "total_tokens": 4590
   },
-  "cost": 0.014715,
-  "status": "OK",
-  "request_time": 12.29
+  "cost": 0.020533750000000003,
+  "status": "OK_Validated",
+  "request_time": 14.94
 }

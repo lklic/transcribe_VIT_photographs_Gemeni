@@ -9,54 +9,94 @@
   "annotations": {
     "artwork": {
       "front": {
-        "inscriptions": [
-          "INRI"
-        ]
+        "title": "",
+        "artist": "",
+        "date": "",
+        "inscriptions": [],
+        "repository": {
+          "name": "",
+          "city": "",
+          "state": "",
+          "country": "",
+          "identifier": ""
+        },
+        "materials_technique": "",
+        "full_text": ""
       },
       "back": {
         "title": "Pietà with symbols of the Passion",
+        "title_qualifier": "",
+        "additional_titles": [],
         "artist": {
           "name": "Oderisi, Roberto",
-          "listed": true
+          "listed": true,
+          "additional_annotations": []
         },
+        "date": "",
+        "date_qualifier": "",
+        "dimensions": [],
         "repository": {
-          "name": "Fogg Art Museum",
+          "name": "THE FOGG MUSEUM OF ART HARVARD UNIVERSITY",
           "city": "CAMBRIDGE",
           "state": "MA",
           "country": "US",
           "identifier": "1937.49",
-          "gift": true
-        }
+          "stamp": "",
+          "gift": true,
+          "gift_of": "Grenville L. Winthrop, Esq.",
+          "collection": "",
+          "location": "",
+          "ex": false
+        },
+        "materials": ""
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [],
+        "provenance": [
+          "Gift - Grenville L. Winthrop, Esq."
+        ],
+        "literature": [],
+        "loans": [],
+        "attribution": []
       }
     },
     "photograph": {
+      "front": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        }
+      },
       "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
         "yellow_dot": true
       }
     },
     "additional_annotations": {
+      "front": "",
       "back": [
-        {
-          "label_text": "Artist or School Oderisi, Roberto Title Pietà with symbols of the Passion Gift - Grenville L. Winthrop, Esq. Acc. No. 1937.49 To be reproduced only by permission of THE FOGG MUSEUM OF ART HARVARD UNIVERSITY CAMBRIDGE, MASSACHUSETTS FM 4"
-        },
-        {
-          "handwritten": "listed Oderisi"
-        },
-        {
-          "137": "handwritten number in pink ink"
-        },
-        {
-          "handwritten_bottom_right": "G.L. Winthrop Gift 1937.49 Fogg Art Museum CAMBRIDGE"
-        }
+        "Code: FM 4",
+        "Annotation: 137"
       ]
     }
   },
   "usage": {
-    "input_tokens": 1772,
-    "output_tokens": 1061,
-    "total_tokens": 2833
+    "input_tokens": 2899,
+    "output_tokens": 1912,
+    "total_tokens": 4811
   },
-  "cost": 0.012825000000000001,
-  "status": "OK",
-  "request_time": 11.86
+  "cost": 0.02274375,
+  "status": "OK_Validated",
+  "request_time": 18.9
 }

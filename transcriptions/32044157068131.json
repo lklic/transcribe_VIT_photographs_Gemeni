@@ -10,42 +10,88 @@
     "artwork": {
       "front": {
         "title": "Il Sacramento del Matrimonio",
-        "artist": "R. Oderisio",
+        "artist": "R. Odorisi",
+        "date": "",
+        "inscriptions": [],
         "repository": {
           "name": "Chiesa dell' Incoronata",
           "city": "Napoli",
-          "country": "IT"
+          "state": "",
+          "country": "IT",
+          "identifier": ""
         },
-        "full_text": "697 Il Sacramento del Matrimonio, pittura di R. Oderisio - Chiesa dell' Incoronata Napoli"
+        "materials_technique": "pittura",
+        "full_text": "697. Il Sacramento del Matrimonio, pittura di R. Odorisi - Chiesa dell' Incoronata Napoli"
       },
       "back": {
+        "title": "",
+        "title_qualifier": "",
+        "additional_titles": [],
         "artist": {
           "name": "R. Oderisi",
-          "listed": true
-        }
+          "listed": true,
+          "additional_annotations": []
+        },
+        "date": "",
+        "date_qualifier": "",
+        "dimensions": [],
+        "repository": {
+          "name": "",
+          "city": "",
+          "state": "",
+          "country": "",
+          "identifier": "",
+          "stamp": "",
+          "gift": false,
+          "gift_of": "",
+          "collection": "",
+          "location": "",
+          "ex": false
+        },
+        "materials": ""
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
+        "attribution": []
       }
     },
     "photograph": {
       "front": {
         "photographer": {
-          "identifier": "697"
+          "name": "",
+          "identifier": "697",
+          "alinari_id": "",
+          "anderson_id": ""
         }
       },
-      "back": {}
+      "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
+        "yellow_dot": false
+      }
     },
     "additional_annotations": {
-      "front": "697 Il Sacramento del Matrimonio, pittura di R. Oderisio - Chiesa dell' Incoronata Napoli",
-      "back": [
-        "Stamp: BERNHARD BERENSON I TATTI - SETTIGNANO FLORENCE NAPOLI"
-      ]
+      "front": "697. Il Sacramento del Matrimonio, pittura di R. Odorisi - Chiesa dell' Incoronata Napoli",
+      "back": []
     }
   },
   "usage": {
-    "input_tokens": 1772,
-    "output_tokens": 1274,
-    "total_tokens": 3046
+    "input_tokens": 2899,
+    "output_tokens": 1574,
+    "total_tokens": 4473
   },
-  "cost": 0.014955,
-  "status": "OK",
-  "request_time": 11.46
+  "cost": 0.01936375,
+  "status": "OK_Validated",
+  "request_time": 14.73
 }

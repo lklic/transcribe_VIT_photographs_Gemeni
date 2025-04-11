@@ -8,69 +8,120 @@
   "model": "gemini-2.5-pro-preview-03-25",
   "annotations": {
     "artwork": {
+      "front": {
+        "title": "",
+        "artist": "",
+        "date": "",
+        "inscriptions": [],
+        "repository": {
+          "name": "",
+          "city": "",
+          "state": "",
+          "country": "",
+          "identifier": ""
+        },
+        "materials_technique": "",
+        "full_text": ""
+      },
       "back": {
-        "title": "'St John & the Magdalen'",
-        "additional_titles": [
-          "Virgin and Dead Christ"
-        ],
+        "title": "St John & the Magdalen",
+        "title_qualifier": "",
+        "additional_titles": [],
         "artist": {
           "name": "Giotto's close follower",
+          "listed": false,
           "additional_annotations": [
-            "other ph -> Maso?",
-            "(Neapolitan?)"
+            "Origin: Neapolitan?"
           ]
         },
-        "date": "ca. 1340",
+        "date": "1340",
+        "date_qualifier": "C",
         "dimensions": [
           {
-            "original": "Panel 23\" x 15 5/16\" cm. 57.5 x 39 cm 57x39",
+            "original": "23\" x 15 5/8\"",
+            "cm": "58.4cm x 39.7cm",
+            "dimension_type": "Panel"
+          },
+          {
+            "original": "cm. 57.5 x 39 cm",
             "cm": "57.5cm x 39cm",
+            "dimension_type": "Panel"
+          },
+          {
+            "original": "57 x 39",
+            "cm": "57cm x 39cm",
             "dimension_type": "Panel"
           }
         ],
         "repository": {
-          "name": "Metropolitan Museum of Art (R. Lehman",
+          "name": "Metropolitan Museum of Art",
           "city": "New York",
+          "state": "",
           "country": "US",
-          "identifier": "1975. 5.102",
-          "ex": true
+          "identifier": "1975. 5. 102",
+          "stamp": "",
+          "gift": false,
+          "gift_of": "",
+          "collection": "R. Lehman Coll.",
+          "location": "",
+          "ex": false
         },
         "materials": "Panel"
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [
+          "Paris. Orangerie, 1957 Cat.no. 32 as Florentine ca. 1340 pendant to National Gallery, London (3895) Virgin and Dead Christ"
+        ],
+        "provenance": [
+          "Earl of Norfolk. Arundel Castle. Sussex"
+        ],
+        "literature": [],
+        "loans": [],
+        "attribution": [
+          "Giotto's close follower"
+        ]
       }
     },
     "photograph": {
+      "front": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        }
+      },
       "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
         "yellow_dot": true
       }
     },
-    "history": {
-      "exhibitions": [
-        "Paris. Orangerie, 1957 Cat. no. 32 as Florentine ca. 1340"
-      ],
-      "provenance": [
-        "Earl of Norfolk, Arundel Castle, Sussex"
-      ],
-      "attribution": [
-        "Giotto's close follower",
-        "other ph -> Maso?",
-        "(Neapolitan?)"
-      ]
-    },
     "additional_annotations": {
+      "front": "",
       "back": [
-        "3138",
-        "J. Steinmeyer, Lucerne.",
-        ".95 x 60 cm",
-        "pendant to National Gallery, London (3895) Virgin and Dead Christ"
+        "Identifier?: 3138",
+        "Previous association?: J. Steinmeyer. Lucerne.",
+        "Crossed out dimension?: <95 x 60 cm>",
+        "Annotation: other ph -> Maso?",
+        "Annotation: ex? (associated with R. Lehman Coll.)"
       ]
     }
   },
   "usage": {
-    "input_tokens": 1772,
-    "output_tokens": 1872,
-    "total_tokens": 3644
+    "input_tokens": 2899,
+    "output_tokens": 2759,
+    "total_tokens": 5658
   },
-  "cost": 0.020935000000000002,
-  "status": "OK",
-  "request_time": 17.48
+  "cost": 0.031213750000000005,
+  "status": "OK_Validated",
+  "request_time": 27.25
 }

@@ -8,58 +8,103 @@
   "model": "gemini-2.5-pro-preview-03-25",
   "annotations": {
     "artwork": {
+      "front": {
+        "title": "",
+        "artist": "",
+        "date": "",
+        "inscriptions": [],
+        "repository": {
+          "name": "",
+          "city": "",
+          "state": "",
+          "country": "",
+          "identifier": ""
+        },
+        "materials_technique": "",
+        "full_text": ""
+      },
       "back": {
-        "title": "Pieta with symbols of Passion",
+        "title": "\"Pieta with Symbols of Passion\"",
+        "title_qualifier": "",
+        "additional_titles": [
+          "Pieta with Symbols of Passion[erased]"
+        ],
         "artist": {
           "name": "Oderisi",
-          "listed": true
+          "listed": true,
+          "additional_annotations": []
         },
+        "date": "",
+        "date_qualifier": "",
         "dimensions": [
           {
-            "original": "60 x 55 cm.",
-            "cm": "60cm x 55cm"
+            "original": "60 X 55 cm. ur c",
+            "cm": "60cm x 55cm",
+            "dimension_type": ""
           }
         ],
         "repository": {
           "name": "Fogg Art Mus.",
           "city": "CAMBRIDGE",
+          "state": "MA",
           "country": "US",
           "identifier": "1937.49",
-          "gift": true
-        }
+          "stamp": "",
+          "gift": true,
+          "gift_of": "G.L. Winthrop",
+          "collection": "",
+          "location": "",
+          "ex": false
+        },
+        "materials": ""
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
+        "attribution": []
       }
     },
     "photograph": {
+      "front": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        }
+      },
       "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
         "yellow_dot": true
       }
     },
     "additional_annotations": {
+      "front": "",
       "back": [
-        {
-          "Breuville C. Naut.": "value"
-        },
-        {
-          "Dr Clemanh": "value"
-        },
-        {
-          "June 1922": "value"
-        },
-        {
-          "John f. head r. above dying man": "value"
-        },
-        {
-          "in Zucconata \"Byzantine\" Unction": "value"
-        }
+        "Location?: Breuville L. Haute",
+        "Annotation: Dr Clement",
+        "Date Note: Juin 1922",
+        "Artwork Detail/Provenance?: John f. hand r. above dying man in Zucconata ? \"Bytreme\" in Auction[erased]"
       ]
     }
   },
   "usage": {
-    "input_tokens": 1772,
-    "output_tokens": 1210,
-    "total_tokens": 2982
+    "input_tokens": 2899,
+    "output_tokens": 2491,
+    "total_tokens": 5390
   },
-  "cost": 0.014315,
-  "status": "OK",
-  "request_time": 12.34
+  "cost": 0.028533750000000004,
+  "status": "OK_Validated",
+  "request_time": 22.06
 }

@@ -5,7 +5,7 @@ This directory contains a simple web-based viewer for the transcriptions generat
 ## Features
 
 *   Displays Recto (front) and Verso (back) images side-by-side using IIIF URLs.
-*   Shows the full JSON metadata extracted from the corresponding transcription file.
+*   Shows the JSON metadata extracted from the corresponding transcription file, automatically hiding fields that are empty (e.g., `""`, `null`, `[]`, `{}`) or contain only other empty fields.
 *   Provides a "spyglass" zoom effect (200%) on hovering over the images.
 *   Includes "Previous" and "Next" buttons for navigating through the available transcriptions.
 

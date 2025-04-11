@@ -8,45 +8,98 @@
   "model": "gemini-2.5-pro-preview-03-25",
   "annotations": {
     "artwork": {
+      "front": {
+        "title": "",
+        "artist": "",
+        "date": "",
+        "inscriptions": [],
+        "repository": {
+          "name": "",
+          "city": "",
+          "state": "",
+          "country": "",
+          "identifier": ""
+        },
+        "materials_technique": "",
+        "full_text": ""
+      },
       "back": {
+        "title": "",
+        "title_qualifier": "",
+        "additional_titles": [],
         "artist": {
-          "name": "Roberto d. Oderisio"
+          "name": "Roberto d. Oderisio",
+          "listed": false,
+          "additional_annotations": []
         },
         "date": "1300-1399",
+        "date_qualifier": "",
         "dimensions": [
           {
             "original": "m. 1.85 x 1.60",
             "cm": "185cm x 160cm",
-            "dimension_type": "tavola"
+            "dimension_type": "panel"
           }
         ],
         "repository": {
           "name": "Museo Pepoli",
           "city": "TRAPANI",
-          "country": "IT"
+          "state": "",
+          "country": "IT",
+          "identifier": "",
+          "stamp": "",
+          "gift": false,
+          "gift_of": "",
+          "collection": "",
+          "location": "",
+          "ex": false
         },
         "materials": "tavola"
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
+        "attribution": []
       }
     },
     "photograph": {
+      "front": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        }
+      },
       "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
         "yellow_dot": false
       }
     },
     "additional_annotations": {
+      "front": "",
       "back": [
-        {
-          "places notes": ""
-        }
+        "Note: place notes"
       ]
     }
   },
   "usage": {
-    "input_tokens": 1772,
-    "output_tokens": 1011,
-    "total_tokens": 2783
+    "input_tokens": 2899,
+    "output_tokens": 1906,
+    "total_tokens": 4805
   },
-  "cost": 0.012325,
-  "status": "OK",
-  "request_time": 9.65
+  "cost": 0.022683750000000003,
+  "status": "OK_Validated",
+  "request_time": 17.21
 }

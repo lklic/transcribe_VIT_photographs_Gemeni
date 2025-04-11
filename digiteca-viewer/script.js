@@ -18,59 +18,87 @@ document.addEventListener('DOMContentLoaded', () => {
     let transcriptionFiles = []; // Will hold the list of JSON filenames from index.json
     let currentIndex = -1;
 
-    // --- Hierarchical renderMetadata function (Restored) ---
-    function renderMetadata(data, parentElement, level = 0) {
-        // No clearing here, initial clear happens in loadItem
+    // --- Helper function to check for empty values recursively ---
+    function isEmptyRecursive(value) {
+        if (value === null || value === undefined || value === '') {
+            return true;
+        }
+        if (Array.isArray(value)) {
+            if (value.length === 0) {
+                return true;
+            }
+            // Check if all elements in the array are recursively empty
+            return value.every(item => isEmptyRecursive(item));
+        }
+        // Check for empty object AFTER checking array
+        if (typeof value === 'object' && Object.keys(value).length === 0) {
+            return true;
+        }
+        if (typeof value === 'object') {
+            // Check if all properties in the object are recursively empty
+            return Object.keys(value).every(key => isEmptyRecursive(value[key]));
+        }
+        // If it's a non-empty primitive (number, boolean, non-empty string)
+        return false;
+    }
+    // --- End of helper function ---
 
+
+    // --- Modified renderMetadata function to hide empty fields ---
+    function renderMetadata(data, parentElement, level = 0) {
         for (const key in data) {
             if (data.hasOwnProperty(key)) {
                 const value = data[key];
 
-                // Create container div for this key-value pair or key-object pair
-                const entryDiv = document.createElement('div');
-                entryDiv.classList.add(`level-${level}`);
+                // *** Check if the value is empty before rendering anything for this key ***
+                if (!isEmptyRecursive(value)) {
+                    // Create container div for this key-value pair or key-object pair
+                    const entryDiv = document.createElement('div');
+                    entryDiv.classList.add(`level-${level}`);
 
-                // Display the key (bold)
-                const strong = document.createElement('strong');
-                strong.textContent = `${key}:`;
-                entryDiv.appendChild(strong);
+                    // Display the key (bold)
+                    const strong = document.createElement('strong');
+                    strong.textContent = `${key}:`;
+                    entryDiv.appendChild(strong);
 
-                // Append this entry's div (key) to the parent element *now*
-                parentElement.appendChild(entryDiv);
+                    // Append this entry's div (key) to the parent element *only if value is not empty*
+                    parentElement.appendChild(entryDiv);
 
-                // Now handle the value
-                if (typeof value === 'object' && value !== null) {
-                    // For objects and arrays, we've already added the key.
-                    // Now recurse/iterate to add their contents indented below.
-                    if (Array.isArray(value)) {
-                        // Handle arrays: Render items indented under the parent
-                        value.forEach((item) => {
-                            const itemDiv = document.createElement('div');
-                            // Indent array items relative to the parent key's level
-                            itemDiv.classList.add(`level-${level + 1}`, 'array-item');
-                            if (typeof item === 'object' && item !== null) {
-                                // If array item is an object, render its structure within itemDiv
-                                // Start its internal rendering at level 0 relative to itemDiv
-                                renderMetadata(item, itemDiv, 0);
-                            } else {
-                                // Otherwise, just display the primitive value
-                                itemDiv.appendChild(document.createTextNode(item));
-                            }
-                            // Append the item div (containing value or nested structure) to the main parent
-                            parentElement.appendChild(itemDiv);
-                        });
+                    // Now handle the non-empty value
+                    if (typeof value === 'object' && value !== null) { // Already checked for null/empty object/array above
+                        if (Array.isArray(value)) {
+                            // Handle non-empty arrays: Render non-empty items indented under the parent
+                            value.forEach((item) => {
+                                // *** Check if the array item itself is empty ***
+                                if (!isEmptyRecursive(item)) {
+                                    const itemDiv = document.createElement('div');
+                                    itemDiv.classList.add(`level-${level + 1}`, 'array-item');
+                                    if (typeof item === 'object' && item !== null) {
+                                        // If array item is a non-empty object, render its structure
+                                        renderMetadata(item, itemDiv, 0); // Render relative to itemDiv
+                                    } else {
+                                        // Otherwise, display the non-empty primitive value
+                                        itemDiv.appendChild(document.createTextNode(item));
+                                    }
+                                    // Append the item div (containing value or nested structure) to the main parent
+                                    parentElement.appendChild(itemDiv);
+                                }
+                            });
+                        } else {
+                            // Handle non-empty nested objects: Recurse, rendering contents indented under the parent key
+                            // The recursive call will handle hiding empty fields within the nested object
+                            renderMetadata(value, parentElement, level + 1); // Pass same parent, increase level
+                        }
                     } else {
-                        // Handle nested objects: Recurse, rendering contents indented under the parent key
-                        renderMetadata(value, parentElement, level + 1); // Pass same parent, increase level
+                        // Handle non-empty simple values: Append value to the key's div
+                        entryDiv.appendChild(document.createTextNode(` ${value}`)); // Add space, value is guaranteed non-null/non-empty string here
                     }
-                } else {
-                    // Handle simple values: Append value to the key's div (which is already appended)
-                    entryDiv.appendChild(document.createTextNode(` ${value !== null ? value : 'null'}`)); // Add space
                 }
+                // *** If isEmptyRecursive(value) is true, do nothing - skip rendering this key/value ***
             }
         }
     }
-    // --- End of hierarchical renderMetadata function ---
+    // --- End of modified renderMetadata function ---
 
 
     async function loadItem(index) {
